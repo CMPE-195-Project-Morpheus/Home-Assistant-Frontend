@@ -1,0 +1,101 @@
+2025-04-09 01:49:48.211 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2025-04-09 01:49:48.218 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration scheduler which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2025-04-09 01:50:04.678 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 01:50:09.681 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 01:50:23.566 WARNING (MainThread) [homeassistant.components.matter] Detected a device that has been reported to have firmware issues with light transitions. Transitions will be disabled for this light
+2025-04-09 01:50:31.450 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 01:50:36.457 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 01:50:36.990 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 01:50:41.993 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 01:50:42.543 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 01:50:47.548 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 01:50:52.928 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 01:50:57.932 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 01:51:08.398 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 01:51:13.403 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 01:51:38.564 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 01:51:43.569 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 01:52:34.411 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 01:52:39.416 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 01:53:04.178 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 01:53:09.183 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 01:54:00.152 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 01:54:05.154 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 01:54:29.916 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 01:54:34.921 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 01:55:26.144 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 01:55:31.147 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 01:55:55.560 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 01:56:00.564 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 01:56:51.787 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 01:56:56.790 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 01:57:21.354 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 01:57:26.358 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 01:58:17.703 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 01:58:22.771 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 01:58:47.363 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 01:58:52.366 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 01:59:43.758 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 01:59:48.762 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 02:00:13.390 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 02:00:18.395 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 02:01:09.531 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 02:01:14.534 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 02:01:39.399 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 02:01:44.404 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 02:02:35.376 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 02:02:40.382 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 02:03:05.135 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 02:03:10.139 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 02:04:01.248 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 02:04:06.253 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 02:04:30.895 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 02:04:35.900 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 02:05:27.174 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 02:05:32.179 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 02:05:56.936 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 02:06:01.941 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 02:06:52.953 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 02:06:57.956 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 02:07:22.772 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 02:07:27.777 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 02:08:18.582 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 02:08:23.588 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 02:08:48.780 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 02:08:53.785 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 02:09:44.493 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 02:09:49.497 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 02:10:14.644 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 02:10:19.648 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 02:11:10.335 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 02:11:15.339 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 02:11:40.351 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 02:11:45.355 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 02:12:36.337 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 02:12:41.341 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 02:13:06.028 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 02:13:11.033 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 02:14:01.949 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 02:14:06.954 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 02:14:32.061 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 02:14:37.067 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 02:15:27.770 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 02:15:32.775 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 02:15:57.971 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 02:16:02.975 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 02:16:53.486 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 02:16:58.490 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 02:17:23.923 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 02:17:28.928 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 02:18:19.310 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 02:18:24.315 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 02:18:49.758 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 02:18:54.762 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 02:19:45.092 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 02:19:50.097 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 02:20:15.743 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 02:20:20.747 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 02:21:10.698 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 02:21:15.701 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-04-09 02:21:41.642 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-04-09 02:21:46.647 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds

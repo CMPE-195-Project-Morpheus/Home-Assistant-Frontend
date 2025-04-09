@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace.dashboard_main",
+  "data": {
+    "config": {
+      "views": [
+        {
+          "title": "Home",
+          "sections": [
+            {
+              "type": "grid",
+              "cards": [
+                {
+                  "type": "heading",
+                  "heading_style": "title",
+                  "heading": "Weather"
+                },
+                {
+                  "type": "weather-forecast",
+                  "entity": "weather.forecast_home",
+                  "forecast_type": "daily"
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "cards": [
+                {
+                  "type": "heading",
+                  "heading_style": "title",
+                  "heading": "Device Automation"
+                },
+                {
+                  "type": "custom:scheduler-card",
+                  "include": [
+                    "light"
+                  ],
+                  "exclude": [],
+                  "customize": {
+                    "light.smart_multicolor_bulb": {
+                      "name": "Multicolor bulb",
+                      "icon": "mdi:lightbulb-variant",
+                      "actions": [
+                        {
+                          "service": "turn_on",
+                          "name": "test",
+                          "service_data": {
+                            "color_temp_kelvin": 6500,
+                            "brightness": 255
+                          },
+                          "icon": "mdi:lightbulb-variant"
+                        }
+                      ]
+                    }
+                  },
+                  "title": false
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "cards": [
+                {
+                  "type": "heading",
+                  "heading": "Light",
+                  "heading_style": "title"
+                },
+                {
+                  "type": "light",
+                  "entity": "light.smart_multicolor_bulb",
+                  "double_tap_action": {
+                    "action": "more-info"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
