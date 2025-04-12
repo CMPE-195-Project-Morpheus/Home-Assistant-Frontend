@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "input_number",
+  "data": {
+    "items": [
+      {
+        "id": "light_color_temp",
+        "min": 2500.0,
+        "max": 6500.0,
+        "icon": "mdi:temperature-kelvin",
+        "name": "light_color_temp",
+        "unit_of_measurement": "K",
+        "step": 100.0,
+        "mode": "slider"
+      },
+      {
+        "id": "light_brightness",
+        "min": 0.0,
+        "max": 255.0,
+        "name": "light_brightness",
+        "icon": "mdi:brightness-7",
+        "unit_of_measurement": "Level",
+        "step": 1.0,
+        "mode": "slider"
+      }
+    ]
+  }
+}

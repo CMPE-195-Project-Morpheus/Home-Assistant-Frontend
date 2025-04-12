@@ -2,5 +2,729 @@
   "version": 1,
   "minor_version": 1,
   "key": "trace.saved_traces",
-  "data": {}
+  "data": {
+    "automation.1744409555312": [
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "40a01378b610537c06f3c12607707d8b",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2025-04-11T22:25:01.827366+00:00",
+            "finish": "2025-04-11T22:25:01.848104+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1744409555312",
+          "trigger": "Home Assistant starting",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2025-04-11T22:25:01.827537+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.light_selector_dropdown_populator",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1744409555312",
+                      "last_triggered": null,
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Light selector dropdown populator"
+                    },
+                    "last_changed": "2025-04-11T22:25:00.206345+00:00",
+                    "last_reported": "2025-04-11T22:25:00.206345+00:00",
+                    "last_updated": "2025-04-11T22:25:00.206345+00:00",
+                    "context": {
+                      "id": "01JRKF9KSE5PENMMM349A9WYZ9",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "homeassistant",
+                    "event": "start",
+                    "description": "Home Assistant starting"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2025-04-11T22:25:01.828519+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01JRKF9NC3FP729W56DHPE828Y",
+                    "parent_id": null,
+                    "user_id": null
+                  }
+                },
+                "result": {
+                  "params": {
+                    "domain": "input_select",
+                    "service": "set_options",
+                    "service_data": {
+                      "options": "[\"Select a light...\"] + all_lights",
+                      "entity_id": [
+                        "input_select.light_selector"
+                      ]
+                    },
+                    "target": {
+                      "entity_id": [
+                        "input_select.light_selector"
+                      ]
+                    }
+                  },
+                  "running_script": false
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1744409555312",
+            "alias": "Light selector dropdown populator",
+            "description": "Populate light selector dropdown with available lights",
+            "triggers": [
+              {
+                "event": "start",
+                "trigger": "homeassistant"
+              }
+            ],
+            "actions": [
+              {
+                "target": {
+                  "entity_id": "input_select.light_selector"
+                },
+                "data": {
+                  "options": "{% set all_lights = states.light | map(attribute='entity_id') | list %} [\"Select a light...\"] + all_lights"
+                },
+                "action": "input_select.set_options"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01JRKF9NC3FP729W56DHPE828Y",
+            "parent_id": null,
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "40a01378b610537c06f3c12607707d8b",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2025-04-11T22:25:01.827366+00:00",
+            "finish": "2025-04-11T22:25:01.848104+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1744409555312",
+          "trigger": "Home Assistant starting"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "6ed5c0374b5847f4b78e300ab263d778",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2025-04-11T22:29:14.080709+00:00",
+            "finish": "2025-04-11T22:29:14.093759+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1744409555312",
+          "trigger": "Home Assistant starting",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2025-04-11T22:29:14.080943+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.light_selector_dropdown_populator",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1744409555312",
+                      "last_triggered": "2025-04-11T22:25:01.827843+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Light selector dropdown populator"
+                    },
+                    "last_changed": "2025-04-11T22:29:12.596143+00:00",
+                    "last_reported": "2025-04-11T22:29:12.596143+00:00",
+                    "last_updated": "2025-04-11T22:29:12.596143+00:00",
+                    "context": {
+                      "id": "01JRKFHA8MMFCV619NT5B66ZT4",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "homeassistant",
+                    "event": "start",
+                    "description": "Home Assistant starting"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2025-04-11T22:29:14.081865+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01JRKFHBQ00VY7CANMARNESCMX",
+                    "parent_id": null,
+                    "user_id": null
+                  }
+                },
+                "result": {
+                  "params": {
+                    "domain": "input_select",
+                    "service": "set_options",
+                    "service_data": {
+                      "options": [
+                        "Select a light...",
+                        "light.smart_multicolor_bulb"
+                      ],
+                      "entity_id": [
+                        "input_select.light_selector"
+                      ]
+                    },
+                    "target": {
+                      "entity_id": [
+                        "input_select.light_selector"
+                      ]
+                    }
+                  },
+                  "running_script": false
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1744409555312",
+            "alias": "Light selector dropdown populator",
+            "description": "Populate light selector dropdown with available lights",
+            "triggers": [
+              {
+                "event": "start",
+                "trigger": "homeassistant"
+              }
+            ],
+            "actions": [
+              {
+                "target": {
+                  "entity_id": "input_select.light_selector"
+                },
+                "data": {
+                  "options": "{% set all_lights = states.light | map(attribute='entity_id') | list %} {{ [\"Select a light...\"] + all_lights }}\n"
+                },
+                "action": "input_select.set_options"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01JRKFHBQ00VY7CANMARNESCMX",
+            "parent_id": null,
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "6ed5c0374b5847f4b78e300ab263d778",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2025-04-11T22:29:14.080709+00:00",
+            "finish": "2025-04-11T22:29:14.093759+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1744409555312",
+          "trigger": "Home Assistant starting"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "6d48130383055430b4f0b9a219879c90",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2025-04-12T04:04:11.848340+00:00",
+            "finish": "2025-04-12T04:04:11.872006+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1744409555312",
+          "trigger": "Home Assistant starting",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2025-04-12T04:04:11.848549+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.light_selector_dropdown_populator",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1744409555312",
+                      "last_triggered": "2025-04-11T22:29:14.081177+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Light selector dropdown populator"
+                    },
+                    "last_changed": "2025-04-12T04:04:10.834092+00:00",
+                    "last_reported": "2025-04-12T04:04:10.834092+00:00",
+                    "last_updated": "2025-04-12T04:04:10.834092+00:00",
+                    "context": {
+                      "id": "01JRM2PNEJYD0G50GBYZWXG6YM",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "homeassistant",
+                    "event": "start",
+                    "description": "Home Assistant starting"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2025-04-12T04:04:11.849575+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01JRM2PPE8W5S3HFZ4PFK720ZP",
+                    "parent_id": null,
+                    "user_id": null
+                  }
+                },
+                "result": {
+                  "params": {
+                    "domain": "input_select",
+                    "service": "set_options",
+                    "service_data": {
+                      "options": [
+                        "Select a light...",
+                        "light.smart_multicolor_bulb"
+                      ],
+                      "entity_id": [
+                        "input_select.light_selector"
+                      ]
+                    },
+                    "target": {
+                      "entity_id": [
+                        "input_select.light_selector"
+                      ]
+                    }
+                  },
+                  "running_script": false
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1744409555312",
+            "alias": "Light selector dropdown populator",
+            "description": "Populate light selector dropdown with available lights",
+            "triggers": [
+              {
+                "event": "start",
+                "trigger": "homeassistant"
+              }
+            ],
+            "actions": [
+              {
+                "target": {
+                  "entity_id": "input_select.light_selector"
+                },
+                "data": {
+                  "options": "{% set all_lights = states.light | map(attribute='entity_id') | list %} {{ [\"Select a light...\"] + all_lights }}\n"
+                },
+                "action": "input_select.set_options"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01JRM2PPE8W5S3HFZ4PFK720ZP",
+            "parent_id": null,
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "6d48130383055430b4f0b9a219879c90",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2025-04-12T04:04:11.848340+00:00",
+            "finish": "2025-04-12T04:04:11.872006+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1744409555312",
+          "trigger": "Home Assistant starting"
+        }
+      }
+    ],
+    "automation.1744427052558": [
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "0cf0ac0da0c8153b71c2b8a352731840",
+          "state": "stopped",
+          "script_execution": "error",
+          "timestamp": {
+            "start": "2025-04-12T04:26:32.930661+00:00",
+            "finish": "2025-04-12T04:26:32.976241+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1744427052558",
+          "error": "JSONDecodeError: unexpected character: line 1 column 1 (char 0)",
+          "trigger": "state of input_number.light_brightness",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2025-04-12T04:26:32.930982+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.multi_light_settings",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1744427052558",
+                      "last_triggered": null,
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "multi_light_settings"
+                    },
+                    "last_changed": "2025-04-12T04:04:10.834999+00:00",
+                    "last_reported": "2025-04-12T04:04:10.834999+00:00",
+                    "last_updated": "2025-04-12T04:04:10.834999+00:00",
+                    "context": {
+                      "id": "01JRM2PNEJJ5AJFHP9KFKDQAZ6",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "state",
+                    "entity_id": "input_number.light_brightness",
+                    "from_state": {
+                      "entity_id": "input_number.light_brightness",
+                      "state": "99.0",
+                      "attributes": {
+                        "initial": null,
+                        "editable": true,
+                        "min": 0.0,
+                        "max": 255.0,
+                        "step": 1.0,
+                        "mode": "slider",
+                        "unit_of_measurement": "Level",
+                        "icon": "mdi:brightness-7",
+                        "friendly_name": "light_brightness"
+                      },
+                      "last_changed": "2025-04-12T04:03:57.856224+00:00",
+                      "last_reported": "2025-04-12T04:03:57.856224+00:00",
+                      "last_updated": "2025-04-12T04:03:57.856224+00:00",
+                      "context": {
+                        "id": "01JRM2P8S05QHGN1AANA5P25PS",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "input_number.light_brightness",
+                      "state": "143.0",
+                      "attributes": {
+                        "initial": null,
+                        "editable": true,
+                        "min": 0.0,
+                        "max": 255.0,
+                        "step": 1.0,
+                        "mode": "slider",
+                        "unit_of_measurement": "Level",
+                        "icon": "mdi:brightness-7",
+                        "friendly_name": "light_brightness"
+                      },
+                      "last_changed": "2025-04-12T04:26:32.928810+00:00",
+                      "last_reported": "2025-04-12T04:26:32.928810+00:00",
+                      "last_updated": "2025-04-12T04:26:32.928810+00:00",
+                      "context": {
+                        "id": "01JRM3ZM2Z72K8Q7DS8CAGKXE2",
+                        "parent_id": null,
+                        "user_id": "e4ca2c7943004cf7b800b663a5fad745"
+                      }
+                    },
+                    "for": null,
+                    "attribute": null,
+                    "description": "state of input_number.light_brightness"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2025-04-12T04:26:32.932554+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01JRM3ZM32XZV92X5ZH6KCMP2P",
+                    "parent_id": "01JRM3ZM2Z72K8Q7DS8CAGKXE2",
+                    "user_id": null
+                  }
+                },
+                "error": "JSONDecodeError: unexpected character: line 1 column 1 (char 0)"
+              }
+            ]
+          },
+          "config": {
+            "id": "1744427052558",
+            "alias": "multi_light_settings",
+            "description": "Save multi-light settings to storage",
+            "triggers": [
+              {
+                "entity_id": [
+                  "input_number.light_brightness",
+                  "input_number.light_color_temp"
+                ],
+                "trigger": "state"
+              }
+            ],
+            "conditions": [],
+            "actions": [
+              {
+                "variables": {
+                  "selected_lights": "{{ states('input_select.multi_light_selector') | regex_findall('[^\\\\[\\\\], ]+') }}\n",
+                  "settings": "{\n  \"brightness\": {{ states('input_number.light_brightness') | float }},\n  \"color_temp\": {{ states('input_number.light_color_temp') | int }}\n}\n",
+                  "current_data": "{{ states('input_text.light_settings_storage') | default('{}') | from_json }}\n"
+                }
+              },
+              {
+                "target": {
+                  "entity_id": "input_text.light_settings_storage"
+                },
+                "data": {
+                  "value": "{% for light in selected_lights if light != 'Select lights...' %}\n  {% set _ = current_data.update({light: settings | from_json}) %}\n{% endfor %} {{ current_data | to_json }}\n"
+                },
+                "action": "input_text.set_value"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01JRM3ZM32XZV92X5ZH6KCMP2P",
+            "parent_id": "01JRM3ZM2Z72K8Q7DS8CAGKXE2",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "0cf0ac0da0c8153b71c2b8a352731840",
+          "state": "stopped",
+          "script_execution": "error",
+          "timestamp": {
+            "start": "2025-04-12T04:26:32.930661+00:00",
+            "finish": "2025-04-12T04:26:32.976241+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1744427052558",
+          "error": "JSONDecodeError: unexpected character: line 1 column 1 (char 0)",
+          "trigger": "state of input_number.light_brightness"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "6ab224026c844184004e41f07b22b4d8",
+          "state": "stopped",
+          "script_execution": "error",
+          "timestamp": {
+            "start": "2025-04-12T04:26:34.346316+00:00",
+            "finish": "2025-04-12T04:26:34.356990+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1744427052558",
+          "error": "JSONDecodeError: unexpected character: line 1 column 1 (char 0)",
+          "trigger": "state of input_number.light_color_temp",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2025-04-12T04:26:34.346689+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.multi_light_settings",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1744427052558",
+                      "last_triggered": "2025-04-12T04:26:32.931398+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "multi_light_settings"
+                    },
+                    "last_changed": "2025-04-12T04:04:10.834999+00:00",
+                    "last_reported": "2025-04-12T04:26:32.974831+00:00",
+                    "last_updated": "2025-04-12T04:26:32.974831+00:00",
+                    "context": {
+                      "id": "01JRM3ZM32XZV92X5ZH6KCMP2P",
+                      "parent_id": "01JRM3ZM2Z72K8Q7DS8CAGKXE2",
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "state",
+                    "entity_id": "input_number.light_color_temp",
+                    "from_state": {
+                      "entity_id": "input_number.light_color_temp",
+                      "state": "5000.0",
+                      "attributes": {
+                        "initial": null,
+                        "editable": true,
+                        "min": 2500.0,
+                        "max": 6500.0,
+                        "step": 100.0,
+                        "mode": "slider",
+                        "unit_of_measurement": "K",
+                        "icon": "mdi:temperature-kelvin",
+                        "friendly_name": "light_color_temp"
+                      },
+                      "last_changed": "2025-04-12T04:03:57.855542+00:00",
+                      "last_reported": "2025-04-12T04:03:57.855542+00:00",
+                      "last_updated": "2025-04-12T04:03:57.855542+00:00",
+                      "context": {
+                        "id": "01JRM2P8RZYV3JD3JEQK2MG0J4",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "input_number.light_color_temp",
+                      "state": "4400.0",
+                      "attributes": {
+                        "initial": null,
+                        "editable": true,
+                        "min": 2500.0,
+                        "max": 6500.0,
+                        "step": 100.0,
+                        "mode": "slider",
+                        "unit_of_measurement": "K",
+                        "icon": "mdi:temperature-kelvin",
+                        "friendly_name": "light_color_temp"
+                      },
+                      "last_changed": "2025-04-12T04:26:34.345006+00:00",
+                      "last_reported": "2025-04-12T04:26:34.345006+00:00",
+                      "last_updated": "2025-04-12T04:26:34.345006+00:00",
+                      "context": {
+                        "id": "01JRM3ZNF7WGTVSBGK9AEV1ENC",
+                        "parent_id": null,
+                        "user_id": "e4ca2c7943004cf7b800b663a5fad745"
+                      }
+                    },
+                    "for": null,
+                    "attribute": null,
+                    "description": "state of input_number.light_color_temp"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2025-04-12T04:26:34.347832+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01JRM3ZNFAJS3Y6T5T75W5QNS3",
+                    "parent_id": "01JRM3ZNF7WGTVSBGK9AEV1ENC",
+                    "user_id": null
+                  }
+                },
+                "error": "JSONDecodeError: unexpected character: line 1 column 1 (char 0)"
+              }
+            ]
+          },
+          "config": {
+            "id": "1744427052558",
+            "alias": "multi_light_settings",
+            "description": "Save multi-light settings to storage",
+            "triggers": [
+              {
+                "entity_id": [
+                  "input_number.light_brightness",
+                  "input_number.light_color_temp"
+                ],
+                "trigger": "state"
+              }
+            ],
+            "conditions": [],
+            "actions": [
+              {
+                "variables": {
+                  "selected_lights": "{{ states('input_select.multi_light_selector') | regex_findall('[^\\\\[\\\\], ]+') }}\n",
+                  "settings": "{\n  \"brightness\": {{ states('input_number.light_brightness') | float }},\n  \"color_temp\": {{ states('input_number.light_color_temp') | int }}\n}\n",
+                  "current_data": "{{ states('input_text.light_settings_storage') | default('{}') | from_json }}\n"
+                }
+              },
+              {
+                "target": {
+                  "entity_id": "input_text.light_settings_storage"
+                },
+                "data": {
+                  "value": "{% for light in selected_lights if light != 'Select lights...' %}\n  {% set _ = current_data.update({light: settings | from_json}) %}\n{% endfor %} {{ current_data | to_json }}\n"
+                },
+                "action": "input_text.set_value"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01JRM3ZNFAJS3Y6T5T75W5QNS3",
+            "parent_id": "01JRM3ZNF7WGTVSBGK9AEV1ENC",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "6ab224026c844184004e41f07b22b4d8",
+          "state": "stopped",
+          "script_execution": "error",
+          "timestamp": {
+            "start": "2025-04-12T04:26:34.346316+00:00",
+            "finish": "2025-04-12T04:26:34.356990+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1744427052558",
+          "error": "JSONDecodeError: unexpected character: line 1 column 1 (char 0)",
+          "trigger": "state of input_number.light_color_temp"
+        }
+      }
+    ]
+  }
 }

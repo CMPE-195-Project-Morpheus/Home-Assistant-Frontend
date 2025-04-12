@@ -5,67 +5,6 @@
   "data": {
     "schedules": [
       {
-        "schedule_id": "432644",
-        "timeslots": [
-          {
-            "start": "17:50:00",
-            "stop": null,
-            "conditions": [],
-            "condition_type": null,
-            "track_conditions": false,
-            "actions": [
-              {
-                "service": "light.turn_on",
-                "entity_id": "light.smart_multicolor_bulb",
-                "service_data": {
-                  "color_temp_kelvin": 6500,
-                  "brightness": 255
-                }
-              }
-            ]
-          }
-        ],
-        "weekdays": [
-          "daily"
-        ],
-        "start_date": null,
-        "end_date": null,
-        "repeat_type": "repeat",
-        "name": null,
-        "enabled": true
-      },
-      {
-        "schedule_id": "658045",
-        "timeslots": [
-          {
-            "start": "17:00:00",
-            "stop": null,
-            "conditions": [],
-            "condition_type": null,
-            "track_conditions": false,
-            "actions": [
-              {
-                "service": "light.turn_on",
-                "entity_id": "light.smart_multicolor_bulb",
-                "service_data": {
-                  "color_mode": "color_temp",
-                  "color_temp_kelvin": 2500,
-                  "brightness": 127
-                }
-              }
-            ]
-          }
-        ],
-        "weekdays": [
-          "daily"
-        ],
-        "start_date": null,
-        "end_date": null,
-        "repeat_type": "repeat",
-        "name": null,
-        "enabled": false
-      },
-      {
         "schedule_id": "c3b6b4",
         "timeslots": [
           {
@@ -103,9 +42,39 @@
         "repeat_type": "repeat",
         "name": null,
         "enabled": false
+      },
+      {
+        "schedule_id": "8cd5c5",
+        "timeslots": [
+          {
+            "start": "21:50:00",
+            "stop": null,
+            "conditions": [],
+            "condition_type": null,
+            "track_conditions": false,
+            "actions": [
+              {
+                "service": "light.turn_on",
+                "entity_id": "light.smart_multicolor_bulb",
+                "service_data": {
+                  "brightness": 100,
+                  "color_temp_kelvin": 2500
+                }
+              }
+            ]
+          }
+        ],
+        "weekdays": [
+          "daily"
+        ],
+        "start_date": null,
+        "end_date": null,
+        "repeat_type": "repeat",
+        "name": null,
+        "enabled": true
       }
     ],
     "tags": [],
-    "time_shutdown": "2025-04-09T02:22:10.779731+00:00"
+    "time_shutdown": "2025-04-12T06:00:33.797854+00:00"
   }
 }

@@ -4,6 +4,11 @@
   "key": "lovelace.dashboard_main",
   "data": {
     "config": {
+      "input_text": {
+        "light_settings_storage": null,
+        "name": "Light Settings Storage",
+        "initial": "{}"
+      },
       "views": [
         {
           "title": "Home",
@@ -43,18 +48,18 @@
                       "icon": "mdi:lightbulb-variant",
                       "actions": [
                         {
-                          "service": "turn_on",
+                          "service": "light.turn_on",
                           "name": "test",
+                          "icon": "mdi:lightbulb-on-outline",
                           "service_data": {
-                            "color_temp_kelvin": 6500,
-                            "brightness": 255
-                          },
-                          "icon": "mdi:lightbulb-variant"
+                            "brightness": 100,
+                            "color_temp_kelvin": 2500
+                          }
                         }
                       ]
                     }
                   },
-                  "title": false
+                  "discover_existing": true
                 }
               ]
             },
@@ -62,15 +67,41 @@
               "type": "grid",
               "cards": [
                 {
-                  "type": "heading",
-                  "heading": "Light",
-                  "heading_style": "title"
-                },
-                {
                   "type": "light",
                   "entity": "light.smart_multicolor_bulb",
                   "double_tap_action": {
                     "action": "more-info"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "cards": [
+                {
+                  "type": "entities",
+                  "title": "Light Configuration",
+                  "entities": [
+                    {
+                      "entity": "input_select.light_selector"
+                    },
+                    {
+                      "entity": "input_number.light_brightness"
+                    },
+                    {
+                      "entity": "input_number.light_color_temp"
+                    }
+                  ]
+                },
+                {
+                  "show_name": true,
+                  "show_icon": true,
+                  "type": "button",
+                  "name": "Save Current Light Settings to Scheduler",
+                  "show_state": true,
+                  "tap_action": {
+                    "action": "perform-action",
+                    "perform_action": "script.save_light_settings_to_scheduler"
                   }
                 }
               ]

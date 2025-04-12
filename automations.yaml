@@ -1,1 +1,46 @@
-[]
+- id: '1744409555312'
+  alias: Light selector dropdown populator
+  description: Populate light selector dropdown with available lights
+  triggers:
+  - event: start
+    trigger: homeassistant
+  actions:
+  - target:
+      entity_id: input_select.light_selector
+    data:
+      options: '{% set all_lights = states.light | map(attribute=''entity_id'') |
+        list %} {{ ["Select a light..."] + all_lights }}
+
+        '
+    action: input_select.set_options
+  mode: single
+- id: '1744427052558'
+  alias: multi_light_settings
+  description: Save multi-light settings to storage
+  triggers:
+  - entity_id:
+    - input_number.light_brightness
+    - input_number.light_color_temp
+    trigger: state
+  conditions: []
+  actions:
+  - variables:
+      selected_lights: '{{ states(''input_select.multi_light_selector'') | regex_findall(''[^\\[\\],
+        ]+'') }}
+
+        '
+      settings: "{\n  \"brightness\": {{ states('input_number.light_brightness') |
+        float }},\n  \"color_temp\": {{ states('input_number.light_color_temp') |
+        int }}\n}\n"
+      current_data: '{{ states(''input_text.light_settings_storage'') | default(''{}'')
+        | from_json }}
+
+        '
+  - target:
+      entity_id: input_text.light_settings_storage
+    data:
+      value: "{% for light in selected_lights if light != 'Select lights...' %}\n
+        \ {% set _ = current_data.update({light: settings | from_json}) %}\n{% endfor
+        %} {{ current_data | to_json }}\n"
+    action: input_text.set_value
+  mode: single

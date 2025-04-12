@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "minor_version": 2,
+  "key": "input_select",
+  "data": {
+    "items": [
+      {
+        "id": "light_selector",
+        "name": "Light Selector",
+        "icon": "mdi:lightbulb-group",
+        "options": [
+          "Select a light"
+        ]
+      }
+    ]
+  }
+}
