@@ -6,10 +6,17 @@
     "items": [
       {
         "id": "light_selector",
-        "name": "Light Selector",
-        "icon": "mdi:lightbulb-group",
+        "icon": "mdi:filter-cog",
         "options": [
-          "Select a light"
+          "Select a config..."
+        ],
+        "name": "Light Config Selector"
+      },
+      {
+        "id": "am_pm",
+        "name": "am_pm",
+        "options": [
+          "AM"
         ]
       }
     ]

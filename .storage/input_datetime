@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "input_datetime",
+  "data": {
+    "items": [
+      {
+        "id": "alarm_time",
+        "name": "Alarm Time",
+        "has_date": false,
+        "has_time": true
+      },
+      {
+        "id": "monday",
+        "name": "Monday",
+        "has_date": false,
+        "has_time": true
+      },
+      {
+        "id": "tuesday",
+        "name": "Tuesday",
+        "has_date": false,
+        "has_time": true
+      },
+      {
+        "id": "wednesday",
+        "name": "Wednesday",
+        "has_date": false,
+        "has_time": true
+      },
+      {
+        "id": "thursday",
+        "name": "Thursday",
+        "has_date": false,
+        "has_time": true
+      },
+      {
+        "id": "friday",
+        "name": "Friday",
+        "has_date": false,
+        "has_time": true
+      },
+      {
+        "id": "saturday",
+        "name": "Saturday",
+        "has_date": false,
+        "has_time": true
+      },
+      {
+        "id": "sunday",
+        "name": "Sunday",
+        "has_date": false,
+        "has_time": true
+      }
+    ]
+  }
+}

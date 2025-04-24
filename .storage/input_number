@@ -23,6 +23,66 @@
         "unit_of_measurement": "Level",
         "step": 1.0,
         "mode": "slider"
+      },
+      {
+        "id": "config1_brightness",
+        "min": 0.0,
+        "max": 255.0,
+        "name": "config1_brightness",
+        "icon": "mdi:brightness-7",
+        "unit_of_measurement": "Level",
+        "mode": "slider",
+        "step": 1.0
+      },
+      {
+        "id": "config2_brightness",
+        "min": 0.0,
+        "max": 255.0,
+        "icon": "mdi:brightness-7",
+        "name": "config2_brightness",
+        "unit_of_measurement": "Level",
+        "mode": "slider",
+        "step": 1.0
+      },
+      {
+        "id": "config3_brightness",
+        "min": 0.0,
+        "max": 255.0,
+        "name": "config3_brightness",
+        "icon": "mdi:brightness-7",
+        "unit_of_measurement": "Level",
+        "mode": "slider",
+        "step": 1.0
+      },
+      {
+        "id": "config1_color_temp",
+        "min": 2500.0,
+        "max": 6500.0,
+        "name": "config1_color_temp",
+        "icon": "mdi:temperature-kelvin",
+        "unit_of_measurement": "K",
+        "mode": "slider",
+        "step": 1.0
+      },
+      {
+        "id": "config2_color_temp",
+        "min": 2500.0,
+        "max": 6500.0,
+        "name": "config2_color_temp",
+        "icon": "mdi:temperature-kelvin",
+        "unit_of_measurement": "Kelvin",
+        "mode": "slider",
+        "step": 1.0
+      },
+      {
+        "id": "config3_color_temp",
+        "min": 2500.0,
+        "max": 6500.0,
+        "name": "config3_color_temp",
+        "icon": "mdi:temperature-kelvin",
+        "unit_of_measurement": "K",
+        "mode": "slider",
+        "step": 1.0
       }
     ]
   }

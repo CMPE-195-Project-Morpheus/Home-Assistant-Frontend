@@ -1,0 +1,126 @@
+increment_hour:
+  alias: Increment Hour
+  sequence:
+  - variables:
+      current_time: '{{ states(''input_datetime.alarm_time'') }}'
+      hour: '{{ current_time.split('':'')[0] | int }}'
+      minute: '{{ current_time.split('':'')[1] | int }}'
+      am_pm: '{{ ''AM'' if hour < 12 else ''PM'' }}'
+      new_hour: '{{ (hour + 1) if hour + 1 <= 12 else 1 }}'
+      new_am_pm: '{{ ''AM'' if new_hour == 12 and am_pm == ''PM'' else ''PM'' if new_hour
+        == 12 and am_pm == ''AM'' else am_pm }}'
+  - target:
+      entity_id: input_datetime.alarm_time
+    data:
+      time: '{{ ''%02d:%02d:00'' % (new_hour, minute) }}'
+    action: input_datetime.set_datetime
+  description: ''
+decrement_hour:
+  alias: Decrement Hour
+  sequence:
+  - variables:
+      current_time: '{{ states(''input_datetime.alarm_time'') }}'
+      hour: '{{ current_time.split('':'')[0] | int }}'
+      minute: '{{ current_time.split('':'')[1] | int }}'
+      am_pm: '{{ ''AM'' if hour < 12 else ''PM'' }}'
+      new_hour: '{{ (hour - 1) if hour - 1 > 0 else 12 }}'
+      new_am_pm: '{{ ''AM'' if new_hour == 12 and am_pm == ''PM'' else ''PM'' if new_hour
+        == 12 and am_pm == ''AM'' else am_pm }}'
+  - target:
+      entity_id: input_datetime.alarm_time
+    data:
+      time: '{{ ''%02d:%02d:00'' % (new_hour, minute) }}'
+    action: input_datetime.set_datetime
+  description: ''
+increment_minute:
+  alias: Increment Minute
+  sequence:
+  - data:
+      entity_id: input_datetime.alarm_time
+      time: '{% set current_time = states(''input_datetime.alarm_time'') %} {% set
+        hour = current_time.split('':'')[0] | int %} {% set minute = current_time.split('':'')[1]
+        | int %} {% set new_minute = (minute + 1) %} {{ ''%02d:%02d:00'' % (hour,
+        new_minute if new_minute < 60 else 0) }}
+
+        '
+    action: input_datetime.set_datetime
+  description: ''
+decrement_minute:
+  alias: Decrement Minute
+  sequence:
+  - data:
+      entity_id: input_datetime.alarm_time
+      time: '{% set current_time = states(''input_datetime.alarm_time'') %}  {% set
+        hour = current_time.split('':'')[0] | int %}  {% set minute = current_time.split('':'')[1]
+        | int %} {% set new_minute = (minute - 1) %} {{ ''%02d:%02d:00'' % (hour,
+        new_minute if new_minute >= 0 else 59) }}
+
+        '
+    action: input_datetime.set_datetime
+  description: ''
+toggle_alarm_am_pm:
+  alias: Toggle Alarm AM/PM
+  mode: single
+  sequence:
+  - target:
+      entity_id: input_datetime.alarm_time
+    data:
+      time: '{% set current_time = states(''input_datetime.alarm_time'') %} {% set
+        current_hour = current_time.split('':'')[0] | int %} {% set new_hour = (current_hour
+        + 12) % 24 %} {% set current_minutes = current_time.split('':'')[1] %} {{
+        "%02d:%s" | format(new_hour, current_minutes) }}
+
+        '
+    action: input_datetime.set_datetime
+  description: ''
+play_alarm_sound:
+  sequence:
+  - action: script.play_alarm_sound
+    metadata: {}
+    data: {}
+  alias: play_alarm_sound
+  description: ''
+save_light_settings_to_selected_config:
+  alias: save_light_config
+  sequence:
+  - variables:
+      selected_config: '{{ states(''input_select.light_config_selector'') | lower
+        }}'
+  - data:
+      entity_id: input_number.{{ selected_config }}_brightness
+      value: '{{ states(''input_number.light_brightness'') | float }}'
+    action: input_number.set_value
+  - data:
+      entity_id: input_number.{{ selected_config }}_color_temp
+      value: '{{ states(''input_number.light_color_temp'') | float }}'
+    action: input_number.set_value
+apply_config1:
+  alias: Apply config 1
+  sequence:
+  - target:
+      entity_id: light.smart_multicolor_bulb
+    data:
+      brightness: '{{ states(''input_number.config1_brightness'') | int }}'
+      color_temp: '{{ states(''input_number.config1_color_temp'') | int }}'
+    action: light.turn_on
+  description: ''
+apply_config_2:
+  alias: Apply config 2
+  sequence:
+  - target:
+      entity_id: light.smart_multicolor_bulb
+    data:
+      brightness: '{{ states(''input_number.config2_brightness'') | int }}'
+      color_temp: '{{ states(''input_number.config2_color_temp'') | int }}'
+    action: light.turn_on
+  description: ''
+apply_config_3:
+  alias: Apply config 3
+  sequence:
+  - target:
+      entity_id: light.smart_multicolor_bulb
+    data:
+      brightness: '{{ states(''input_number.config3_brightness'') | int }}'
+      color_temp: '{{ states(''input_number.config3_color_temp'') | int }}'
+    action: light.turn_on
+  description: ''

@@ -44,22 +44,19 @@
         "enabled": false
       },
       {
-        "schedule_id": "8cd5c5",
+        "schedule_id": "a7e7a5",
         "timeslots": [
           {
-            "start": "21:50:00",
+            "start": "23:20:00",
             "stop": null,
             "conditions": [],
             "condition_type": null,
             "track_conditions": false,
             "actions": [
               {
-                "service": "light.turn_on",
-                "entity_id": "light.smart_multicolor_bulb",
-                "service_data": {
-                  "brightness": 100,
-                  "color_temp_kelvin": 2500
-                }
+                "service": "script.turn_on",
+                "entity_id": "script.apply_config1",
+                "service_data": {}
               }
             ]
           }
@@ -71,10 +68,63 @@
         "end_date": null,
         "repeat_type": "repeat",
         "name": null,
-        "enabled": true
+        "enabled": false
+      },
+      {
+        "schedule_id": "ea3eef",
+        "timeslots": [
+          {
+            "start": "23:30:00",
+            "stop": null,
+            "conditions": [],
+            "condition_type": null,
+            "track_conditions": false,
+            "actions": [
+              {
+                "service": "script.apply_config_2",
+                "entity_id": "script.apply_config_2",
+                "service_data": {}
+              }
+            ]
+          }
+        ],
+        "weekdays": [
+          "daily"
+        ],
+        "start_date": null,
+        "end_date": null,
+        "repeat_type": "repeat",
+        "name": null,
+        "enabled": false
+      },
+      {
+        "schedule_id": "385bca",
+        "timeslots": [
+          {
+            "start": "23:30:00",
+            "stop": null,
+            "conditions": [],
+            "condition_type": null,
+            "track_conditions": false,
+            "actions": [
+              {
+                "service": "script.apply_config_3",
+                "entity_id": "script.apply_config_3",
+                "service_data": {}
+              }
+            ]
+          }
+        ],
+        "weekdays": [
+          "daily"
+        ],
+        "start_date": null,
+        "end_date": null,
+        "repeat_type": "repeat",
+        "name": null,
+        "enabled": false
       }
     ],
-    "tags": [],
-    "time_shutdown": "2025-04-12T06:00:33.797854+00:00"
+    "tags": []
   }
 }

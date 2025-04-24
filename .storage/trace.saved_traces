@@ -7,12 +7,12 @@
       {
         "extended_dict": {
           "last_step": "action/0",
-          "run_id": "40a01378b610537c06f3c12607707d8b",
+          "run_id": "01a65bd01e80ba06088b07552fd7efa7",
           "state": "stopped",
           "script_execution": "finished",
           "timestamp": {
-            "start": "2025-04-11T22:25:01.827366+00:00",
-            "finish": "2025-04-11T22:25:01.848104+00:00"
+            "start": "2025-04-20T21:10:53.211715+00:00",
+            "finish": "2025-04-20T21:10:53.312548+00:00"
           },
           "domain": "automation",
           "item_id": "1744409555312",
@@ -21,23 +21,23 @@
             "trigger/0": [
               {
                 "path": "trigger/0",
-                "timestamp": "2025-04-11T22:25:01.827537+00:00",
+                "timestamp": "2025-04-20T21:10:53.211965+00:00",
                 "changed_variables": {
                   "this": {
                     "entity_id": "automation.light_selector_dropdown_populator",
                     "state": "on",
                     "attributes": {
                       "id": "1744409555312",
-                      "last_triggered": null,
+                      "last_triggered": "2025-04-20T20:50:09.617895+00:00",
                       "mode": "single",
                       "current": 0,
-                      "friendly_name": "Light selector dropdown populator"
+                      "friendly_name": "Light_config_selector"
                     },
-                    "last_changed": "2025-04-11T22:25:00.206345+00:00",
-                    "last_reported": "2025-04-11T22:25:00.206345+00:00",
-                    "last_updated": "2025-04-11T22:25:00.206345+00:00",
+                    "last_changed": "2025-04-20T21:10:51.436332+00:00",
+                    "last_reported": "2025-04-20T21:10:51.436332+00:00",
+                    "last_updated": "2025-04-20T21:10:51.436332+00:00",
                     "context": {
-                      "id": "01JRKF9KSE5PENMMM349A9WYZ9",
+                      "id": "01JSAGMA9C76TP9HC55MA0HJHE",
                       "parent_id": null,
                       "user_id": null
                     }
@@ -56,135 +56,10 @@
             "action/0": [
               {
                 "path": "action/0",
-                "timestamp": "2025-04-11T22:25:01.828519+00:00",
+                "timestamp": "2025-04-20T21:10:53.290358+00:00",
                 "changed_variables": {
                   "context": {
-                    "id": "01JRKF9NC3FP729W56DHPE828Y",
-                    "parent_id": null,
-                    "user_id": null
-                  }
-                },
-                "result": {
-                  "params": {
-                    "domain": "input_select",
-                    "service": "set_options",
-                    "service_data": {
-                      "options": "[\"Select a light...\"] + all_lights",
-                      "entity_id": [
-                        "input_select.light_selector"
-                      ]
-                    },
-                    "target": {
-                      "entity_id": [
-                        "input_select.light_selector"
-                      ]
-                    }
-                  },
-                  "running_script": false
-                }
-              }
-            ]
-          },
-          "config": {
-            "id": "1744409555312",
-            "alias": "Light selector dropdown populator",
-            "description": "Populate light selector dropdown with available lights",
-            "triggers": [
-              {
-                "event": "start",
-                "trigger": "homeassistant"
-              }
-            ],
-            "actions": [
-              {
-                "target": {
-                  "entity_id": "input_select.light_selector"
-                },
-                "data": {
-                  "options": "{% set all_lights = states.light | map(attribute='entity_id') | list %} [\"Select a light...\"] + all_lights"
-                },
-                "action": "input_select.set_options"
-              }
-            ],
-            "mode": "single"
-          },
-          "blueprint_inputs": null,
-          "context": {
-            "id": "01JRKF9NC3FP729W56DHPE828Y",
-            "parent_id": null,
-            "user_id": null
-          }
-        },
-        "short_dict": {
-          "last_step": "action/0",
-          "run_id": "40a01378b610537c06f3c12607707d8b",
-          "state": "stopped",
-          "script_execution": "finished",
-          "timestamp": {
-            "start": "2025-04-11T22:25:01.827366+00:00",
-            "finish": "2025-04-11T22:25:01.848104+00:00"
-          },
-          "domain": "automation",
-          "item_id": "1744409555312",
-          "trigger": "Home Assistant starting"
-        }
-      },
-      {
-        "extended_dict": {
-          "last_step": "action/0",
-          "run_id": "6ed5c0374b5847f4b78e300ab263d778",
-          "state": "stopped",
-          "script_execution": "finished",
-          "timestamp": {
-            "start": "2025-04-11T22:29:14.080709+00:00",
-            "finish": "2025-04-11T22:29:14.093759+00:00"
-          },
-          "domain": "automation",
-          "item_id": "1744409555312",
-          "trigger": "Home Assistant starting",
-          "trace": {
-            "trigger/0": [
-              {
-                "path": "trigger/0",
-                "timestamp": "2025-04-11T22:29:14.080943+00:00",
-                "changed_variables": {
-                  "this": {
-                    "entity_id": "automation.light_selector_dropdown_populator",
-                    "state": "on",
-                    "attributes": {
-                      "id": "1744409555312",
-                      "last_triggered": "2025-04-11T22:25:01.827843+00:00",
-                      "mode": "single",
-                      "current": 0,
-                      "friendly_name": "Light selector dropdown populator"
-                    },
-                    "last_changed": "2025-04-11T22:29:12.596143+00:00",
-                    "last_reported": "2025-04-11T22:29:12.596143+00:00",
-                    "last_updated": "2025-04-11T22:29:12.596143+00:00",
-                    "context": {
-                      "id": "01JRKFHA8MMFCV619NT5B66ZT4",
-                      "parent_id": null,
-                      "user_id": null
-                    }
-                  },
-                  "trigger": {
-                    "id": "0",
-                    "idx": "0",
-                    "alias": null,
-                    "platform": "homeassistant",
-                    "event": "start",
-                    "description": "Home Assistant starting"
-                  }
-                }
-              }
-            ],
-            "action/0": [
-              {
-                "path": "action/0",
-                "timestamp": "2025-04-11T22:29:14.081865+00:00",
-                "changed_variables": {
-                  "context": {
-                    "id": "01JRKFHBQ00VY7CANMARNESCMX",
+                    "id": "01JSAGMC0VBMHBNQ7GYF5Z6TGC",
                     "parent_id": null,
                     "user_id": null
                   }
@@ -195,16 +70,17 @@
                     "service": "set_options",
                     "service_data": {
                       "options": [
-                        "Select a light...",
-                        "light.smart_multicolor_bulb"
+                        "Config1",
+                        "Config2",
+                        "Config3"
                       ],
                       "entity_id": [
-                        "input_select.light_selector"
+                        "input_select.light_config_selector"
                       ]
                     },
                     "target": {
                       "entity_id": [
-                        "input_select.light_selector"
+                        "input_select.light_config_selector"
                       ]
                     }
                   },
@@ -215,8 +91,8 @@
           },
           "config": {
             "id": "1744409555312",
-            "alias": "Light selector dropdown populator",
-            "description": "Populate light selector dropdown with available lights",
+            "alias": "Light_config_selector",
+            "description": "Populate config selector with three available config slots",
             "triggers": [
               {
                 "event": "start",
@@ -226,10 +102,10 @@
             "actions": [
               {
                 "target": {
-                  "entity_id": "input_select.light_selector"
+                  "entity_id": "input_select.light_config_selector"
                 },
                 "data": {
-                  "options": "{% set all_lights = states.light | map(attribute='entity_id') | list %} {{ [\"Select a light...\"] + all_lights }}\n"
+                  "options": "{{ ['Config1', 'Config2', 'Config3'] }}\n"
                 },
                 "action": "input_select.set_options"
               }
@@ -238,147 +114,19 @@
           },
           "blueprint_inputs": null,
           "context": {
-            "id": "01JRKFHBQ00VY7CANMARNESCMX",
+            "id": "01JSAGMC0VBMHBNQ7GYF5Z6TGC",
             "parent_id": null,
             "user_id": null
           }
         },
         "short_dict": {
           "last_step": "action/0",
-          "run_id": "6ed5c0374b5847f4b78e300ab263d778",
+          "run_id": "01a65bd01e80ba06088b07552fd7efa7",
           "state": "stopped",
           "script_execution": "finished",
           "timestamp": {
-            "start": "2025-04-11T22:29:14.080709+00:00",
-            "finish": "2025-04-11T22:29:14.093759+00:00"
-          },
-          "domain": "automation",
-          "item_id": "1744409555312",
-          "trigger": "Home Assistant starting"
-        }
-      },
-      {
-        "extended_dict": {
-          "last_step": "action/0",
-          "run_id": "6d48130383055430b4f0b9a219879c90",
-          "state": "stopped",
-          "script_execution": "finished",
-          "timestamp": {
-            "start": "2025-04-12T04:04:11.848340+00:00",
-            "finish": "2025-04-12T04:04:11.872006+00:00"
-          },
-          "domain": "automation",
-          "item_id": "1744409555312",
-          "trigger": "Home Assistant starting",
-          "trace": {
-            "trigger/0": [
-              {
-                "path": "trigger/0",
-                "timestamp": "2025-04-12T04:04:11.848549+00:00",
-                "changed_variables": {
-                  "this": {
-                    "entity_id": "automation.light_selector_dropdown_populator",
-                    "state": "on",
-                    "attributes": {
-                      "id": "1744409555312",
-                      "last_triggered": "2025-04-11T22:29:14.081177+00:00",
-                      "mode": "single",
-                      "current": 0,
-                      "friendly_name": "Light selector dropdown populator"
-                    },
-                    "last_changed": "2025-04-12T04:04:10.834092+00:00",
-                    "last_reported": "2025-04-12T04:04:10.834092+00:00",
-                    "last_updated": "2025-04-12T04:04:10.834092+00:00",
-                    "context": {
-                      "id": "01JRM2PNEJYD0G50GBYZWXG6YM",
-                      "parent_id": null,
-                      "user_id": null
-                    }
-                  },
-                  "trigger": {
-                    "id": "0",
-                    "idx": "0",
-                    "alias": null,
-                    "platform": "homeassistant",
-                    "event": "start",
-                    "description": "Home Assistant starting"
-                  }
-                }
-              }
-            ],
-            "action/0": [
-              {
-                "path": "action/0",
-                "timestamp": "2025-04-12T04:04:11.849575+00:00",
-                "changed_variables": {
-                  "context": {
-                    "id": "01JRM2PPE8W5S3HFZ4PFK720ZP",
-                    "parent_id": null,
-                    "user_id": null
-                  }
-                },
-                "result": {
-                  "params": {
-                    "domain": "input_select",
-                    "service": "set_options",
-                    "service_data": {
-                      "options": [
-                        "Select a light...",
-                        "light.smart_multicolor_bulb"
-                      ],
-                      "entity_id": [
-                        "input_select.light_selector"
-                      ]
-                    },
-                    "target": {
-                      "entity_id": [
-                        "input_select.light_selector"
-                      ]
-                    }
-                  },
-                  "running_script": false
-                }
-              }
-            ]
-          },
-          "config": {
-            "id": "1744409555312",
-            "alias": "Light selector dropdown populator",
-            "description": "Populate light selector dropdown with available lights",
-            "triggers": [
-              {
-                "event": "start",
-                "trigger": "homeassistant"
-              }
-            ],
-            "actions": [
-              {
-                "target": {
-                  "entity_id": "input_select.light_selector"
-                },
-                "data": {
-                  "options": "{% set all_lights = states.light | map(attribute='entity_id') | list %} {{ [\"Select a light...\"] + all_lights }}\n"
-                },
-                "action": "input_select.set_options"
-              }
-            ],
-            "mode": "single"
-          },
-          "blueprint_inputs": null,
-          "context": {
-            "id": "01JRM2PPE8W5S3HFZ4PFK720ZP",
-            "parent_id": null,
-            "user_id": null
-          }
-        },
-        "short_dict": {
-          "last_step": "action/0",
-          "run_id": "6d48130383055430b4f0b9a219879c90",
-          "state": "stopped",
-          "script_execution": "finished",
-          "timestamp": {
-            "start": "2025-04-12T04:04:11.848340+00:00",
-            "finish": "2025-04-12T04:04:11.872006+00:00"
+            "start": "2025-04-20T21:10:53.211715+00:00",
+            "finish": "2025-04-20T21:10:53.312548+00:00"
           },
           "domain": "automation",
           "item_id": "1744409555312",
@@ -386,343 +134,641 @@
         }
       }
     ],
-    "automation.1744427052558": [
+    "script.increment_minute": [
       {
         "extended_dict": {
-          "last_step": "action/0",
-          "run_id": "0cf0ac0da0c8153b71c2b8a352731840",
+          "last_step": "sequence/0",
+          "run_id": "38cc52c5bd114d9378db721ee19b754b",
           "state": "stopped",
-          "script_execution": "error",
+          "script_execution": "finished",
           "timestamp": {
-            "start": "2025-04-12T04:26:32.930661+00:00",
-            "finish": "2025-04-12T04:26:32.976241+00:00"
+            "start": "2025-04-21T02:10:41.312800+00:00",
+            "finish": "2025-04-21T02:10:41.377213+00:00"
           },
-          "domain": "automation",
-          "item_id": "1744427052558",
-          "error": "JSONDecodeError: unexpected character: line 1 column 1 (char 0)",
-          "trigger": "state of input_number.light_brightness",
+          "domain": "script",
+          "item_id": "increment_minute",
           "trace": {
-            "trigger/0": [
+            "sequence/0": [
               {
-                "path": "trigger/0",
-                "timestamp": "2025-04-12T04:26:32.930982+00:00",
+                "path": "sequence/0",
+                "timestamp": "2025-04-21T02:10:41.326542+00:00",
                 "changed_variables": {
                   "this": {
-                    "entity_id": "automation.multi_light_settings",
-                    "state": "on",
+                    "entity_id": "script.increment_minute",
+                    "state": "off",
                     "attributes": {
-                      "id": "1744427052558",
-                      "last_triggered": null,
+                      "last_triggered": "2025-04-17T02:38:45.538627+00:00",
                       "mode": "single",
                       "current": 0,
-                      "friendly_name": "multi_light_settings"
+                      "friendly_name": "Increment Minute"
                     },
-                    "last_changed": "2025-04-12T04:04:10.834999+00:00",
-                    "last_reported": "2025-04-12T04:04:10.834999+00:00",
-                    "last_updated": "2025-04-12T04:04:10.834999+00:00",
+                    "last_changed": "2025-04-20T21:10:23.483806+00:00",
+                    "last_reported": "2025-04-20T21:10:23.483806+00:00",
+                    "last_updated": "2025-04-20T21:10:23.483806+00:00",
                     "context": {
-                      "id": "01JRM2PNEJJ5AJFHP9KFKDQAZ6",
+                      "id": "01JSAGKEZVWCW1BVX9QWDXTG87",
                       "parent_id": null,
                       "user_id": null
                     }
                   },
-                  "trigger": {
-                    "id": "0",
-                    "idx": "0",
-                    "alias": null,
-                    "platform": "state",
-                    "entity_id": "input_number.light_brightness",
-                    "from_state": {
-                      "entity_id": "input_number.light_brightness",
-                      "state": "99.0",
-                      "attributes": {
-                        "initial": null,
-                        "editable": true,
-                        "min": 0.0,
-                        "max": 255.0,
-                        "step": 1.0,
-                        "mode": "slider",
-                        "unit_of_measurement": "Level",
-                        "icon": "mdi:brightness-7",
-                        "friendly_name": "light_brightness"
-                      },
-                      "last_changed": "2025-04-12T04:03:57.856224+00:00",
-                      "last_reported": "2025-04-12T04:03:57.856224+00:00",
-                      "last_updated": "2025-04-12T04:03:57.856224+00:00",
-                      "context": {
-                        "id": "01JRM2P8S05QHGN1AANA5P25PS",
-                        "parent_id": null,
-                        "user_id": null
-                      }
-                    },
-                    "to_state": {
-                      "entity_id": "input_number.light_brightness",
-                      "state": "143.0",
-                      "attributes": {
-                        "initial": null,
-                        "editable": true,
-                        "min": 0.0,
-                        "max": 255.0,
-                        "step": 1.0,
-                        "mode": "slider",
-                        "unit_of_measurement": "Level",
-                        "icon": "mdi:brightness-7",
-                        "friendly_name": "light_brightness"
-                      },
-                      "last_changed": "2025-04-12T04:26:32.928810+00:00",
-                      "last_reported": "2025-04-12T04:26:32.928810+00:00",
-                      "last_updated": "2025-04-12T04:26:32.928810+00:00",
-                      "context": {
-                        "id": "01JRM3ZM2Z72K8Q7DS8CAGKXE2",
-                        "parent_id": null,
-                        "user_id": "e4ca2c7943004cf7b800b663a5fad745"
-                      }
-                    },
-                    "for": null,
-                    "attribute": null,
-                    "description": "state of input_number.light_brightness"
-                  }
-                }
-              }
-            ],
-            "action/0": [
-              {
-                "path": "action/0",
-                "timestamp": "2025-04-12T04:26:32.932554+00:00",
-                "changed_variables": {
                   "context": {
-                    "id": "01JRM3ZM32XZV92X5ZH6KCMP2P",
-                    "parent_id": "01JRM3ZM2Z72K8Q7DS8CAGKXE2",
-                    "user_id": null
+                    "id": "01JSB1SAGY1MJBBFFB7SWFBPQQ",
+                    "parent_id": null,
+                    "user_id": "e4ca2c7943004cf7b800b663a5fad745"
                   }
                 },
-                "error": "JSONDecodeError: unexpected character: line 1 column 1 (char 0)"
+                "result": {
+                  "params": {
+                    "domain": "input_datetime",
+                    "service": "set_datetime",
+                    "service_data": {
+                      "entity_id": "input_datetime.alarm_time",
+                      "time": "01:02:00"
+                    },
+                    "target": {}
+                  },
+                  "running_script": false
+                }
               }
             ]
           },
           "config": {
-            "id": "1744427052558",
-            "alias": "multi_light_settings",
-            "description": "Save multi-light settings to storage",
-            "triggers": [
+            "alias": "Increment Minute",
+            "sequence": [
               {
-                "entity_id": [
-                  "input_number.light_brightness",
-                  "input_number.light_color_temp"
-                ],
-                "trigger": "state"
+                "data": {
+                  "entity_id": "input_datetime.alarm_time",
+                  "time": "{% set current_time = states('input_datetime.alarm_time') %} {% set hour = current_time.split(':')[0] | int %} {% set minute = current_time.split(':')[1] | int %} {% set new_minute = (minute + 1) %} {{ '%02d:%02d:00' % (hour, new_minute if new_minute < 60 else 0) }}\n"
+                },
+                "action": "input_datetime.set_datetime"
               }
             ],
-            "conditions": [],
-            "actions": [
+            "description": ""
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01JSB1SAGY1MJBBFFB7SWFBPQQ",
+            "parent_id": null,
+            "user_id": "e4ca2c7943004cf7b800b663a5fad745"
+          }
+        },
+        "short_dict": {
+          "last_step": "sequence/0",
+          "run_id": "38cc52c5bd114d9378db721ee19b754b",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2025-04-21T02:10:41.312800+00:00",
+            "finish": "2025-04-21T02:10:41.377213+00:00"
+          },
+          "domain": "script",
+          "item_id": "increment_minute"
+        }
+      }
+    ],
+    "script.decrement_hour": [
+      {
+        "extended_dict": {
+          "last_step": "sequence/1",
+          "run_id": "df4fe90ef05e6e2223b8553b385608b3",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2025-04-21T02:10:42.089800+00:00",
+            "finish": "2025-04-21T02:10:42.132715+00:00"
+          },
+          "domain": "script",
+          "item_id": "decrement_hour",
+          "trace": {
+            "sequence/0": [
+              {
+                "path": "sequence/0",
+                "timestamp": "2025-04-21T02:10:42.092618+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "script.decrement_hour",
+                    "state": "off",
+                    "attributes": {
+                      "last_triggered": null,
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Decrement Hour"
+                    },
+                    "last_changed": "2025-04-20T21:10:23.482499+00:00",
+                    "last_reported": "2025-04-20T21:10:23.482499+00:00",
+                    "last_updated": "2025-04-20T21:10:23.482499+00:00",
+                    "context": {
+                      "id": "01JSAGKEZTVYZYPQ3XA2RH50RD",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "context": {
+                    "id": "01JSB1SB96WKKDD2WQDF6EPGQM",
+                    "parent_id": null,
+                    "user_id": "e4ca2c7943004cf7b800b663a5fad745"
+                  },
+                  "current_time": "01:02:00",
+                  "hour": 1,
+                  "minute": 2,
+                  "am_pm": "AM",
+                  "new_hour": 12,
+                  "new_am_pm": "PM"
+                }
+              }
+            ],
+            "sequence/1": [
+              {
+                "path": "sequence/1",
+                "timestamp": "2025-04-21T02:10:42.119406+00:00",
+                "result": {
+                  "params": {
+                    "domain": "input_datetime",
+                    "service": "set_datetime",
+                    "service_data": {
+                      "time": "12:02:00",
+                      "entity_id": [
+                        "input_datetime.alarm_time"
+                      ]
+                    },
+                    "target": {
+                      "entity_id": [
+                        "input_datetime.alarm_time"
+                      ]
+                    }
+                  },
+                  "running_script": false
+                }
+              }
+            ]
+          },
+          "config": {
+            "alias": "Decrement Hour",
+            "sequence": [
               {
                 "variables": {
-                  "selected_lights": "{{ states('input_select.multi_light_selector') | regex_findall('[^\\\\[\\\\], ]+') }}\n",
-                  "settings": "{\n  \"brightness\": {{ states('input_number.light_brightness') | float }},\n  \"color_temp\": {{ states('input_number.light_color_temp') | int }}\n}\n",
-                  "current_data": "{{ states('input_text.light_settings_storage') | default('{}') | from_json }}\n"
+                  "current_time": "{{ states('input_datetime.alarm_time') }}",
+                  "hour": "{{ current_time.split(':')[0] | int }}",
+                  "minute": "{{ current_time.split(':')[1] | int }}",
+                  "am_pm": "{{ 'AM' if hour < 12 else 'PM' }}",
+                  "new_hour": "{{ (hour - 1) if hour - 1 > 0 else 12 }}",
+                  "new_am_pm": "{{ 'AM' if new_hour == 12 and am_pm == 'PM' else 'PM' if new_hour == 12 and am_pm == 'AM' else am_pm }}"
                 }
               },
               {
                 "target": {
-                  "entity_id": "input_text.light_settings_storage"
+                  "entity_id": "input_datetime.alarm_time"
                 },
                 "data": {
-                  "value": "{% for light in selected_lights if light != 'Select lights...' %}\n  {% set _ = current_data.update({light: settings | from_json}) %}\n{% endfor %} {{ current_data | to_json }}\n"
+                  "time": "{{ '%02d:%02d:00' % (new_hour, minute) }}"
                 },
-                "action": "input_text.set_value"
+                "action": "input_datetime.set_datetime"
               }
             ],
-            "mode": "single"
+            "description": ""
           },
           "blueprint_inputs": null,
           "context": {
-            "id": "01JRM3ZM32XZV92X5ZH6KCMP2P",
-            "parent_id": "01JRM3ZM2Z72K8Q7DS8CAGKXE2",
-            "user_id": null
+            "id": "01JSB1SB96WKKDD2WQDF6EPGQM",
+            "parent_id": null,
+            "user_id": "e4ca2c7943004cf7b800b663a5fad745"
           }
         },
         "short_dict": {
-          "last_step": "action/0",
-          "run_id": "0cf0ac0da0c8153b71c2b8a352731840",
+          "last_step": "sequence/1",
+          "run_id": "df4fe90ef05e6e2223b8553b385608b3",
           "state": "stopped",
-          "script_execution": "error",
+          "script_execution": "finished",
           "timestamp": {
-            "start": "2025-04-12T04:26:32.930661+00:00",
-            "finish": "2025-04-12T04:26:32.976241+00:00"
+            "start": "2025-04-21T02:10:42.089800+00:00",
+            "finish": "2025-04-21T02:10:42.132715+00:00"
           },
-          "domain": "automation",
-          "item_id": "1744427052558",
-          "error": "JSONDecodeError: unexpected character: line 1 column 1 (char 0)",
-          "trigger": "state of input_number.light_brightness"
+          "domain": "script",
+          "item_id": "decrement_hour"
+        }
+      }
+    ],
+    "script.increment_hour": [
+      {
+        "extended_dict": {
+          "last_step": "sequence/1",
+          "run_id": "eaaea5a8a7fa2b93ca8be3807b1695fe",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2025-04-21T02:10:42.605883+00:00",
+            "finish": "2025-04-21T02:10:42.622695+00:00"
+          },
+          "domain": "script",
+          "item_id": "increment_hour",
+          "trace": {
+            "sequence/0": [
+              {
+                "path": "sequence/0",
+                "timestamp": "2025-04-21T02:10:42.608638+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "script.increment_hour",
+                    "state": "off",
+                    "attributes": {
+                      "last_triggered": "2025-04-17T02:38:44.333673+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Increment Hour"
+                    },
+                    "last_changed": "2025-04-20T21:10:23.481226+00:00",
+                    "last_reported": "2025-04-20T21:10:23.481226+00:00",
+                    "last_updated": "2025-04-20T21:10:23.481226+00:00",
+                    "context": {
+                      "id": "01JSAGKEZS5A7BTJ4FFQA42V2Q",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "context": {
+                    "id": "01JSB1SBSDP58SHN6SZDEVQS71",
+                    "parent_id": null,
+                    "user_id": "e4ca2c7943004cf7b800b663a5fad745"
+                  },
+                  "current_time": "12:02:00",
+                  "hour": 12,
+                  "minute": 2,
+                  "am_pm": "PM",
+                  "new_hour": 1,
+                  "new_am_pm": "PM"
+                }
+              }
+            ],
+            "sequence/1": [
+              {
+                "path": "sequence/1",
+                "timestamp": "2025-04-21T02:10:42.616627+00:00",
+                "result": {
+                  "params": {
+                    "domain": "input_datetime",
+                    "service": "set_datetime",
+                    "service_data": {
+                      "time": "01:02:00",
+                      "entity_id": [
+                        "input_datetime.alarm_time"
+                      ]
+                    },
+                    "target": {
+                      "entity_id": [
+                        "input_datetime.alarm_time"
+                      ]
+                    }
+                  },
+                  "running_script": false
+                }
+              }
+            ]
+          },
+          "config": {
+            "alias": "Increment Hour",
+            "sequence": [
+              {
+                "variables": {
+                  "current_time": "{{ states('input_datetime.alarm_time') }}",
+                  "hour": "{{ current_time.split(':')[0] | int }}",
+                  "minute": "{{ current_time.split(':')[1] | int }}",
+                  "am_pm": "{{ 'AM' if hour < 12 else 'PM' }}",
+                  "new_hour": "{{ (hour + 1) if hour + 1 <= 12 else 1 }}",
+                  "new_am_pm": "{{ 'AM' if new_hour == 12 and am_pm == 'PM' else 'PM' if new_hour == 12 and am_pm == 'AM' else am_pm }}"
+                }
+              },
+              {
+                "target": {
+                  "entity_id": "input_datetime.alarm_time"
+                },
+                "data": {
+                  "time": "{{ '%02d:%02d:00' % (new_hour, minute) }}"
+                },
+                "action": "input_datetime.set_datetime"
+              }
+            ],
+            "description": ""
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01JSB1SBSDP58SHN6SZDEVQS71",
+            "parent_id": null,
+            "user_id": "e4ca2c7943004cf7b800b663a5fad745"
+          }
+        },
+        "short_dict": {
+          "last_step": "sequence/1",
+          "run_id": "eaaea5a8a7fa2b93ca8be3807b1695fe",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2025-04-21T02:10:42.605883+00:00",
+            "finish": "2025-04-21T02:10:42.622695+00:00"
+          },
+          "domain": "script",
+          "item_id": "increment_hour"
         }
       },
       {
         "extended_dict": {
-          "last_step": "action/0",
-          "run_id": "6ab224026c844184004e41f07b22b4d8",
+          "last_step": "sequence/1",
+          "run_id": "316fcb69c06908ff67179047f7e17e93",
           "state": "stopped",
-          "script_execution": "error",
+          "script_execution": "finished",
           "timestamp": {
-            "start": "2025-04-12T04:26:34.346316+00:00",
-            "finish": "2025-04-12T04:26:34.356990+00:00"
+            "start": "2025-04-21T02:10:50.405002+00:00",
+            "finish": "2025-04-21T02:10:50.418159+00:00"
           },
-          "domain": "automation",
-          "item_id": "1744427052558",
-          "error": "JSONDecodeError: unexpected character: line 1 column 1 (char 0)",
-          "trigger": "state of input_number.light_color_temp",
+          "domain": "script",
+          "item_id": "increment_hour",
           "trace": {
-            "trigger/0": [
+            "sequence/0": [
               {
-                "path": "trigger/0",
-                "timestamp": "2025-04-12T04:26:34.346689+00:00",
+                "path": "sequence/0",
+                "timestamp": "2025-04-21T02:10:50.406337+00:00",
                 "changed_variables": {
                   "this": {
-                    "entity_id": "automation.multi_light_settings",
-                    "state": "on",
+                    "entity_id": "script.increment_hour",
+                    "state": "off",
                     "attributes": {
-                      "id": "1744427052558",
-                      "last_triggered": "2025-04-12T04:26:32.931398+00:00",
+                      "last_triggered": "2025-04-21T02:10:42.606252+00:00",
                       "mode": "single",
                       "current": 0,
-                      "friendly_name": "multi_light_settings"
+                      "friendly_name": "Increment Hour"
                     },
-                    "last_changed": "2025-04-12T04:04:10.834999+00:00",
-                    "last_reported": "2025-04-12T04:26:32.974831+00:00",
-                    "last_updated": "2025-04-12T04:26:32.974831+00:00",
+                    "last_changed": "2025-04-21T02:10:42.622240+00:00",
+                    "last_reported": "2025-04-21T02:10:42.622240+00:00",
+                    "last_updated": "2025-04-21T02:10:42.622240+00:00",
                     "context": {
-                      "id": "01JRM3ZM32XZV92X5ZH6KCMP2P",
-                      "parent_id": "01JRM3ZM2Z72K8Q7DS8CAGKXE2",
-                      "user_id": null
+                      "id": "01JSB1SBSDP58SHN6SZDEVQS71",
+                      "parent_id": null,
+                      "user_id": "e4ca2c7943004cf7b800b663a5fad745"
                     }
                   },
-                  "trigger": {
-                    "id": "0",
-                    "idx": "0",
-                    "alias": null,
-                    "platform": "state",
-                    "entity_id": "input_number.light_color_temp",
-                    "from_state": {
-                      "entity_id": "input_number.light_color_temp",
-                      "state": "5000.0",
-                      "attributes": {
-                        "initial": null,
-                        "editable": true,
-                        "min": 2500.0,
-                        "max": 6500.0,
-                        "step": 100.0,
-                        "mode": "slider",
-                        "unit_of_measurement": "K",
-                        "icon": "mdi:temperature-kelvin",
-                        "friendly_name": "light_color_temp"
-                      },
-                      "last_changed": "2025-04-12T04:03:57.855542+00:00",
-                      "last_reported": "2025-04-12T04:03:57.855542+00:00",
-                      "last_updated": "2025-04-12T04:03:57.855542+00:00",
-                      "context": {
-                        "id": "01JRM2P8RZYV3JD3JEQK2MG0J4",
-                        "parent_id": null,
-                        "user_id": null
-                      }
-                    },
-                    "to_state": {
-                      "entity_id": "input_number.light_color_temp",
-                      "state": "4400.0",
-                      "attributes": {
-                        "initial": null,
-                        "editable": true,
-                        "min": 2500.0,
-                        "max": 6500.0,
-                        "step": 100.0,
-                        "mode": "slider",
-                        "unit_of_measurement": "K",
-                        "icon": "mdi:temperature-kelvin",
-                        "friendly_name": "light_color_temp"
-                      },
-                      "last_changed": "2025-04-12T04:26:34.345006+00:00",
-                      "last_reported": "2025-04-12T04:26:34.345006+00:00",
-                      "last_updated": "2025-04-12T04:26:34.345006+00:00",
-                      "context": {
-                        "id": "01JRM3ZNF7WGTVSBGK9AEV1ENC",
-                        "parent_id": null,
-                        "user_id": "e4ca2c7943004cf7b800b663a5fad745"
-                      }
-                    },
-                    "for": null,
-                    "attribute": null,
-                    "description": "state of input_number.light_color_temp"
-                  }
+                  "context": {
+                    "id": "01JSB1SKD4APX99R7487X736TS",
+                    "parent_id": null,
+                    "user_id": "e4ca2c7943004cf7b800b663a5fad745"
+                  },
+                  "current_time": "01:00:00",
+                  "hour": 1,
+                  "minute": 0,
+                  "am_pm": "AM",
+                  "new_hour": 2,
+                  "new_am_pm": "AM"
                 }
               }
             ],
-            "action/0": [
+            "sequence/1": [
               {
-                "path": "action/0",
-                "timestamp": "2025-04-12T04:26:34.347832+00:00",
-                "changed_variables": {
-                  "context": {
-                    "id": "01JRM3ZNFAJS3Y6T5T75W5QNS3",
-                    "parent_id": "01JRM3ZNF7WGTVSBGK9AEV1ENC",
-                    "user_id": null
-                  }
-                },
-                "error": "JSONDecodeError: unexpected character: line 1 column 1 (char 0)"
+                "path": "sequence/1",
+                "timestamp": "2025-04-21T02:10:50.413234+00:00",
+                "result": {
+                  "params": {
+                    "domain": "input_datetime",
+                    "service": "set_datetime",
+                    "service_data": {
+                      "time": "02:00:00",
+                      "entity_id": [
+                        "input_datetime.alarm_time"
+                      ]
+                    },
+                    "target": {
+                      "entity_id": [
+                        "input_datetime.alarm_time"
+                      ]
+                    }
+                  },
+                  "running_script": false
+                }
               }
             ]
           },
           "config": {
-            "id": "1744427052558",
-            "alias": "multi_light_settings",
-            "description": "Save multi-light settings to storage",
-            "triggers": [
-              {
-                "entity_id": [
-                  "input_number.light_brightness",
-                  "input_number.light_color_temp"
-                ],
-                "trigger": "state"
-              }
-            ],
-            "conditions": [],
-            "actions": [
+            "alias": "Increment Hour",
+            "sequence": [
               {
                 "variables": {
-                  "selected_lights": "{{ states('input_select.multi_light_selector') | regex_findall('[^\\\\[\\\\], ]+') }}\n",
-                  "settings": "{\n  \"brightness\": {{ states('input_number.light_brightness') | float }},\n  \"color_temp\": {{ states('input_number.light_color_temp') | int }}\n}\n",
-                  "current_data": "{{ states('input_text.light_settings_storage') | default('{}') | from_json }}\n"
+                  "current_time": "{{ states('input_datetime.alarm_time') }}",
+                  "hour": "{{ current_time.split(':')[0] | int }}",
+                  "minute": "{{ current_time.split(':')[1] | int }}",
+                  "am_pm": "{{ 'AM' if hour < 12 else 'PM' }}",
+                  "new_hour": "{{ (hour + 1) if hour + 1 <= 12 else 1 }}",
+                  "new_am_pm": "{{ 'AM' if new_hour == 12 and am_pm == 'PM' else 'PM' if new_hour == 12 and am_pm == 'AM' else am_pm }}"
                 }
               },
               {
                 "target": {
-                  "entity_id": "input_text.light_settings_storage"
+                  "entity_id": "input_datetime.alarm_time"
                 },
                 "data": {
-                  "value": "{% for light in selected_lights if light != 'Select lights...' %}\n  {% set _ = current_data.update({light: settings | from_json}) %}\n{% endfor %} {{ current_data | to_json }}\n"
+                  "time": "{{ '%02d:%02d:00' % (new_hour, minute) }}"
                 },
-                "action": "input_text.set_value"
+                "action": "input_datetime.set_datetime"
               }
             ],
-            "mode": "single"
+            "description": ""
           },
           "blueprint_inputs": null,
           "context": {
-            "id": "01JRM3ZNFAJS3Y6T5T75W5QNS3",
-            "parent_id": "01JRM3ZNF7WGTVSBGK9AEV1ENC",
-            "user_id": null
+            "id": "01JSB1SKD4APX99R7487X736TS",
+            "parent_id": null,
+            "user_id": "e4ca2c7943004cf7b800b663a5fad745"
           }
         },
         "short_dict": {
-          "last_step": "action/0",
-          "run_id": "6ab224026c844184004e41f07b22b4d8",
+          "last_step": "sequence/1",
+          "run_id": "316fcb69c06908ff67179047f7e17e93",
           "state": "stopped",
-          "script_execution": "error",
+          "script_execution": "finished",
           "timestamp": {
-            "start": "2025-04-12T04:26:34.346316+00:00",
-            "finish": "2025-04-12T04:26:34.356990+00:00"
+            "start": "2025-04-21T02:10:50.405002+00:00",
+            "finish": "2025-04-21T02:10:50.418159+00:00"
           },
-          "domain": "automation",
-          "item_id": "1744427052558",
-          "error": "JSONDecodeError: unexpected character: line 1 column 1 (char 0)",
-          "trigger": "state of input_number.light_color_temp"
+          "domain": "script",
+          "item_id": "increment_hour"
+        }
+      }
+    ],
+    "script.decrement_minute": [
+      {
+        "extended_dict": {
+          "last_step": "sequence/0",
+          "run_id": "ff163ead4d153bc590a9930facd05c4f",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2025-04-21T02:10:43.204730+00:00",
+            "finish": "2025-04-21T02:10:43.214449+00:00"
+          },
+          "domain": "script",
+          "item_id": "decrement_minute",
+          "trace": {
+            "sequence/0": [
+              {
+                "path": "sequence/0",
+                "timestamp": "2025-04-21T02:10:43.206265+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "script.decrement_minute",
+                    "state": "off",
+                    "attributes": {
+                      "last_triggered": null,
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Decrement Minute"
+                    },
+                    "last_changed": "2025-04-20T21:10:23.485750+00:00",
+                    "last_reported": "2025-04-20T21:10:23.485750+00:00",
+                    "last_updated": "2025-04-20T21:10:23.485750+00:00",
+                    "context": {
+                      "id": "01JSAGKEZX3JBBSD9K5PVZS4Y0",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "context": {
+                    "id": "01JSB1SCC3ZJRWZHNCQQEDTGQE",
+                    "parent_id": null,
+                    "user_id": "e4ca2c7943004cf7b800b663a5fad745"
+                  }
+                },
+                "result": {
+                  "params": {
+                    "domain": "input_datetime",
+                    "service": "set_datetime",
+                    "service_data": {
+                      "entity_id": "input_datetime.alarm_time",
+                      "time": "01:01:00"
+                    },
+                    "target": {}
+                  },
+                  "running_script": false
+                }
+              }
+            ]
+          },
+          "config": {
+            "alias": "Decrement Minute",
+            "sequence": [
+              {
+                "data": {
+                  "entity_id": "input_datetime.alarm_time",
+                  "time": "{% set current_time = states('input_datetime.alarm_time') %}  {% set hour = current_time.split(':')[0] | int %}  {% set minute = current_time.split(':')[1] | int %} {% set new_minute = (minute - 1) %} {{ '%02d:%02d:00' % (hour, new_minute if new_minute >= 0 else 59) }}\n"
+                },
+                "action": "input_datetime.set_datetime"
+              }
+            ],
+            "description": ""
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01JSB1SCC3ZJRWZHNCQQEDTGQE",
+            "parent_id": null,
+            "user_id": "e4ca2c7943004cf7b800b663a5fad745"
+          }
+        },
+        "short_dict": {
+          "last_step": "sequence/0",
+          "run_id": "ff163ead4d153bc590a9930facd05c4f",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2025-04-21T02:10:43.204730+00:00",
+            "finish": "2025-04-21T02:10:43.214449+00:00"
+          },
+          "domain": "script",
+          "item_id": "decrement_minute"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "sequence/0",
+          "run_id": "a96e7f5d93155656c6ca8c0c040839c2",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2025-04-21T02:10:47.524284+00:00",
+            "finish": "2025-04-21T02:10:47.527482+00:00"
+          },
+          "domain": "script",
+          "item_id": "decrement_minute",
+          "trace": {
+            "sequence/0": [
+              {
+                "path": "sequence/0",
+                "timestamp": "2025-04-21T02:10:47.525091+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "script.decrement_minute",
+                    "state": "off",
+                    "attributes": {
+                      "last_triggered": "2025-04-21T02:10:43.205140+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Decrement Minute"
+                    },
+                    "last_changed": "2025-04-21T02:10:43.213987+00:00",
+                    "last_reported": "2025-04-21T02:10:43.213987+00:00",
+                    "last_updated": "2025-04-21T02:10:43.213987+00:00",
+                    "context": {
+                      "id": "01JSB1SCC3ZJRWZHNCQQEDTGQE",
+                      "parent_id": null,
+                      "user_id": "e4ca2c7943004cf7b800b663a5fad745"
+                    }
+                  },
+                  "context": {
+                    "id": "01JSB1SGK3H7505EYKYCWPJE70",
+                    "parent_id": null,
+                    "user_id": "e4ca2c7943004cf7b800b663a5fad745"
+                  }
+                },
+                "result": {
+                  "params": {
+                    "domain": "input_datetime",
+                    "service": "set_datetime",
+                    "service_data": {
+                      "entity_id": "input_datetime.alarm_time",
+                      "time": "01:00:00"
+                    },
+                    "target": {}
+                  },
+                  "running_script": false
+                }
+              }
+            ]
+          },
+          "config": {
+            "alias": "Decrement Minute",
+            "sequence": [
+              {
+                "data": {
+                  "entity_id": "input_datetime.alarm_time",
+                  "time": "{% set current_time = states('input_datetime.alarm_time') %}  {% set hour = current_time.split(':')[0] | int %}  {% set minute = current_time.split(':')[1] | int %} {% set new_minute = (minute - 1) %} {{ '%02d:%02d:00' % (hour, new_minute if new_minute >= 0 else 59) }}\n"
+                },
+                "action": "input_datetime.set_datetime"
+              }
+            ],
+            "description": ""
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01JSB1SGK3H7505EYKYCWPJE70",
+            "parent_id": null,
+            "user_id": "e4ca2c7943004cf7b800b663a5fad745"
+          }
+        },
+        "short_dict": {
+          "last_step": "sequence/0",
+          "run_id": "a96e7f5d93155656c6ca8c0c040839c2",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2025-04-21T02:10:47.524284+00:00",
+            "finish": "2025-04-21T02:10:47.527482+00:00"
+          },
+          "domain": "script",
+          "item_id": "decrement_minute"
         }
       }
     ]

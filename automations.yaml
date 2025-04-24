@@ -1,15 +1,14 @@
 - id: '1744409555312'
-  alias: Light selector dropdown populator
-  description: Populate light selector dropdown with available lights
+  alias: Light_config_selector
+  description: Populate config selector with three available config slots
   triggers:
   - event: start
     trigger: homeassistant
   actions:
   - target:
-      entity_id: input_select.light_selector
+      entity_id: input_select.light_config_selector
     data:
-      options: '{% set all_lights = states.light | map(attribute=''entity_id'') |
-        list %} {{ ["Select a light..."] + all_lights }}
+      options: '{{ [''Config1'', ''Config2'', ''Config3''] }}
 
         '
     action: input_select.set_options
@@ -44,3 +43,41 @@
         %} {{ current_data | to_json }}\n"
     action: input_text.set_value
   mode: single
+- id: '1744771336410'
+  alias: Alarm Trigger
+  description: ''
+  triggers:
+  - trigger: time
+    at: input_datetime.alarm_time
+  - trigger: time
+    id: Mon
+    at: input_datetime.monday
+  - trigger: time
+    id: Tue
+    at: input_datetime.tuesday
+  - trigger: time
+    id: Wed
+    at: input_datetime.wednesday
+  - trigger: time
+    id: Thu
+    at: input_datetime.thursday
+  - trigger: time
+    id: Fri
+    at: input_datetime.friday
+  - trigger: time
+    id: Sat
+    at: input_datetime.saturday
+  - trigger: time
+    id: Sun
+    at: input_datetime.sunday
+  conditions:
+  - condition: state
+    entity_id: input_boolean.alarm_status
+    state: 'on'
+  - condition: template
+    value_template: '{{ now().strftime(''%a'') == trigger.id  }}'
+  actions:
+  - action: script.play_alarm_sound
+    metadata: {}
+    data: {}
+  mode: restart
