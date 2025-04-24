@@ -6,164 +6,164 @@
     {
       "state": {"entity_id":"person.admin","state":"unknown","attributes":{"editable":true,"id":"admin","device_trackers":["device_tracker.iphone"],"user_id":"e4ca2c7943004cf7b800b663a5fad745","friendly_name":"admin"},"last_changed":"2025-04-24T02:41:03.582425+00:00","last_reported":"2025-04-24T02:41:38.167361+00:00","last_updated":"2025-04-24T02:41:38.167361+00:00","context":{"id":"01JSJTR4VQ1MMEGQ3E2E81J0J8","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"conversation.home_assistant","state":"unknown","attributes":{"friendly_name":"Home Assistant","supported_features":1},"last_changed":"2025-04-24T02:41:19.973236+00:00","last_reported":"2025-04-24T02:41:19.973236+00:00","last_updated":"2025-04-24T02:41:19.973236+00:00","context":{"id":"01JSJTQK359J22KG9J6B9BYMWN","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"script.increment_hour","state":"off","attributes":{"last_triggered":"2025-04-24T05:24:45.055043+00:00","mode":"single","current":0,"friendly_name":"Increment Hour"},"last_changed":"2025-04-24T05:24:45.059257+00:00","last_reported":"2025-04-24T05:24:45.059257+00:00","last_updated":"2025-04-24T05:24:45.059257+00:00","context":{"id":"01JSK42TBY753ESGGFMEQN941H","parent_id":null,"user_id":"e4ca2c7943004cf7b800b663a5fad745"}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"script.decrement_hour","state":"off","attributes":{"last_triggered":"2025-04-24T05:24:43.435151+00:00","mode":"single","current":0,"friendly_name":"Decrement Hour"},"last_changed":"2025-04-24T05:24:43.439690+00:00","last_reported":"2025-04-24T05:24:43.439690+00:00","last_updated":"2025-04-24T05:24:43.439690+00:00","context":{"id":"01JSK42RSA0AB8425PVW46J80F","parent_id":null,"user_id":"e4ca2c7943004cf7b800b663a5fad745"}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"script.increment_minute","state":"off","attributes":{"last_triggered":"2025-04-24T05:24:40.032607+00:00","mode":"single","current":0,"friendly_name":"Increment Minute"},"last_changed":"2025-04-24T05:24:40.037168+00:00","last_reported":"2025-04-24T05:24:40.037168+00:00","last_updated":"2025-04-24T05:24:40.037168+00:00","context":{"id":"01JSK42NEZQB2WWSE0M6SCXBW8","parent_id":null,"user_id":"e4ca2c7943004cf7b800b663a5fad745"}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"script.decrement_minute","state":"off","attributes":{"last_triggered":"2025-04-24T05:24:42.114485+00:00","mode":"single","current":0,"friendly_name":"Decrement Minute"},"last_changed":"2025-04-24T05:24:42.117160+00:00","last_reported":"2025-04-24T05:24:42.117160+00:00","last_updated":"2025-04-24T05:24:42.117160+00:00","context":{"id":"01JSK42QG1TJTRC3QBZJB3APSH","parent_id":null,"user_id":"e4ca2c7943004cf7b800b663a5fad745"}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"script.toggle_alarm_am_pm","state":"off","attributes":{"last_triggered":null,"mode":"single","current":0,"friendly_name":"Toggle Alarm AM/PM"},"last_changed":"2025-04-24T02:41:24.034254+00:00","last_reported":"2025-04-24T02:41:24.034254+00:00","last_updated":"2025-04-24T02:41:24.034254+00:00","context":{"id":"01JSJTQQ2257N2BNT9FCPNP7R6","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"script.play_alarm_sound","state":"off","attributes":{"last_triggered":"2025-04-24T07:00:00.083343+00:00","mode":"single","current":0,"friendly_name":"play_alarm_sound"},"last_changed":"2025-04-24T07:00:00.088793+00:00","last_reported":"2025-04-24T07:00:00.088793+00:00","last_updated":"2025-04-24T07:00:00.088793+00:00","context":{"id":"01JSK9H7EE5EM0MGN7PNQHM1J3","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"script.save_light_settings_to_selected_config","state":"off","attributes":{"last_triggered":"2025-04-24T06:08:21.962398+00:00","mode":"single","current":0,"friendly_name":"save_light_config"},"last_changed":"2025-04-24T06:08:21.979086+00:00","last_reported":"2025-04-24T06:08:21.979086+00:00","last_updated":"2025-04-24T06:08:21.979086+00:00","context":{"id":"01JSK6JNY9Q71ARGX85K9PMDT6","parent_id":null,"user_id":"e4ca2c7943004cf7b800b663a5fad745"}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"script.apply_config1","state":"off","attributes":{"last_triggered":"2025-04-24T06:20:00.005837+00:00","mode":"single","current":0,"friendly_name":"Apply config 1"},"last_changed":"2025-04-24T06:20:00.520518+00:00","last_reported":"2025-04-24T06:20:00.520518+00:00","last_updated":"2025-04-24T06:20:00.520518+00:00","context":{"id":"01JSK77ZM4QZDS45YKM8DS0G48","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"input_boolean.alarm_status","state":"on","attributes":{"editable":true,"icon":"mdi:clock","friendly_name":"Alarm Status"},"last_changed":"2025-04-24T02:41:24.077872+00:00","last_reported":"2025-04-24T02:41:24.077872+00:00","last_updated":"2025-04-24T02:41:24.077872+00:00","context":{"id":"01JSJTQQ3DY16WRZMYNFPRJCZH","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"input_select.light_config_selector","state":"Config2","attributes":{"options":["Config1","Config2","Config3"],"editable":true,"icon":"mdi:filter-cog","friendly_name":"Light Config Selector"},"last_changed":"2025-04-24T06:08:16.972447+00:00","last_reported":"2025-04-24T06:08:16.972447+00:00","last_updated":"2025-04-24T06:08:16.972447+00:00","context":{"id":"01JSK6JH2AAXVE2C25W9X8SSQR","parent_id":null,"user_id":"e4ca2c7943004cf7b800b663a5fad745"}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"input_select.am_pm","state":"AM","attributes":{"options":["AM"],"editable":true,"friendly_name":"am_pm"},"last_changed":"2025-04-24T02:41:24.080270+00:00","last_reported":"2025-04-24T02:41:24.080270+00:00","last_updated":"2025-04-24T02:41:24.080270+00:00","context":{"id":"01JSJTQQ3G65XXCE6EE0KE856R","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"input_number.light_color_temp","state":"5000.0","attributes":{"initial":null,"editable":true,"min":2500.0,"max":6500.0,"step":100.0,"mode":"slider","unit_of_measurement":"K","icon":"mdi:temperature-kelvin","friendly_name":"light_color_temp"},"last_changed":"2025-04-24T06:08:21.553250+00:00","last_reported":"2025-04-24T06:08:21.553250+00:00","last_updated":"2025-04-24T06:08:21.553250+00:00","context":{"id":"01JSK6JNHFY23F6N2XD95V18B3","parent_id":null,"user_id":"e4ca2c7943004cf7b800b663a5fad745"}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"input_number.light_brightness","state":"255.0","attributes":{"initial":null,"editable":true,"min":0.0,"max":255.0,"step":1.0,"mode":"slider","unit_of_measurement":"Level","icon":"mdi:brightness-7","friendly_name":"light_brightness"},"last_changed":"2025-04-24T06:08:18.137678+00:00","last_reported":"2025-04-24T06:08:18.137678+00:00","last_updated":"2025-04-24T06:08:18.137678+00:00","context":{"id":"01JSK6JJ6R10VWKJHD5FC417N4","parent_id":null,"user_id":"e4ca2c7943004cf7b800b663a5fad745"}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"input_number.config1_brightness","state":"53.0","attributes":{"initial":null,"editable":true,"min":0.0,"max":255.0,"step":1.0,"mode":"slider","unit_of_measurement":"Level","icon":"mdi:brightness-7","friendly_name":"config1_brightness"},"last_changed":"2025-04-24T02:41:24.082048+00:00","last_reported":"2025-04-24T02:41:24.082048+00:00","last_updated":"2025-04-24T02:41:24.082048+00:00","context":{"id":"01JSJTQQ3JP1EC7GBB0EJF6S0K","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"input_number.config2_brightness","state":"255.0","attributes":{"initial":null,"editable":true,"min":0.0,"max":255.0,"step":1.0,"mode":"slider","unit_of_measurement":"Level","icon":"mdi:brightness-7","friendly_name":"config2_brightness"},"last_changed":"2025-04-24T06:08:21.971184+00:00","last_reported":"2025-04-24T06:08:21.971184+00:00","last_updated":"2025-04-24T06:08:21.971184+00:00","context":{"id":"01JSK6JNY9Q71ARGX85K9PMDT6","parent_id":null,"user_id":"e4ca2c7943004cf7b800b663a5fad745"}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"input_number.config3_brightness","state":"0.0","attributes":{"initial":null,"editable":true,"min":0.0,"max":255.0,"step":1.0,"mode":"slider","unit_of_measurement":"Level","icon":"mdi:brightness-7","friendly_name":"config3_brightness"},"last_changed":"2025-04-24T02:41:24.082977+00:00","last_reported":"2025-04-24T02:41:24.082977+00:00","last_updated":"2025-04-24T02:41:24.082977+00:00","context":{"id":"01JSJTQQ3J6BHWP5WBRGQT5QGM","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"input_number.config1_color_temp","state":"3200.0","attributes":{"initial":null,"editable":true,"min":2500.0,"max":6500.0,"step":1.0,"mode":"slider","unit_of_measurement":"K","icon":"mdi:temperature-kelvin","friendly_name":"config1_color_temp"},"last_changed":"2025-04-24T02:41:24.083339+00:00","last_reported":"2025-04-24T02:41:24.083339+00:00","last_updated":"2025-04-24T02:41:24.083339+00:00","context":{"id":"01JSJTQQ3KSM3M9396ZT1N0N3N","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"input_number.config2_color_temp","state":"5000.0","attributes":{"initial":null,"editable":true,"min":2500.0,"max":6500.0,"step":1.0,"mode":"slider","unit_of_measurement":"Kelvin","icon":"mdi:temperature-kelvin","friendly_name":"config2_color_temp"},"last_changed":"2025-04-24T06:08:21.975355+00:00","last_reported":"2025-04-24T06:08:21.975355+00:00","last_updated":"2025-04-24T06:08:21.975355+00:00","context":{"id":"01JSK6JNY9Q71ARGX85K9PMDT6","parent_id":null,"user_id":"e4ca2c7943004cf7b800b663a5fad745"}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"input_number.config3_color_temp","state":"2500.0","attributes":{"initial":null,"editable":true,"min":2500.0,"max":6500.0,"step":1.0,"mode":"slider","unit_of_measurement":"K","icon":"mdi:temperature-kelvin","friendly_name":"config3_color_temp"},"last_changed":"2025-04-24T02:41:24.084125+00:00","last_reported":"2025-04-24T02:41:24.084125+00:00","last_updated":"2025-04-24T02:41:24.084125+00:00","context":{"id":"01JSJTQQ3MDY694JTWCMPQXM8N","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"input_datetime.alarm_time","state":"04:54:00","attributes":{"has_date":false,"has_time":true,"editable":true,"hour":4,"minute":54,"second":0,"timestamp":17640,"friendly_name":"Alarm Time"},"last_changed":"2025-04-24T05:24:45.058719+00:00","last_reported":"2025-04-24T05:24:45.058719+00:00","last_updated":"2025-04-24T05:24:45.058719+00:00","context":{"id":"01JSK42TBY753ESGGFMEQN941H","parent_id":null,"user_id":"e4ca2c7943004cf7b800b663a5fad745"}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"input_datetime.monday","state":"00:00:00","attributes":{"has_date":false,"has_time":true,"editable":true,"hour":0,"minute":0,"second":0,"timestamp":0,"friendly_name":"Monday"},"last_changed":"2025-04-24T02:41:24.759730+00:00","last_reported":"2025-04-24T02:41:24.759730+00:00","last_updated":"2025-04-24T02:41:24.759730+00:00","context":{"id":"01JSJTQQRQK2S0KYWREWCZNKNY","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"input_datetime.tuesday","state":"00:00:00","attributes":{"has_date":false,"has_time":true,"editable":true,"hour":0,"minute":0,"second":0,"timestamp":0,"friendly_name":"Tuesday"},"last_changed":"2025-04-24T02:41:24.760456+00:00","last_reported":"2025-04-24T02:41:24.760456+00:00","last_updated":"2025-04-24T02:41:24.760456+00:00","context":{"id":"01JSJTQQRR11Q7CJA3GCWQYEVG","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"input_datetime.wednesday","state":"00:00:00","attributes":{"has_date":false,"has_time":true,"editable":true,"hour":0,"minute":0,"second":0,"timestamp":0,"friendly_name":"Wednesday"},"last_changed":"2025-04-24T02:41:24.761143+00:00","last_reported":"2025-04-24T02:41:24.761143+00:00","last_updated":"2025-04-24T02:41:24.761143+00:00","context":{"id":"01JSJTQQRSEY56ASGXA8PCE2S1","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"input_datetime.thursday","state":"00:00:00","attributes":{"has_date":false,"has_time":true,"editable":true,"hour":0,"minute":0,"second":0,"timestamp":0,"friendly_name":"Thursday"},"last_changed":"2025-04-24T02:41:24.761754+00:00","last_reported":"2025-04-24T02:41:24.761754+00:00","last_updated":"2025-04-24T02:41:24.761754+00:00","context":{"id":"01JSJTQQRSCEKHS40Y6F32ARNP","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"input_datetime.friday","state":"00:00:00","attributes":{"has_date":false,"has_time":true,"editable":true,"hour":0,"minute":0,"second":0,"timestamp":0,"friendly_name":"Friday"},"last_changed":"2025-04-24T02:41:24.762350+00:00","last_reported":"2025-04-24T02:41:24.762350+00:00","last_updated":"2025-04-24T02:41:24.762350+00:00","context":{"id":"01JSJTQQRTA6N20A5A3GZ0WK57","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"input_datetime.saturday","state":"00:00:00","attributes":{"has_date":false,"has_time":true,"editable":true,"hour":0,"minute":0,"second":0,"timestamp":0,"friendly_name":"Saturday"},"last_changed":"2025-04-24T02:41:24.768024+00:00","last_reported":"2025-04-24T02:41:24.768024+00:00","last_updated":"2025-04-24T02:41:24.768024+00:00","context":{"id":"01JSJTQQS0JAW1SESXZRHG7YH7","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"input_datetime.sunday","state":"00:00:00","attributes":{"has_date":false,"has_time":true,"editable":true,"hour":0,"minute":0,"second":0,"timestamp":0,"friendly_name":"Sunday"},"last_changed":"2025-04-24T02:41:24.768776+00:00","last_reported":"2025-04-24T02:41:24.768776+00:00","last_updated":"2025-04-24T02:41:24.768776+00:00","context":{"id":"01JSJTQQS0EWMFDVG5TKYEFD51","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"update.smart_multicolor_bulb","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"1.0.0","in_progress":false,"latest_version":"1.0.0","release_summary":null,"release_url":null,"skipped_version":null,"title":null,"update_percentage":null,"device_class":"firmware","friendly_name":"Smart Multicolor Bulb","supported_features":23},"last_changed":"2025-04-24T14:41:35.783419+00:00","last_reported":"2025-04-24T14:41:35.783419+00:00","last_updated":"2025-04-24T14:41:35.783419+00:00","context":{"id":"01JSM3YE17277PWXB3DA6G501J","parent_id":null,"user_id":null}},
       "extra_data": {
         "software_update": null
       },
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"binary_sensor.iphone_focus","state":"off","attributes":{"icon":"mdi:moon-waning-crescent","friendly_name":"iPhone Focus"},"last_changed":"2025-04-24T02:41:37.882344+00:00","last_reported":"2025-04-24T02:41:37.882344+00:00","last_updated":"2025-04-24T02:41:37.882344+00:00","context":{"id":"01JSJTR4JTN07XMS7BF8MZST1D","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"device_tracker.iphone","state":"unknown","attributes":{"source_type":"gps","friendly_name":"iPhone"},"last_changed":"2025-04-24T02:41:37.887846+00:00","last_reported":"2025-04-24T02:41:37.887846+00:00","last_updated":"2025-04-24T02:41:37.887846+00:00","context":{"id":"01JSJTR4JZC9DD7PYHPBPJZ43S","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"sensor.iphone_battery_level","state":"80","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-charging-80","friendly_name":"iPhone Battery Level"},"last_changed":"2025-04-24T02:41:37.892679+00:00","last_reported":"2025-04-24T02:41:37.892679+00:00","last_updated":"2025-04-24T02:41:37.892679+00:00","context":{"id":"01JSJTR4K49TR72MGYSTRKXH8M","parent_id":null,"user_id":null}},
@@ -171,7 +171,7 @@
         "native_value": 80,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"sensor.iphone_battery_state","state":"Charging","attributes":{"Low Power Mode":false,"icon":"mdi:battery-charging-80","friendly_name":"iPhone Battery State"},"last_changed":"2025-04-24T02:41:37.893995+00:00","last_reported":"2025-04-24T02:41:37.893995+00:00","last_updated":"2025-04-24T02:41:37.893995+00:00","context":{"id":"01JSJTR4K535RJHF1FHC2JYCFA","parent_id":null,"user_id":null}},
@@ -179,7 +179,7 @@
         "native_value": "Charging",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"sensor.iphone_geocoded_location","state":"Unknown","attributes":{"icon":"mdi:map","friendly_name":"iPhone Geocoded Location"},"last_changed":"2025-04-24T02:41:37.895229+00:00","last_reported":"2025-04-24T02:41:37.895229+00:00","last_updated":"2025-04-24T02:41:37.895229+00:00","context":{"id":"01JSJTR4K71QVQHASWPC32PDPK","parent_id":null,"user_id":null}},
@@ -187,7 +187,7 @@
         "native_value": "Unknown",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"sensor.iphone_sim_1","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000001","Carrier Name":"--","Current Radio Technology":"Long-Term Evolution (LTE)","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"iPhone SIM 1"},"last_changed":"2025-04-24T02:41:37.896519+00:00","last_reported":"2025-04-24T02:41:37.896519+00:00","last_updated":"2025-04-24T02:41:37.896519+00:00","context":{"id":"01JSJTR4K8K9GFRT6DHMPKTKGH","parent_id":null,"user_id":null}},
@@ -195,7 +195,7 @@
         "native_value": "--",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"sensor.iphone_sim_2","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000002","Carrier Name":"--","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"iPhone SIM 2"},"last_changed":"2025-04-24T02:41:37.897634+00:00","last_reported":"2025-04-24T02:41:37.897634+00:00","last_updated":"2025-04-24T02:41:37.897634+00:00","context":{"id":"01JSJTR4K9RSBT79PSPYN88A2C","parent_id":null,"user_id":null}},
@@ -203,7 +203,7 @@
         "native_value": "--",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"sensor.iphone_last_update_trigger","state":"Launch","attributes":{"icon":"mdi:cellphone-wireless","friendly_name":"iPhone Last Update Trigger"},"last_changed":"2025-04-24T02:41:37.898742+00:00","last_reported":"2025-04-24T02:41:37.898742+00:00","last_updated":"2025-04-24T02:41:37.898742+00:00","context":{"id":"01JSJTR4KA501GT6AT54NW3M2H","parent_id":null,"user_id":null}},
@@ -211,7 +211,7 @@
         "native_value": "Launch",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"sensor.iphone_app_version","state":"2025.3","attributes":{"icon":"mdi:cellphone","friendly_name":"iPhone App Version"},"last_changed":"2025-04-24T02:41:37.899907+00:00","last_reported":"2025-04-24T02:41:37.899907+00:00","last_updated":"2025-04-24T02:41:37.899907+00:00","context":{"id":"01JSJTR4KB84PZH7YC5M56RE45","parent_id":null,"user_id":null}},
@@ -219,7 +219,7 @@
         "native_value": "2025.3",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"sensor.iphone_audio_output","state":"Built-in Speaker","attributes":{"icon":"mdi:volume-high","friendly_name":"iPhone Audio Output"},"last_changed":"2025-04-24T02:41:37.901522+00:00","last_reported":"2025-04-24T02:41:37.901522+00:00","last_updated":"2025-04-24T02:41:37.901522+00:00","context":{"id":"01JSJTR4KDKZEKRWBH00EMYR2F","parent_id":null,"user_id":null}},
@@ -227,7 +227,7 @@
         "native_value": "Built-in Speaker",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"sensor.iphone_storage","state":"36.58","attributes":{"Available":"71.85 GB","Available (Important)":"111.66 GB","Available (Opportunistic)":"93.59 GB","Total":"255.86 GB","unit_of_measurement":"% available","icon":"mdi:database","friendly_name":"iPhone Storage"},"last_changed":"2025-04-24T02:41:37.902821+00:00","last_reported":"2025-04-24T02:41:37.902821+00:00","last_updated":"2025-04-24T02:41:37.902821+00:00","context":{"id":"01JSJTR4KEFQ7M888Q4C9YAR31","parent_id":null,"user_id":null}},
@@ -235,7 +235,7 @@
         "native_value": "36.58",
         "native_unit_of_measurement": "% available"
       },
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"sensor.iphone_location_permission","state":"Authorized when in use","attributes":{"icon":"mdi:map","friendly_name":"iPhone Location permission"},"last_changed":"2025-04-24T02:41:37.904174+00:00","last_reported":"2025-04-24T02:41:37.904174+00:00","last_updated":"2025-04-24T02:41:37.904174+00:00","context":{"id":"01JSJTR4KGF959RQ7TNECYZ705","parent_id":null,"user_id":null}},
@@ -243,7 +243,7 @@
         "native_value": "Authorized when in use",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"sensor.iphone_ssid","state":"Lakers123","attributes":{"icon":"mdi:wifi","friendly_name":"iPhone SSID"},"last_changed":"2025-04-24T02:41:37.905218+00:00","last_reported":"2025-04-24T02:41:37.905218+00:00","last_updated":"2025-04-24T02:41:37.905218+00:00","context":{"id":"01JSJTR4KHP6VCMHFQ3A1EHDSF","parent_id":null,"user_id":null}},
@@ -251,7 +251,7 @@
         "native_value": "Lakers123",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"sensor.iphone_bssid","state":"dc:eb:69:af:c0:45","attributes":{"icon":"mdi:wifi-star","friendly_name":"iPhone BSSID"},"last_changed":"2025-04-24T02:41:37.908199+00:00","last_reported":"2025-04-24T02:41:37.908199+00:00","last_updated":"2025-04-24T02:41:37.908199+00:00","context":{"id":"01JSJTR4KMWCA6DPV7QN6B11R8","parent_id":null,"user_id":null}},
@@ -259,7 +259,7 @@
         "native_value": "dc:eb:69:af:c0:45",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"sensor.iphone_connection_type","state":"Wi-Fi","attributes":{"icon":"mdi:wifi","friendly_name":"iPhone Connection Type"},"last_changed":"2025-04-24T02:41:37.909113+00:00","last_reported":"2025-04-24T02:41:37.909113+00:00","last_updated":"2025-04-24T02:41:37.909113+00:00","context":{"id":"01JSJTR4KNZJRVTTCKH0F07K18","parent_id":null,"user_id":null}},
@@ -267,7 +267,7 @@
         "native_value": "Wi-Fi",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"sensor.iphone_floors_ascended","state":"1","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-up","friendly_name":"iPhone Floors Ascended"},"last_changed":"2025-04-24T02:41:37.909867+00:00","last_reported":"2025-04-24T02:41:37.909867+00:00","last_updated":"2025-04-24T02:41:37.909867+00:00","context":{"id":"01JSJTR4KNJKG1JDR5PN18C143","parent_id":null,"user_id":null}},
@@ -275,7 +275,7 @@
         "native_value": 1,
         "native_unit_of_measurement": "floors"
       },
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"sensor.iphone_activity","state":"Unknown","attributes":{"Confidence":"High","Types":["Unknown"],"icon":"mdi:help-circle","friendly_name":"iPhone Activity"},"last_changed":"2025-04-24T02:41:37.910619+00:00","last_reported":"2025-04-24T02:41:37.910619+00:00","last_updated":"2025-04-24T02:41:37.910619+00:00","context":{"id":"01JSJTR4KP7EQQY2H5BN27Y4SH","parent_id":null,"user_id":null}},
@@ -283,7 +283,7 @@
         "native_value": "Unknown",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"sensor.iphone_distance","state":"328","attributes":{"unit_of_measurement":"m","icon":"mdi:hiking","friendly_name":"iPhone Distance"},"last_changed":"2025-04-24T02:41:37.911430+00:00","last_reported":"2025-04-24T02:41:37.911430+00:00","last_updated":"2025-04-24T02:41:37.911430+00:00","context":{"id":"01JSJTR4KQEZQMGKTKDVG12NFE","parent_id":null,"user_id":null}},
@@ -291,7 +291,7 @@
         "native_value": 328,
         "native_unit_of_measurement": "m"
       },
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"sensor.iphone_steps","state":"489","attributes":{"unit_of_measurement":"steps","icon":"mdi:walk","friendly_name":"iPhone Steps"},"last_changed":"2025-04-24T02:41:37.912306+00:00","last_reported":"2025-04-24T02:41:37.912306+00:00","last_updated":"2025-04-24T02:41:37.912306+00:00","context":{"id":"01JSJTR4KR1WZZQXN1629MZS8S","parent_id":null,"user_id":null}},
@@ -299,7 +299,7 @@
         "native_value": 489,
         "native_unit_of_measurement": "steps"
       },
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"sensor.iphone_floors_descended","state":"1","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-down","friendly_name":"iPhone Floors Descended"},"last_changed":"2025-04-24T02:41:37.913524+00:00","last_reported":"2025-04-24T02:41:37.913524+00:00","last_updated":"2025-04-24T02:41:37.913524+00:00","context":{"id":"01JSJTR4KSNBAEJRMYPV7Z5Y3F","parent_id":null,"user_id":null}},
@@ -307,7 +307,7 @@
         "native_value": 1,
         "native_unit_of_measurement": "floors"
       },
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"sensor.iphone_average_active_pace","state":"1","attributes":{"unit_of_measurement":"m/s","icon":"mdi:speedometer","friendly_name":"iPhone Average Active Pace"},"last_changed":"2025-04-24T02:41:37.914381+00:00","last_reported":"2025-04-24T02:41:37.914381+00:00","last_updated":"2025-04-24T02:41:37.914381+00:00","context":{"id":"01JSJTR4KT8CRR0XB4RH0MYC32","parent_id":null,"user_id":null}},
@@ -315,47 +315,47 @@
         "native_value": 1,
         "native_unit_of_measurement": "m/s"
       },
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"update.scheduler_component_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"v3.3.8","in_progress":false,"latest_version":"v3.3.8","release_summary":null,"release_url":"https://github.com/nielsfaber/scheduler-component/releases/v3.3.8","skipped_version":null,"title":null,"update_percentage":null,"entity_picture":"https://brands.home-assistant.io/_/scheduler/icon.png","friendly_name":"Scheduler component update","supported_features":23},"last_changed":"2025-04-24T02:41:38.004266+00:00","last_reported":"2025-04-24T02:41:38.004266+00:00","last_updated":"2025-04-24T02:41:38.004266+00:00","context":{"id":"01JSJTR4PM0WVQHES2D66YSRE9","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"update.hacs_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"2.0.5","in_progress":false,"latest_version":"2.0.5","release_summary":null,"release_url":"https://github.com/hacs/integration/releases/2.0.5","skipped_version":null,"title":null,"update_percentage":null,"entity_picture":"https://brands.home-assistant.io/_/hacs/icon.png","friendly_name":"HACS update","supported_features":23},"last_changed":"2025-04-24T02:41:38.005205+00:00","last_reported":"2025-04-24T02:41:38.005205+00:00","last_updated":"2025-04-24T02:41:38.005205+00:00","context":{"id":"01JSJTR4PNYFGRB8CSF1Y5RV5A","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"tts.google_translate_en_com","state":"unknown","attributes":{"friendly_name":"Google Translate en com"},"last_changed":"2025-04-24T02:41:38.104998+00:00","last_reported":"2025-04-24T02:41:38.104998+00:00","last_updated":"2025-04-24T02:41:38.104998+00:00","context":{"id":"01JSJTR4SRRASHVFFAN0FZQMCB","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"automation.light_selector_dropdown_populator","state":"on","attributes":{"id":"1744409555312","last_triggered":"2025-04-24T02:41:39.295216+00:00","mode":"single","current":0,"friendly_name":"Light_config_selector"},"last_changed":"2025-04-24T02:41:38.150860+00:00","last_reported":"2025-04-24T02:41:39.302873+00:00","last_updated":"2025-04-24T02:41:39.302419+00:00","context":{"id":"01JSJTR5YYFP729W56DHPE828Y","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"automation.multi_light_settings","state":"on","attributes":{"id":"1744427052558","last_triggered":"2025-04-24T06:08:21.555264+00:00","mode":"single","current":0,"friendly_name":"multi_light_settings"},"last_changed":"2025-04-24T02:41:38.151653+00:00","last_reported":"2025-04-24T06:08:21.563266+00:00","last_updated":"2025-04-24T06:08:21.563266+00:00","context":{"id":"01JSK6JNHJX8MT2PZ6263SVTZX","parent_id":"01JSK6JNHFY23F6N2XD95V18B3","user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"automation.alarm_trigger","state":"on","attributes":{"id":"1744771336410","last_triggered":"2025-04-24T07:00:00.081266+00:00","mode":"restart","current":0,"friendly_name":"Alarm Trigger"},"last_changed":"2025-04-24T02:41:38.152233+00:00","last_reported":"2025-04-24T07:00:00.089875+00:00","last_updated":"2025-04-24T07:00:00.089875+00:00","context":{"id":"01JSK9H7EE5EM0MGN7PNQHM1J3","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"script.apply_config_2","state":"off","attributes":{"last_triggered":"2025-04-24T06:10:00.004552+00:00","mode":"single","current":0,"friendly_name":"Apply config 2"},"last_changed":"2025-04-24T06:10:00.335505+00:00","last_reported":"2025-04-24T06:10:00.335505+00:00","last_updated":"2025-04-24T06:10:00.335505+00:00","context":{"id":"01JSK6NNP2RFC65P14XMCZPKSQ","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     },
     {
       "state": {"entity_id":"script.apply_config_3","state":"off","attributes":{"last_triggered":null,"mode":"single","current":0,"friendly_name":"Apply config 3"},"last_changed":"2025-04-24T06:08:00.305596+00:00","last_reported":"2025-04-24T06:08:00.306525+00:00","last_updated":"2025-04-24T06:08:00.305596+00:00","context":{"id":"01JSK6J0SH5DJX2X4FTFQMRK8H","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-04-24T15:41:38.236778+00:00"
+      "last_seen": "2025-04-24T15:56:38.238139+00:00"
     }
   ]
 }
