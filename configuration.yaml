@@ -9,3 +9,11 @@ frontend:
 automation: !include automations.yaml
 script: !include scripts.yaml
 scene: !include scenes.yaml
+shell_command:
+    play_local_notification: 'ffplay -nodisp -vn /config/www/test.wav'
+media_player:
+  - platform: command_line
+    name: RPi Audio
+    command: aplay -q "{{media_content_id}}"
+browser_mod:
+  prefix: "browser"

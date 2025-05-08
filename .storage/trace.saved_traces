@@ -7,12 +7,12 @@
       {
         "extended_dict": {
           "last_step": "action/0",
-          "run_id": "01a65bd01e80ba06088b07552fd7efa7",
+          "run_id": "26ba788aef90c85ac2dc126614d8be0f",
           "state": "stopped",
           "script_execution": "finished",
           "timestamp": {
-            "start": "2025-04-20T21:10:53.211715+00:00",
-            "finish": "2025-04-20T21:10:53.312548+00:00"
+            "start": "2025-05-07T05:26:53.881506+00:00",
+            "finish": "2025-05-07T05:26:53.895535+00:00"
           },
           "domain": "automation",
           "item_id": "1744409555312",
@@ -21,23 +21,23 @@
             "trigger/0": [
               {
                 "path": "trigger/0",
-                "timestamp": "2025-04-20T21:10:53.211965+00:00",
+                "timestamp": "2025-05-07T05:26:53.881749+00:00",
                 "changed_variables": {
                   "this": {
                     "entity_id": "automation.light_selector_dropdown_populator",
                     "state": "on",
                     "attributes": {
                       "id": "1744409555312",
-                      "last_triggered": "2025-04-20T20:50:09.617895+00:00",
+                      "last_triggered": "2025-05-07T03:58:14.237411+00:00",
                       "mode": "single",
                       "current": 0,
                       "friendly_name": "Light_config_selector"
                     },
-                    "last_changed": "2025-04-20T21:10:51.436332+00:00",
-                    "last_reported": "2025-04-20T21:10:51.436332+00:00",
-                    "last_updated": "2025-04-20T21:10:51.436332+00:00",
+                    "last_changed": "2025-05-07T05:26:46.256721+00:00",
+                    "last_reported": "2025-05-07T05:26:46.256721+00:00",
+                    "last_updated": "2025-05-07T05:26:46.256721+00:00",
                     "context": {
-                      "id": "01JSAGMA9C76TP9HC55MA0HJHE",
+                      "id": "01JTMKBVQG36FE1FZSPZGKG6RZ",
                       "parent_id": null,
                       "user_id": null
                     }
@@ -56,10 +56,10 @@
             "action/0": [
               {
                 "path": "action/0",
-                "timestamp": "2025-04-20T21:10:53.290358+00:00",
+                "timestamp": "2025-05-07T05:26:53.882706+00:00",
                 "changed_variables": {
                   "context": {
-                    "id": "01JSAGMC0VBMHBNQ7GYF5Z6TGC",
+                    "id": "01JTMKC35S28SBZN6193176MM5",
                     "parent_id": null,
                     "user_id": null
                   }
@@ -114,19 +114,148 @@
           },
           "blueprint_inputs": null,
           "context": {
-            "id": "01JSAGMC0VBMHBNQ7GYF5Z6TGC",
+            "id": "01JTMKC35S28SBZN6193176MM5",
             "parent_id": null,
             "user_id": null
           }
         },
         "short_dict": {
           "last_step": "action/0",
-          "run_id": "01a65bd01e80ba06088b07552fd7efa7",
+          "run_id": "26ba788aef90c85ac2dc126614d8be0f",
           "state": "stopped",
           "script_execution": "finished",
           "timestamp": {
-            "start": "2025-04-20T21:10:53.211715+00:00",
-            "finish": "2025-04-20T21:10:53.312548+00:00"
+            "start": "2025-05-07T05:26:53.881506+00:00",
+            "finish": "2025-05-07T05:26:53.895535+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1744409555312",
+          "trigger": "Home Assistant starting"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "c2e2629afd889356c5a0c547c43efe0f",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2025-05-08T01:42:35.321579+00:00",
+            "finish": "2025-05-08T01:42:35.331784+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1744409555312",
+          "trigger": "Home Assistant starting",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2025-05-08T01:42:35.321791+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.light_selector_dropdown_populator",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1744409555312",
+                      "last_triggered": "2025-05-07T05:26:53.882047+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Light_config_selector"
+                    },
+                    "last_changed": "2025-05-08T01:42:24.587602+00:00",
+                    "last_reported": "2025-05-08T01:42:24.587602+00:00",
+                    "last_updated": "2025-05-08T01:42:24.587602+00:00",
+                    "context": {
+                      "id": "01JTPRXRJB1VYW5CYKGYV6MGZF",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "homeassistant",
+                    "event": "start",
+                    "description": "Home Assistant starting"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2025-05-08T01:42:35.322800+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01JTPRY31SCKWN2R61757X618X",
+                    "parent_id": null,
+                    "user_id": null
+                  }
+                },
+                "result": {
+                  "params": {
+                    "domain": "input_select",
+                    "service": "set_options",
+                    "service_data": {
+                      "options": [
+                        "Config1",
+                        "Config2",
+                        "Config3"
+                      ],
+                      "entity_id": [
+                        "input_select.light_config_selector"
+                      ]
+                    },
+                    "target": {
+                      "entity_id": [
+                        "input_select.light_config_selector"
+                      ]
+                    }
+                  },
+                  "running_script": false
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1744409555312",
+            "alias": "Light_config_selector",
+            "description": "Populate config selector with three available config slots",
+            "triggers": [
+              {
+                "event": "start",
+                "trigger": "homeassistant"
+              }
+            ],
+            "actions": [
+              {
+                "target": {
+                  "entity_id": "input_select.light_config_selector"
+                },
+                "data": {
+                  "options": "{{ ['Config1', 'Config2', 'Config3'] }}\n"
+                },
+                "action": "input_select.set_options"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01JTPRY31SCKWN2R61757X618X",
+            "parent_id": null,
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "c2e2629afd889356c5a0c547c43efe0f",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2025-05-08T01:42:35.321579+00:00",
+            "finish": "2025-05-08T01:42:35.331784+00:00"
           },
           "domain": "automation",
           "item_id": "1744409555312",
@@ -138,12 +267,12 @@
       {
         "extended_dict": {
           "last_step": "sequence/0",
-          "run_id": "38cc52c5bd114d9378db721ee19b754b",
+          "run_id": "39def9504a2a6a9c38e0b081570196b5",
           "state": "stopped",
           "script_execution": "finished",
           "timestamp": {
-            "start": "2025-04-21T02:10:41.312800+00:00",
-            "finish": "2025-04-21T02:10:41.377213+00:00"
+            "start": "2025-05-08T01:43:33.198411+00:00",
+            "finish": "2025-05-08T01:43:33.203101+00:00"
           },
           "domain": "script",
           "item_id": "increment_minute",
@@ -151,28 +280,28 @@
             "sequence/0": [
               {
                 "path": "sequence/0",
-                "timestamp": "2025-04-21T02:10:41.326542+00:00",
+                "timestamp": "2025-05-08T01:43:33.199465+00:00",
                 "changed_variables": {
                   "this": {
                     "entity_id": "script.increment_minute",
                     "state": "off",
                     "attributes": {
-                      "last_triggered": "2025-04-17T02:38:45.538627+00:00",
+                      "last_triggered": "2025-05-07T03:19:57.197608+00:00",
                       "mode": "single",
                       "current": 0,
                       "friendly_name": "Increment Minute"
                     },
-                    "last_changed": "2025-04-20T21:10:23.483806+00:00",
-                    "last_reported": "2025-04-20T21:10:23.483806+00:00",
-                    "last_updated": "2025-04-20T21:10:23.483806+00:00",
+                    "last_changed": "2025-05-08T01:42:09.802281+00:00",
+                    "last_reported": "2025-05-08T01:42:09.802281+00:00",
+                    "last_updated": "2025-05-08T01:42:09.802281+00:00",
                     "context": {
-                      "id": "01JSAGKEZVWCW1BVX9QWDXTG87",
+                      "id": "01JTPRXA4AZ8TS7MNAHAEYNHTZ",
                       "parent_id": null,
                       "user_id": null
                     }
                   },
                   "context": {
-                    "id": "01JSB1SAGY1MJBBFFB7SWFBPQQ",
+                    "id": "01JTPRZVJD8RKHTA6HJKFNJT8H",
                     "parent_id": null,
                     "user_id": "e4ca2c7943004cf7b800b663a5fad745"
                   }
@@ -183,7 +312,7 @@
                     "service": "set_datetime",
                     "service_data": {
                       "entity_id": "input_datetime.alarm_time",
-                      "time": "01:02:00"
+                      "time": "00:02:00"
                     },
                     "target": {}
                   },
@@ -207,440 +336,1097 @@
           },
           "blueprint_inputs": null,
           "context": {
-            "id": "01JSB1SAGY1MJBBFFB7SWFBPQQ",
+            "id": "01JTPRZVJD8RKHTA6HJKFNJT8H",
             "parent_id": null,
             "user_id": "e4ca2c7943004cf7b800b663a5fad745"
           }
         },
         "short_dict": {
           "last_step": "sequence/0",
-          "run_id": "38cc52c5bd114d9378db721ee19b754b",
+          "run_id": "39def9504a2a6a9c38e0b081570196b5",
           "state": "stopped",
           "script_execution": "finished",
           "timestamp": {
-            "start": "2025-04-21T02:10:41.312800+00:00",
-            "finish": "2025-04-21T02:10:41.377213+00:00"
+            "start": "2025-05-08T01:43:33.198411+00:00",
+            "finish": "2025-05-08T01:43:33.203101+00:00"
           },
           "domain": "script",
           "item_id": "increment_minute"
         }
       }
     ],
-    "script.decrement_hour": [
+    "automation.1744771336410": [
       {
         "extended_dict": {
-          "last_step": "sequence/1",
-          "run_id": "df4fe90ef05e6e2223b8553b385608b3",
+          "last_step": "condition/1",
+          "run_id": "54d1e51b4eed97a99b1e7ef6f2dd6f2c",
           "state": "stopped",
-          "script_execution": "finished",
+          "script_execution": "failed_conditions",
           "timestamp": {
-            "start": "2025-04-21T02:10:42.089800+00:00",
-            "finish": "2025-04-21T02:10:42.132715+00:00"
+            "start": "2025-05-08T00:51:41.520055+00:00",
+            "finish": "2025-05-08T00:51:41.521972+00:00"
           },
-          "domain": "script",
-          "item_id": "decrement_hour",
+          "domain": "automation",
+          "item_id": "1744771336410",
+          "trigger": "time set in input_datetime.thursday",
           "trace": {
-            "sequence/0": [
+            "trigger/4": [
               {
-                "path": "sequence/0",
-                "timestamp": "2025-04-21T02:10:42.092618+00:00",
+                "path": "trigger/4",
+                "timestamp": "2025-05-08T00:51:41.520294+00:00",
                 "changed_variables": {
                   "this": {
-                    "entity_id": "script.decrement_hour",
-                    "state": "off",
+                    "entity_id": "automation.alarm_trigger",
+                    "state": "on",
                     "attributes": {
-                      "last_triggered": null,
-                      "mode": "single",
+                      "id": "1744771336410",
+                      "last_triggered": "2025-05-08T00:51:41.318817+00:00",
+                      "mode": "restart",
                       "current": 0,
-                      "friendly_name": "Decrement Hour"
+                      "friendly_name": "Alarm Trigger"
                     },
-                    "last_changed": "2025-04-20T21:10:23.482499+00:00",
-                    "last_reported": "2025-04-20T21:10:23.482499+00:00",
-                    "last_updated": "2025-04-20T21:10:23.482499+00:00",
+                    "last_changed": "2025-05-07T05:26:46.258067+00:00",
+                    "last_reported": "2025-05-08T00:51:41.331478+00:00",
+                    "last_updated": "2025-05-08T00:51:41.331478+00:00",
                     "context": {
-                      "id": "01JSAGKEZTVYZYPQ3XA2RH50RD",
+                      "id": "01JTPP0WM3HN3E6C6VN6NXEVT6",
                       "parent_id": null,
                       "user_id": null
                     }
                   },
-                  "context": {
-                    "id": "01JSB1SB96WKKDD2WQDF6EPGQM",
-                    "parent_id": null,
-                    "user_id": "e4ca2c7943004cf7b800b663a5fad745"
-                  },
-                  "current_time": "01:02:00",
-                  "hour": 1,
-                  "minute": 2,
-                  "am_pm": "AM",
-                  "new_hour": 12,
-                  "new_am_pm": "PM"
+                  "trigger": {
+                    "id": "Thu",
+                    "idx": "4",
+                    "alias": null,
+                    "platform": "time",
+                    "now": "2025-05-07T17:51:41.519194-07:00",
+                    "description": "time set in input_datetime.thursday",
+                    "entity_id": "input_datetime.thursday"
+                  }
                 }
               }
             ],
-            "sequence/1": [
+            "condition/0": [
               {
-                "path": "sequence/1",
-                "timestamp": "2025-04-21T02:10:42.119406+00:00",
+                "path": "condition/0",
+                "timestamp": "2025-05-08T00:51:41.520465+00:00",
                 "result": {
-                  "params": {
-                    "domain": "input_datetime",
-                    "service": "set_datetime",
-                    "service_data": {
-                      "time": "12:02:00",
-                      "entity_id": [
-                        "input_datetime.alarm_time"
-                      ]
-                    },
-                    "target": {
-                      "entity_id": [
-                        "input_datetime.alarm_time"
-                      ]
-                    }
-                  },
-                  "running_script": false
+                  "result": true
+                }
+              }
+            ],
+            "condition/0/entity_id/0": [
+              {
+                "path": "condition/0/entity_id/0",
+                "timestamp": "2025-05-08T00:51:41.520595+00:00",
+                "result": {
+                  "result": true,
+                  "state": "on",
+                  "wanted_state": "on"
+                }
+              }
+            ],
+            "condition/1": [
+              {
+                "path": "condition/1",
+                "timestamp": "2025-05-08T00:51:41.520958+00:00",
+                "result": {
+                  "result": false,
+                  "entities": []
                 }
               }
             ]
           },
           "config": {
-            "alias": "Decrement Hour",
-            "sequence": [
+            "id": "1744771336410",
+            "alias": "Alarm Trigger",
+            "description": "",
+            "triggers": [
               {
-                "variables": {
-                  "current_time": "{{ states('input_datetime.alarm_time') }}",
-                  "hour": "{{ current_time.split(':')[0] | int }}",
-                  "minute": "{{ current_time.split(':')[1] | int }}",
-                  "am_pm": "{{ 'AM' if hour < 12 else 'PM' }}",
-                  "new_hour": "{{ (hour - 1) if hour - 1 > 0 else 12 }}",
-                  "new_am_pm": "{{ 'AM' if new_hour == 12 and am_pm == 'PM' else 'PM' if new_hour == 12 and am_pm == 'AM' else am_pm }}"
-                }
+                "trigger": "time",
+                "at": "input_datetime.alarm_time"
               },
               {
-                "target": {
-                  "entity_id": "input_datetime.alarm_time"
-                },
+                "trigger": "time",
+                "id": "Mon",
+                "at": "input_datetime.monday"
+              },
+              {
+                "trigger": "time",
+                "id": "Tue",
+                "at": "input_datetime.tuesday"
+              },
+              {
+                "trigger": "time",
+                "id": "Wed",
+                "at": "input_datetime.wednesday"
+              },
+              {
+                "trigger": "time",
+                "id": "Thu",
+                "at": "input_datetime.thursday"
+              },
+              {
+                "trigger": "time",
+                "id": "Fri",
+                "at": "input_datetime.friday"
+              },
+              {
+                "trigger": "time",
+                "id": "Sat",
+                "at": "input_datetime.saturday"
+              },
+              {
+                "trigger": "time",
+                "id": "Sun",
+                "at": "input_datetime.sunday"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "state",
+                "entity_id": "input_boolean.alarm_status",
+                "state": "on"
+              },
+              {
+                "condition": "template",
+                "value_template": "{{ now().strftime('%a') == trigger.id  }}"
+              }
+            ],
+            "actions": [
+              {
+                "action": "script.play_alarm_sound",
+                "metadata": {},
+                "data": {},
+                "enabled": false
+              },
+              {
+                "action": "browser_mod.popup",
+                "metadata": {},
                 "data": {
-                  "time": "{{ '%02d:%02d:00' % (new_hour, minute) }}"
-                },
-                "action": "input_datetime.set_datetime"
-              }
-            ],
-            "description": ""
-          },
-          "blueprint_inputs": null,
-          "context": {
-            "id": "01JSB1SB96WKKDD2WQDF6EPGQM",
-            "parent_id": null,
-            "user_id": "e4ca2c7943004cf7b800b663a5fad745"
-          }
-        },
-        "short_dict": {
-          "last_step": "sequence/1",
-          "run_id": "df4fe90ef05e6e2223b8553b385608b3",
-          "state": "stopped",
-          "script_execution": "finished",
-          "timestamp": {
-            "start": "2025-04-21T02:10:42.089800+00:00",
-            "finish": "2025-04-21T02:10:42.132715+00:00"
-          },
-          "domain": "script",
-          "item_id": "decrement_hour"
-        }
-      }
-    ],
-    "script.increment_hour": [
-      {
-        "extended_dict": {
-          "last_step": "sequence/1",
-          "run_id": "eaaea5a8a7fa2b93ca8be3807b1695fe",
-          "state": "stopped",
-          "script_execution": "finished",
-          "timestamp": {
-            "start": "2025-04-21T02:10:42.605883+00:00",
-            "finish": "2025-04-21T02:10:42.622695+00:00"
-          },
-          "domain": "script",
-          "item_id": "increment_hour",
-          "trace": {
-            "sequence/0": [
-              {
-                "path": "sequence/0",
-                "timestamp": "2025-04-21T02:10:42.608638+00:00",
-                "changed_variables": {
-                  "this": {
-                    "entity_id": "script.increment_hour",
-                    "state": "off",
-                    "attributes": {
-                      "last_triggered": "2025-04-17T02:38:44.333673+00:00",
-                      "mode": "single",
-                      "current": 0,
-                      "friendly_name": "Increment Hour"
-                    },
-                    "last_changed": "2025-04-20T21:10:23.481226+00:00",
-                    "last_reported": "2025-04-20T21:10:23.481226+00:00",
-                    "last_updated": "2025-04-20T21:10:23.481226+00:00",
-                    "context": {
-                      "id": "01JSAGKEZS5A7BTJ4FFQA42V2Q",
-                      "parent_id": null,
-                      "user_id": null
-                    }
+                  "dismissable": true,
+                  "browser_id": [
+                    "699bb46ddf58abeaf0e531b8ffc9fc63"
+                  ],
+                  "title": "Alarm has triggered",
+                  "right_button": "Snooze",
+                  "left_button": "Stop",
+                  "right_button_action": {
+                    "action": "call-service",
+                    "service": "script.increment_minute"
                   },
-                  "context": {
-                    "id": "01JSB1SBSDP58SHN6SZDEVQS71",
-                    "parent_id": null,
-                    "user_id": "e4ca2c7943004cf7b800b663a5fad745"
-                  },
-                  "current_time": "12:02:00",
-                  "hour": 12,
-                  "minute": 2,
-                  "am_pm": "PM",
-                  "new_hour": 1,
-                  "new_am_pm": "PM"
-                }
-              }
-            ],
-            "sequence/1": [
-              {
-                "path": "sequence/1",
-                "timestamp": "2025-04-21T02:10:42.616627+00:00",
-                "result": {
-                  "params": {
-                    "domain": "input_datetime",
-                    "service": "set_datetime",
+                  "left_button_action": {
+                    "action": "call-service",
+                    "service": "media_player.media_stop",
                     "service_data": {
-                      "time": "01:02:00",
-                      "entity_id": [
-                        "input_datetime.alarm_time"
-                      ]
-                    },
-                    "target": {
-                      "entity_id": [
-                        "input_datetime.alarm_time"
-                      ]
+                      "entity_id": "media_player.popups"
                     }
                   },
-                  "running_script": false
-                }
-              }
-            ]
-          },
-          "config": {
-            "alias": "Increment Hour",
-            "sequence": [
-              {
-                "variables": {
-                  "current_time": "{{ states('input_datetime.alarm_time') }}",
-                  "hour": "{{ current_time.split(':')[0] | int }}",
-                  "minute": "{{ current_time.split(':')[1] | int }}",
-                  "am_pm": "{{ 'AM' if hour < 12 else 'PM' }}",
-                  "new_hour": "{{ (hour + 1) if hour + 1 <= 12 else 1 }}",
-                  "new_am_pm": "{{ 'AM' if new_hour == 12 and am_pm == 'PM' else 'PM' if new_hour == 12 and am_pm == 'AM' else am_pm }}"
+                  "timeout": 60000
                 }
               },
               {
-                "target": {
-                  "entity_id": "input_datetime.alarm_time"
-                },
+                "action": "media_player.play_media",
+                "metadata": {},
                 "data": {
-                  "time": "{{ '%02d:%02d:00' % (new_hour, minute) }}"
+                  "media_content_id": "http://rpi.local:8123/local/alarm_sound.mp3",
+                  "media_content_type": "audio"
                 },
-                "action": "input_datetime.set_datetime"
+                "target": {
+                  "device_id": "699bb46ddf58abeaf0e531b8ffc9fc63"
+                }
               }
             ],
-            "description": ""
+            "mode": "restart"
           },
           "blueprint_inputs": null,
           "context": {
-            "id": "01JSB1SBSDP58SHN6SZDEVQS71",
+            "id": "01JTPP0WTFGPG2H2V41SPPGFE4",
             "parent_id": null,
-            "user_id": "e4ca2c7943004cf7b800b663a5fad745"
+            "user_id": null
           }
         },
         "short_dict": {
-          "last_step": "sequence/1",
-          "run_id": "eaaea5a8a7fa2b93ca8be3807b1695fe",
+          "last_step": "condition/1",
+          "run_id": "54d1e51b4eed97a99b1e7ef6f2dd6f2c",
           "state": "stopped",
-          "script_execution": "finished",
+          "script_execution": "failed_conditions",
           "timestamp": {
-            "start": "2025-04-21T02:10:42.605883+00:00",
-            "finish": "2025-04-21T02:10:42.622695+00:00"
+            "start": "2025-05-08T00:51:41.520055+00:00",
+            "finish": "2025-05-08T00:51:41.521972+00:00"
           },
-          "domain": "script",
-          "item_id": "increment_hour"
+          "domain": "automation",
+          "item_id": "1744771336410",
+          "trigger": "time set in input_datetime.thursday"
         }
       },
       {
         "extended_dict": {
-          "last_step": "sequence/1",
-          "run_id": "316fcb69c06908ff67179047f7e17e93",
+          "last_step": "condition/1",
+          "run_id": "b1672d7d3cebdad6f62e40a64d5c87af",
           "state": "stopped",
-          "script_execution": "finished",
+          "script_execution": "failed_conditions",
           "timestamp": {
-            "start": "2025-04-21T02:10:50.405002+00:00",
-            "finish": "2025-04-21T02:10:50.418159+00:00"
+            "start": "2025-05-08T00:51:41.523111+00:00",
+            "finish": "2025-05-08T00:51:41.524955+00:00"
           },
-          "domain": "script",
-          "item_id": "increment_hour",
+          "domain": "automation",
+          "item_id": "1744771336410",
+          "trigger": "time set in input_datetime.sunday",
           "trace": {
-            "sequence/0": [
+            "trigger/7": [
               {
-                "path": "sequence/0",
-                "timestamp": "2025-04-21T02:10:50.406337+00:00",
+                "path": "trigger/7",
+                "timestamp": "2025-05-08T00:51:41.523257+00:00",
                 "changed_variables": {
                   "this": {
-                    "entity_id": "script.increment_hour",
-                    "state": "off",
+                    "entity_id": "automation.alarm_trigger",
+                    "state": "on",
                     "attributes": {
-                      "last_triggered": "2025-04-21T02:10:42.606252+00:00",
-                      "mode": "single",
+                      "id": "1744771336410",
+                      "last_triggered": "2025-05-08T00:51:41.318817+00:00",
+                      "mode": "restart",
                       "current": 0,
-                      "friendly_name": "Increment Hour"
+                      "friendly_name": "Alarm Trigger"
                     },
-                    "last_changed": "2025-04-21T02:10:42.622240+00:00",
-                    "last_reported": "2025-04-21T02:10:42.622240+00:00",
-                    "last_updated": "2025-04-21T02:10:42.622240+00:00",
+                    "last_changed": "2025-05-07T05:26:46.258067+00:00",
+                    "last_reported": "2025-05-08T00:51:41.331478+00:00",
+                    "last_updated": "2025-05-08T00:51:41.331478+00:00",
                     "context": {
-                      "id": "01JSB1SBSDP58SHN6SZDEVQS71",
+                      "id": "01JTPP0WM3HN3E6C6VN6NXEVT6",
                       "parent_id": null,
-                      "user_id": "e4ca2c7943004cf7b800b663a5fad745"
+                      "user_id": null
                     }
                   },
-                  "context": {
-                    "id": "01JSB1SKD4APX99R7487X736TS",
-                    "parent_id": null,
-                    "user_id": "e4ca2c7943004cf7b800b663a5fad745"
-                  },
-                  "current_time": "01:00:00",
-                  "hour": 1,
-                  "minute": 0,
-                  "am_pm": "AM",
-                  "new_hour": 2,
-                  "new_am_pm": "AM"
+                  "trigger": {
+                    "id": "Sun",
+                    "idx": "7",
+                    "alias": null,
+                    "platform": "time",
+                    "now": "2025-05-07T17:51:41.522239-07:00",
+                    "description": "time set in input_datetime.sunday",
+                    "entity_id": "input_datetime.sunday"
+                  }
                 }
               }
             ],
-            "sequence/1": [
+            "condition/0": [
               {
-                "path": "sequence/1",
-                "timestamp": "2025-04-21T02:10:50.413234+00:00",
+                "path": "condition/0",
+                "timestamp": "2025-05-08T00:51:41.523393+00:00",
                 "result": {
-                  "params": {
-                    "domain": "input_datetime",
-                    "service": "set_datetime",
-                    "service_data": {
-                      "time": "02:00:00",
-                      "entity_id": [
-                        "input_datetime.alarm_time"
-                      ]
-                    },
-                    "target": {
-                      "entity_id": [
-                        "input_datetime.alarm_time"
-                      ]
-                    }
-                  },
-                  "running_script": false
+                  "result": true
+                }
+              }
+            ],
+            "condition/0/entity_id/0": [
+              {
+                "path": "condition/0/entity_id/0",
+                "timestamp": "2025-05-08T00:51:41.523531+00:00",
+                "result": {
+                  "result": true,
+                  "state": "on",
+                  "wanted_state": "on"
+                }
+              }
+            ],
+            "condition/1": [
+              {
+                "path": "condition/1",
+                "timestamp": "2025-05-08T00:51:41.523838+00:00",
+                "result": {
+                  "result": false,
+                  "entities": []
                 }
               }
             ]
           },
           "config": {
-            "alias": "Increment Hour",
-            "sequence": [
+            "id": "1744771336410",
+            "alias": "Alarm Trigger",
+            "description": "",
+            "triggers": [
               {
-                "variables": {
-                  "current_time": "{{ states('input_datetime.alarm_time') }}",
-                  "hour": "{{ current_time.split(':')[0] | int }}",
-                  "minute": "{{ current_time.split(':')[1] | int }}",
-                  "am_pm": "{{ 'AM' if hour < 12 else 'PM' }}",
-                  "new_hour": "{{ (hour + 1) if hour + 1 <= 12 else 1 }}",
-                  "new_am_pm": "{{ 'AM' if new_hour == 12 and am_pm == 'PM' else 'PM' if new_hour == 12 and am_pm == 'AM' else am_pm }}"
+                "trigger": "time",
+                "at": "input_datetime.alarm_time"
+              },
+              {
+                "trigger": "time",
+                "id": "Mon",
+                "at": "input_datetime.monday"
+              },
+              {
+                "trigger": "time",
+                "id": "Tue",
+                "at": "input_datetime.tuesday"
+              },
+              {
+                "trigger": "time",
+                "id": "Wed",
+                "at": "input_datetime.wednesday"
+              },
+              {
+                "trigger": "time",
+                "id": "Thu",
+                "at": "input_datetime.thursday"
+              },
+              {
+                "trigger": "time",
+                "id": "Fri",
+                "at": "input_datetime.friday"
+              },
+              {
+                "trigger": "time",
+                "id": "Sat",
+                "at": "input_datetime.saturday"
+              },
+              {
+                "trigger": "time",
+                "id": "Sun",
+                "at": "input_datetime.sunday"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "state",
+                "entity_id": "input_boolean.alarm_status",
+                "state": "on"
+              },
+              {
+                "condition": "template",
+                "value_template": "{{ now().strftime('%a') == trigger.id  }}"
+              }
+            ],
+            "actions": [
+              {
+                "action": "script.play_alarm_sound",
+                "metadata": {},
+                "data": {},
+                "enabled": false
+              },
+              {
+                "action": "browser_mod.popup",
+                "metadata": {},
+                "data": {
+                  "dismissable": true,
+                  "browser_id": [
+                    "699bb46ddf58abeaf0e531b8ffc9fc63"
+                  ],
+                  "title": "Alarm has triggered",
+                  "right_button": "Snooze",
+                  "left_button": "Stop",
+                  "right_button_action": {
+                    "action": "call-service",
+                    "service": "script.increment_minute"
+                  },
+                  "left_button_action": {
+                    "action": "call-service",
+                    "service": "media_player.media_stop",
+                    "service_data": {
+                      "entity_id": "media_player.popups"
+                    }
+                  },
+                  "timeout": 60000
                 }
               },
               {
-                "target": {
-                  "entity_id": "input_datetime.alarm_time"
-                },
+                "action": "media_player.play_media",
+                "metadata": {},
                 "data": {
-                  "time": "{{ '%02d:%02d:00' % (new_hour, minute) }}"
+                  "media_content_id": "http://rpi.local:8123/local/alarm_sound.mp3",
+                  "media_content_type": "audio"
                 },
-                "action": "input_datetime.set_datetime"
+                "target": {
+                  "device_id": "699bb46ddf58abeaf0e531b8ffc9fc63"
+                }
               }
             ],
-            "description": ""
+            "mode": "restart"
           },
           "blueprint_inputs": null,
           "context": {
-            "id": "01JSB1SKD4APX99R7487X736TS",
+            "id": "01JTPP0WTKQH2J8VY4XSQWAYGD",
             "parent_id": null,
-            "user_id": "e4ca2c7943004cf7b800b663a5fad745"
+            "user_id": null
           }
         },
         "short_dict": {
-          "last_step": "sequence/1",
-          "run_id": "316fcb69c06908ff67179047f7e17e93",
+          "last_step": "condition/1",
+          "run_id": "b1672d7d3cebdad6f62e40a64d5c87af",
           "state": "stopped",
-          "script_execution": "finished",
+          "script_execution": "failed_conditions",
           "timestamp": {
-            "start": "2025-04-21T02:10:50.405002+00:00",
-            "finish": "2025-04-21T02:10:50.418159+00:00"
+            "start": "2025-05-08T00:51:41.523111+00:00",
+            "finish": "2025-05-08T00:51:41.524955+00:00"
           },
-          "domain": "script",
-          "item_id": "increment_hour"
+          "domain": "automation",
+          "item_id": "1744771336410",
+          "trigger": "time set in input_datetime.sunday"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "condition/1",
+          "run_id": "ab01969279926b61077a971759b57964",
+          "state": "stopped",
+          "script_execution": "failed_conditions",
+          "timestamp": {
+            "start": "2025-05-08T00:51:41.551429+00:00",
+            "finish": "2025-05-08T00:51:41.553240+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1744771336410",
+          "trigger": "time set in input_datetime.friday",
+          "trace": {
+            "trigger/5": [
+              {
+                "path": "trigger/5",
+                "timestamp": "2025-05-08T00:51:41.551657+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.alarm_trigger",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1744771336410",
+                      "last_triggered": "2025-05-08T00:51:41.318817+00:00",
+                      "mode": "restart",
+                      "current": 0,
+                      "friendly_name": "Alarm Trigger"
+                    },
+                    "last_changed": "2025-05-07T05:26:46.258067+00:00",
+                    "last_reported": "2025-05-08T00:51:41.331478+00:00",
+                    "last_updated": "2025-05-08T00:51:41.331478+00:00",
+                    "context": {
+                      "id": "01JTPP0WM3HN3E6C6VN6NXEVT6",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "Fri",
+                    "idx": "5",
+                    "alias": null,
+                    "platform": "time",
+                    "now": "2025-05-07T17:51:41.550448-07:00",
+                    "description": "time set in input_datetime.friday",
+                    "entity_id": "input_datetime.friday"
+                  }
+                }
+              }
+            ],
+            "condition/0": [
+              {
+                "path": "condition/0",
+                "timestamp": "2025-05-08T00:51:41.551818+00:00",
+                "result": {
+                  "result": true
+                }
+              }
+            ],
+            "condition/0/entity_id/0": [
+              {
+                "path": "condition/0/entity_id/0",
+                "timestamp": "2025-05-08T00:51:41.551937+00:00",
+                "result": {
+                  "result": true,
+                  "state": "on",
+                  "wanted_state": "on"
+                }
+              }
+            ],
+            "condition/1": [
+              {
+                "path": "condition/1",
+                "timestamp": "2025-05-08T00:51:41.552299+00:00",
+                "result": {
+                  "result": false,
+                  "entities": []
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1744771336410",
+            "alias": "Alarm Trigger",
+            "description": "",
+            "triggers": [
+              {
+                "trigger": "time",
+                "at": "input_datetime.alarm_time"
+              },
+              {
+                "trigger": "time",
+                "id": "Mon",
+                "at": "input_datetime.monday"
+              },
+              {
+                "trigger": "time",
+                "id": "Tue",
+                "at": "input_datetime.tuesday"
+              },
+              {
+                "trigger": "time",
+                "id": "Wed",
+                "at": "input_datetime.wednesday"
+              },
+              {
+                "trigger": "time",
+                "id": "Thu",
+                "at": "input_datetime.thursday"
+              },
+              {
+                "trigger": "time",
+                "id": "Fri",
+                "at": "input_datetime.friday"
+              },
+              {
+                "trigger": "time",
+                "id": "Sat",
+                "at": "input_datetime.saturday"
+              },
+              {
+                "trigger": "time",
+                "id": "Sun",
+                "at": "input_datetime.sunday"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "state",
+                "entity_id": "input_boolean.alarm_status",
+                "state": "on"
+              },
+              {
+                "condition": "template",
+                "value_template": "{{ now().strftime('%a') == trigger.id  }}"
+              }
+            ],
+            "actions": [
+              {
+                "action": "script.play_alarm_sound",
+                "metadata": {},
+                "data": {},
+                "enabled": false
+              },
+              {
+                "action": "browser_mod.popup",
+                "metadata": {},
+                "data": {
+                  "dismissable": true,
+                  "browser_id": [
+                    "699bb46ddf58abeaf0e531b8ffc9fc63"
+                  ],
+                  "title": "Alarm has triggered",
+                  "right_button": "Snooze",
+                  "left_button": "Stop",
+                  "right_button_action": {
+                    "action": "call-service",
+                    "service": "script.increment_minute"
+                  },
+                  "left_button_action": {
+                    "action": "call-service",
+                    "service": "media_player.media_stop",
+                    "service_data": {
+                      "entity_id": "media_player.popups"
+                    }
+                  },
+                  "timeout": 60000
+                }
+              },
+              {
+                "action": "media_player.play_media",
+                "metadata": {},
+                "data": {
+                  "media_content_id": "http://rpi.local:8123/local/alarm_sound.mp3",
+                  "media_content_type": "audio"
+                },
+                "target": {
+                  "device_id": "699bb46ddf58abeaf0e531b8ffc9fc63"
+                }
+              }
+            ],
+            "mode": "restart"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01JTPP0WVF1VD6Z3JFJM88PFX9",
+            "parent_id": null,
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "condition/1",
+          "run_id": "ab01969279926b61077a971759b57964",
+          "state": "stopped",
+          "script_execution": "failed_conditions",
+          "timestamp": {
+            "start": "2025-05-08T00:51:41.551429+00:00",
+            "finish": "2025-05-08T00:51:41.553240+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1744771336410",
+          "trigger": "time set in input_datetime.friday"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "condition/1",
+          "run_id": "5843f761d78abcf0668b1f92ee850b2c",
+          "state": "stopped",
+          "script_execution": "failed_conditions",
+          "timestamp": {
+            "start": "2025-05-08T00:51:41.581473+00:00",
+            "finish": "2025-05-08T00:51:41.583249+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1744771336410",
+          "trigger": "time set in input_datetime.saturday",
+          "trace": {
+            "trigger/6": [
+              {
+                "path": "trigger/6",
+                "timestamp": "2025-05-08T00:51:41.581713+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.alarm_trigger",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1744771336410",
+                      "last_triggered": "2025-05-08T00:51:41.318817+00:00",
+                      "mode": "restart",
+                      "current": 0,
+                      "friendly_name": "Alarm Trigger"
+                    },
+                    "last_changed": "2025-05-07T05:26:46.258067+00:00",
+                    "last_reported": "2025-05-08T00:51:41.331478+00:00",
+                    "last_updated": "2025-05-08T00:51:41.331478+00:00",
+                    "context": {
+                      "id": "01JTPP0WM3HN3E6C6VN6NXEVT6",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "Sat",
+                    "idx": "6",
+                    "alias": null,
+                    "platform": "time",
+                    "now": "2025-05-07T17:51:41.580612-07:00",
+                    "description": "time set in input_datetime.saturday",
+                    "entity_id": "input_datetime.saturday"
+                  }
+                }
+              }
+            ],
+            "condition/0": [
+              {
+                "path": "condition/0",
+                "timestamp": "2025-05-08T00:51:41.581894+00:00",
+                "result": {
+                  "result": true
+                }
+              }
+            ],
+            "condition/0/entity_id/0": [
+              {
+                "path": "condition/0/entity_id/0",
+                "timestamp": "2025-05-08T00:51:41.582029+00:00",
+                "result": {
+                  "result": true,
+                  "state": "on",
+                  "wanted_state": "on"
+                }
+              }
+            ],
+            "condition/1": [
+              {
+                "path": "condition/1",
+                "timestamp": "2025-05-08T00:51:41.582279+00:00",
+                "result": {
+                  "result": false,
+                  "entities": []
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1744771336410",
+            "alias": "Alarm Trigger",
+            "description": "",
+            "triggers": [
+              {
+                "trigger": "time",
+                "at": "input_datetime.alarm_time"
+              },
+              {
+                "trigger": "time",
+                "id": "Mon",
+                "at": "input_datetime.monday"
+              },
+              {
+                "trigger": "time",
+                "id": "Tue",
+                "at": "input_datetime.tuesday"
+              },
+              {
+                "trigger": "time",
+                "id": "Wed",
+                "at": "input_datetime.wednesday"
+              },
+              {
+                "trigger": "time",
+                "id": "Thu",
+                "at": "input_datetime.thursday"
+              },
+              {
+                "trigger": "time",
+                "id": "Fri",
+                "at": "input_datetime.friday"
+              },
+              {
+                "trigger": "time",
+                "id": "Sat",
+                "at": "input_datetime.saturday"
+              },
+              {
+                "trigger": "time",
+                "id": "Sun",
+                "at": "input_datetime.sunday"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "state",
+                "entity_id": "input_boolean.alarm_status",
+                "state": "on"
+              },
+              {
+                "condition": "template",
+                "value_template": "{{ now().strftime('%a') == trigger.id  }}"
+              }
+            ],
+            "actions": [
+              {
+                "action": "script.play_alarm_sound",
+                "metadata": {},
+                "data": {},
+                "enabled": false
+              },
+              {
+                "action": "browser_mod.popup",
+                "metadata": {},
+                "data": {
+                  "dismissable": true,
+                  "browser_id": [
+                    "699bb46ddf58abeaf0e531b8ffc9fc63"
+                  ],
+                  "title": "Alarm has triggered",
+                  "right_button": "Snooze",
+                  "left_button": "Stop",
+                  "right_button_action": {
+                    "action": "call-service",
+                    "service": "script.increment_minute"
+                  },
+                  "left_button_action": {
+                    "action": "call-service",
+                    "service": "media_player.media_stop",
+                    "service_data": {
+                      "entity_id": "media_player.popups"
+                    }
+                  },
+                  "timeout": 60000
+                }
+              },
+              {
+                "action": "media_player.play_media",
+                "metadata": {},
+                "data": {
+                  "media_content_id": "http://rpi.local:8123/local/alarm_sound.mp3",
+                  "media_content_type": "audio"
+                },
+                "target": {
+                  "device_id": "699bb46ddf58abeaf0e531b8ffc9fc63"
+                }
+              }
+            ],
+            "mode": "restart"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01JTPP0WWDDQB2AJNFXJ488W0G",
+            "parent_id": null,
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "condition/1",
+          "run_id": "5843f761d78abcf0668b1f92ee850b2c",
+          "state": "stopped",
+          "script_execution": "failed_conditions",
+          "timestamp": {
+            "start": "2025-05-08T00:51:41.581473+00:00",
+            "finish": "2025-05-08T00:51:41.583249+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1744771336410",
+          "trigger": "time set in input_datetime.saturday"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "condition/1",
+          "run_id": "d42cac959cdaa364b916cd1a58299a57",
+          "state": "stopped",
+          "script_execution": "failed_conditions",
+          "timestamp": {
+            "start": "2025-05-08T00:52:41.428519+00:00",
+            "finish": "2025-05-08T00:52:41.430510+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1744771336410",
+          "trigger": "time set in input_datetime.alarm_time",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2025-05-08T00:52:41.428783+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.alarm_trigger",
+                    "state": "on",
+                    "attributes": {
+                      "id": "1744771336410",
+                      "last_triggered": "2025-05-08T00:51:41.318817+00:00",
+                      "mode": "restart",
+                      "current": 0,
+                      "friendly_name": "Alarm Trigger"
+                    },
+                    "last_changed": "2025-05-07T05:26:46.258067+00:00",
+                    "last_reported": "2025-05-08T00:51:41.331478+00:00",
+                    "last_updated": "2025-05-08T00:51:41.331478+00:00",
+                    "context": {
+                      "id": "01JTPP0WM3HN3E6C6VN6NXEVT6",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "time",
+                    "now": "2025-05-07T17:52:41.427376-07:00",
+                    "description": "time set in input_datetime.alarm_time",
+                    "entity_id": "input_datetime.alarm_time"
+                  }
+                }
+              }
+            ],
+            "condition/0": [
+              {
+                "path": "condition/0",
+                "timestamp": "2025-05-08T00:52:41.428944+00:00",
+                "result": {
+                  "result": true
+                }
+              }
+            ],
+            "condition/0/entity_id/0": [
+              {
+                "path": "condition/0/entity_id/0",
+                "timestamp": "2025-05-08T00:52:41.429090+00:00",
+                "result": {
+                  "result": true,
+                  "state": "on",
+                  "wanted_state": "on"
+                }
+              }
+            ],
+            "condition/1": [
+              {
+                "path": "condition/1",
+                "timestamp": "2025-05-08T00:52:41.429368+00:00",
+                "result": {
+                  "result": false,
+                  "entities": []
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1744771336410",
+            "alias": "Alarm Trigger",
+            "description": "",
+            "triggers": [
+              {
+                "trigger": "time",
+                "at": "input_datetime.alarm_time"
+              },
+              {
+                "trigger": "time",
+                "id": "Mon",
+                "at": "input_datetime.monday"
+              },
+              {
+                "trigger": "time",
+                "id": "Tue",
+                "at": "input_datetime.tuesday"
+              },
+              {
+                "trigger": "time",
+                "id": "Wed",
+                "at": "input_datetime.wednesday"
+              },
+              {
+                "trigger": "time",
+                "id": "Thu",
+                "at": "input_datetime.thursday"
+              },
+              {
+                "trigger": "time",
+                "id": "Fri",
+                "at": "input_datetime.friday"
+              },
+              {
+                "trigger": "time",
+                "id": "Sat",
+                "at": "input_datetime.saturday"
+              },
+              {
+                "trigger": "time",
+                "id": "Sun",
+                "at": "input_datetime.sunday"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "state",
+                "entity_id": "input_boolean.alarm_status",
+                "state": "on"
+              },
+              {
+                "condition": "template",
+                "value_template": "{{ now().strftime('%a') == trigger.id  }}"
+              }
+            ],
+            "actions": [
+              {
+                "action": "script.play_alarm_sound",
+                "metadata": {},
+                "data": {},
+                "enabled": false
+              },
+              {
+                "action": "browser_mod.popup",
+                "metadata": {},
+                "data": {
+                  "dismissable": true,
+                  "browser_id": [
+                    "699bb46ddf58abeaf0e531b8ffc9fc63"
+                  ],
+                  "title": "Alarm has triggered",
+                  "right_button": "Snooze",
+                  "left_button": "Stop",
+                  "right_button_action": {
+                    "action": "call-service",
+                    "service": "script.increment_minute"
+                  },
+                  "left_button_action": {
+                    "action": "call-service",
+                    "service": "media_player.media_stop",
+                    "service_data": {
+                      "entity_id": "media_player.popups"
+                    }
+                  },
+                  "timeout": 60000
+                }
+              },
+              {
+                "action": "media_player.play_media",
+                "metadata": {},
+                "data": {
+                  "media_content_id": "http://rpi.local:8123/local/alarm_sound.mp3",
+                  "media_content_type": "audio"
+                },
+                "target": {
+                  "device_id": "699bb46ddf58abeaf0e531b8ffc9fc63"
+                }
+              }
+            ],
+            "mode": "restart"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01JTPP2QAM9N7Y0RPFPYWWANZF",
+            "parent_id": null,
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "condition/1",
+          "run_id": "d42cac959cdaa364b916cd1a58299a57",
+          "state": "stopped",
+          "script_execution": "failed_conditions",
+          "timestamp": {
+            "start": "2025-05-08T00:52:41.428519+00:00",
+            "finish": "2025-05-08T00:52:41.430510+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1744771336410",
+          "trigger": "time set in input_datetime.alarm_time"
         }
       }
     ],
-    "script.decrement_minute": [
+    "script.browsermod_debug": [
       {
         "extended_dict": {
           "last_step": "sequence/0",
-          "run_id": "ff163ead4d153bc590a9930facd05c4f",
+          "run_id": "a9b5296060132232a592bed6505987ce",
           "state": "stopped",
-          "script_execution": "finished",
+          "script_execution": "error",
           "timestamp": {
-            "start": "2025-04-21T02:10:43.204730+00:00",
-            "finish": "2025-04-21T02:10:43.214449+00:00"
+            "start": "2025-05-08T02:12:27.173793+00:00",
+            "finish": "2025-05-08T02:12:27.182035+00:00"
           },
           "domain": "script",
-          "item_id": "decrement_minute",
+          "item_id": "browsermod_debug",
+          "error": "Action browser_mod.debug not found",
           "trace": {
             "sequence/0": [
               {
                 "path": "sequence/0",
-                "timestamp": "2025-04-21T02:10:43.206265+00:00",
+                "timestamp": "2025-05-08T02:12:27.175986+00:00",
                 "changed_variables": {
                   "this": {
-                    "entity_id": "script.decrement_minute",
+                    "entity_id": "script.browsermod_debug",
                     "state": "off",
                     "attributes": {
                       "last_triggered": null,
                       "mode": "single",
                       "current": 0,
-                      "friendly_name": "Decrement Minute"
+                      "friendly_name": "BrowserMod Debug"
                     },
-                    "last_changed": "2025-04-20T21:10:23.485750+00:00",
-                    "last_reported": "2025-04-20T21:10:23.485750+00:00",
-                    "last_updated": "2025-04-20T21:10:23.485750+00:00",
+                    "last_changed": "2025-05-08T02:11:15.803999+00:00",
+                    "last_reported": "2025-05-08T02:11:15.808886+00:00",
+                    "last_updated": "2025-05-08T02:11:15.803999+00:00",
                     "context": {
-                      "id": "01JSAGKEZX3JBBSD9K5PVZS4Y0",
+                      "id": "01JTPTJK6V5BRDXM2WWG380TAZ",
                       "parent_id": null,
                       "user_id": null
                     }
                   },
                   "context": {
-                    "id": "01JSB1SCC3ZJRWZHNCQQEDTGQE",
+                    "id": "01JTPTMRX5MC0DSN59BHTHTXRX",
                     "parent_id": null,
                     "user_id": "e4ca2c7943004cf7b800b663a5fad745"
                   }
                 },
+                "error": "Action browser_mod.debug not found",
                 "result": {
                   "params": {
-                    "domain": "input_datetime",
-                    "service": "set_datetime",
-                    "service_data": {
-                      "entity_id": "input_datetime.alarm_time",
-                      "time": "01:01:00"
-                    },
+                    "domain": "browser_mod",
+                    "service": "debug",
+                    "service_data": {},
                     "target": {}
                   },
                   "running_script": false
@@ -649,88 +1435,85 @@
             ]
           },
           "config": {
-            "alias": "Decrement Minute",
+            "alias": "BrowserMod Debug",
             "sequence": [
               {
-                "data": {
-                  "entity_id": "input_datetime.alarm_time",
-                  "time": "{% set current_time = states('input_datetime.alarm_time') %}  {% set hour = current_time.split(':')[0] | int %}  {% set minute = current_time.split(':')[1] | int %} {% set new_minute = (minute - 1) %} {{ '%02d:%02d:00' % (hour, new_minute if new_minute >= 0 else 59) }}\n"
-                },
-                "action": "input_datetime.set_datetime"
+                "action": "browser_mod.debug"
               }
             ],
+            "mode": "single",
             "description": ""
           },
           "blueprint_inputs": null,
           "context": {
-            "id": "01JSB1SCC3ZJRWZHNCQQEDTGQE",
+            "id": "01JTPTMRX5MC0DSN59BHTHTXRX",
             "parent_id": null,
             "user_id": "e4ca2c7943004cf7b800b663a5fad745"
           }
         },
         "short_dict": {
           "last_step": "sequence/0",
-          "run_id": "ff163ead4d153bc590a9930facd05c4f",
+          "run_id": "a9b5296060132232a592bed6505987ce",
           "state": "stopped",
-          "script_execution": "finished",
+          "script_execution": "error",
           "timestamp": {
-            "start": "2025-04-21T02:10:43.204730+00:00",
-            "finish": "2025-04-21T02:10:43.214449+00:00"
+            "start": "2025-05-08T02:12:27.173793+00:00",
+            "finish": "2025-05-08T02:12:27.182035+00:00"
           },
           "domain": "script",
-          "item_id": "decrement_minute"
+          "item_id": "browsermod_debug",
+          "error": "Action browser_mod.debug not found"
         }
       },
       {
         "extended_dict": {
           "last_step": "sequence/0",
-          "run_id": "a96e7f5d93155656c6ca8c0c040839c2",
+          "run_id": "eed564f0edcb0a785fa640e95540fe67",
           "state": "stopped",
-          "script_execution": "finished",
+          "script_execution": "error",
           "timestamp": {
-            "start": "2025-04-21T02:10:47.524284+00:00",
-            "finish": "2025-04-21T02:10:47.527482+00:00"
+            "start": "2025-05-08T02:12:41.255633+00:00",
+            "finish": "2025-05-08T02:12:41.259965+00:00"
           },
           "domain": "script",
-          "item_id": "decrement_minute",
+          "item_id": "browsermod_debug",
+          "error": "Action browser_mod.debug not found",
           "trace": {
             "sequence/0": [
               {
                 "path": "sequence/0",
-                "timestamp": "2025-04-21T02:10:47.525091+00:00",
+                "timestamp": "2025-05-08T02:12:41.256945+00:00",
                 "changed_variables": {
                   "this": {
-                    "entity_id": "script.decrement_minute",
+                    "entity_id": "script.browsermod_debug",
                     "state": "off",
                     "attributes": {
-                      "last_triggered": "2025-04-21T02:10:43.205140+00:00",
+                      "last_triggered": "2025-05-08T02:12:27.175167+00:00",
                       "mode": "single",
                       "current": 0,
-                      "friendly_name": "Decrement Minute"
+                      "friendly_name": "BrowserMod Debug"
                     },
-                    "last_changed": "2025-04-21T02:10:43.213987+00:00",
-                    "last_reported": "2025-04-21T02:10:43.213987+00:00",
-                    "last_updated": "2025-04-21T02:10:43.213987+00:00",
+                    "last_changed": "2025-05-08T02:12:27.181572+00:00",
+                    "last_reported": "2025-05-08T02:12:27.181572+00:00",
+                    "last_updated": "2025-05-08T02:12:27.181572+00:00",
                     "context": {
-                      "id": "01JSB1SCC3ZJRWZHNCQQEDTGQE",
+                      "id": "01JTPTMRX5MC0DSN59BHTHTXRX",
                       "parent_id": null,
                       "user_id": "e4ca2c7943004cf7b800b663a5fad745"
                     }
                   },
                   "context": {
-                    "id": "01JSB1SGK3H7505EYKYCWPJE70",
+                    "id": "01JTPTN6N7KGY7AGAC7B7VC0TD",
                     "parent_id": null,
                     "user_id": "e4ca2c7943004cf7b800b663a5fad745"
                   }
                 },
+                "error": "Action browser_mod.debug not found",
                 "result": {
                   "params": {
-                    "domain": "input_datetime",
-                    "service": "set_datetime",
-                    "service_data": {
-                      "entity_id": "input_datetime.alarm_time",
-                      "time": "01:00:00"
-                    },
+                    "domain": "browser_mod",
+                    "service": "debug",
+                    "service_data": {},
                     "target": {}
                   },
                   "running_script": false
@@ -739,36 +1522,34 @@
             ]
           },
           "config": {
-            "alias": "Decrement Minute",
+            "alias": "BrowserMod Debug",
             "sequence": [
               {
-                "data": {
-                  "entity_id": "input_datetime.alarm_time",
-                  "time": "{% set current_time = states('input_datetime.alarm_time') %}  {% set hour = current_time.split(':')[0] | int %}  {% set minute = current_time.split(':')[1] | int %} {% set new_minute = (minute - 1) %} {{ '%02d:%02d:00' % (hour, new_minute if new_minute >= 0 else 59) }}\n"
-                },
-                "action": "input_datetime.set_datetime"
+                "action": "browser_mod.debug"
               }
             ],
+            "mode": "single",
             "description": ""
           },
           "blueprint_inputs": null,
           "context": {
-            "id": "01JSB1SGK3H7505EYKYCWPJE70",
+            "id": "01JTPTN6N7KGY7AGAC7B7VC0TD",
             "parent_id": null,
             "user_id": "e4ca2c7943004cf7b800b663a5fad745"
           }
         },
         "short_dict": {
           "last_step": "sequence/0",
-          "run_id": "a96e7f5d93155656c6ca8c0c040839c2",
+          "run_id": "eed564f0edcb0a785fa640e95540fe67",
           "state": "stopped",
-          "script_execution": "finished",
+          "script_execution": "error",
           "timestamp": {
-            "start": "2025-04-21T02:10:47.524284+00:00",
-            "finish": "2025-04-21T02:10:47.527482+00:00"
+            "start": "2025-05-08T02:12:41.255633+00:00",
+            "finish": "2025-05-08T02:12:41.259965+00:00"
           },
           "domain": "script",
-          "item_id": "decrement_minute"
+          "item_id": "browsermod_debug",
+          "error": "Action browser_mod.debug not found"
         }
       }
     ]

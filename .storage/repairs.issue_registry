@@ -3,6 +3,14 @@
   "minor_version": 2,
   "key": "repairs.issue_registry",
   "data": {
-    "issues": []
+    "issues": [
+      {
+        "created": "2025-05-07T02:11:31.437496+00:00",
+        "dismissed_version": null,
+        "domain": "alexa_media",
+        "is_persistent": false,
+        "issue_id": "deprecated_yaml_configuration"
+      }
+    ]
   }
 }

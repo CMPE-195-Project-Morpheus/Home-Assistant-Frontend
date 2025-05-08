@@ -13,6 +13,11 @@
         "id": "c312e6ab48de4a02b2a2800c33972732",
         "url": "/local/scheduler-card.js",
         "type": "module"
+      },
+      {
+        "id": "bdda1df11e2c44c58fd2874df8ff90af",
+        "url": "/browser_mod.js?automatically-added&2.3.3",
+        "type": "module"
       }
     ]
   }

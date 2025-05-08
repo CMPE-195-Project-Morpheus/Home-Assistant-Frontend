@@ -54,71 +54,6 @@
               "type": "picture-elements",
               "elements": [
                 {
-                  "type": "image",
-                  "entity": "script.increment_hour",
-                  "tap_action": {
-                    "action": "perform-action",
-                    "perform_action": "script.increment_hour",
-                    "target": {}
-                  },
-                  "hold_action": {
-                    "action": "none"
-                  },
-                  "image": "https://www.clker.com/cliparts/M/2/q/q/M/O/tall-white-rectangle.svg.hi.png",
-                  "state_image": {},
-                  "style": {
-                    "left": "30%",
-                    "top": "40%",
-                    "width": "8%"
-                  },
-                  "title": "Increment hour"
-                },
-                {
-                  "type": "image",
-                  "entity": "script.decrement_hour",
-                  "tap_action": {
-                    "action": "toggle"
-                  },
-                  "hold_action": {
-                    "action": "none"
-                  },
-                  "image": "https://www.clker.com/cliparts/M/2/q/q/M/O/tall-white-rectangle.svg.hi.png",
-                  "state_image": {},
-                  "style": {
-                    "left": "38%",
-                    "top": "40%",
-                    "width": "8%"
-                  },
-                  "title": "Decrement hour"
-                },
-                {
-                  "type": "image",
-                  "entity": "input_select.am_pm",
-                  "tap_action": {
-                    "action": "perform-action",
-                    "perform_action": "input_select.select_next",
-                    "target": {
-                      "entity_id": "input_select.am_pm"
-                    },
-                    "data": {
-                      "cycle": true
-                    }
-                  },
-                  "hold_action": {
-                    "action": "none"
-                  },
-                  "image": "https://i.sstatic.net/yXqJJ.png",
-                  "state_image": {
-                    "off": "local/alarm/am_pm.png"
-                  },
-                  "title": "am/pm",
-                  "style": {
-                    "left": "65%",
-                    "top": "40%",
-                    "width": "5.5%"
-                  }
-                },
-                {
                   "type": "state-label",
                   "entity": "sensor.current_time",
                   "tap_action": {
@@ -131,7 +66,7 @@
                     "left": "50%",
                     "top": "50%",
                     "color": "white",
-                    "font-size": "2vw",
+                    "font-size": "10vw",
                     "font-family": "Sans Serif"
                   }
                 },
@@ -148,7 +83,7 @@
                     "left": "50%",
                     "top": "60%",
                     "color": "green",
-                    "font-size": "1vw",
+                    "font-size": "8vw",
                     "font-family": "Callibri"
                   }
                 },
@@ -173,47 +108,15 @@
                     "top": "50%",
                     "width": "10%"
                   }
-                },
-                {
-                  "type": "image",
-                  "entity": "script.increment_minute",
-                  "tap_action": {
-                    "action": "perform-action",
-                    "perform_action": "script.increment_minute",
-                    "target": {}
-                  },
-                  "hold_action": {
-                    "action": "none"
-                  },
-                  "image": "https://www.clker.com/cliparts/M/2/q/q/M/O/tall-white-rectangle.svg.hi.png",
-                  "state_image": {},
-                  "title": "Increment minute",
-                  "style": {
-                    "left": "48%",
-                    "top": "40%",
-                    "width": "8%"
-                  }
-                },
-                {
-                  "type": "image",
-                  "entity": "script.decrement_minute",
-                  "tap_action": {
-                    "action": "toggle"
-                  },
-                  "hold_action": {
-                    "action": "none"
-                  },
-                  "image": "https://www.clker.com/cliparts/M/2/q/q/M/O/tall-white-rectangle.svg.hi.png",
-                  "state_image": {},
-                  "title": "Decrement minute",
-                  "style": {
-                    "left": "56%",
-                    "top": "40%",
-                    "width": "8%"
-                  }
                 }
               ],
-              "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAP8AAADGCAMAAAAqo6adAAAABlBMVEUAAAAORKmU5gWIAAAA3klEQVR4nO3PAQEAAAjDoNu/tEEYDdjN1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W34b/H769AMf5McvaAAAAAElFTkSuQmCC"
+              "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAP8AAADGCAMAAAAqo6adAAAABlBMVEUAAAAORKmU5gWIAAAA3klEQVR4nO3PAQEAAAjDoNu/tEEYDdjN1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W34b/H769AMf5McvaAAAAAElFTkSuQmCC",
+              "visibility": [
+                {
+                  "condition": "and",
+                  "conditions": []
+                }
+              ]
             }
           ]
         }

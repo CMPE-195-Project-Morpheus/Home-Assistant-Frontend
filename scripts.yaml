@@ -124,3 +124,9 @@ apply_config_3:
       color_temp: '{{ states(''input_number.config3_color_temp'') | int }}'
     action: light.turn_on
   description: ''
+browsermod_debug:
+  alias: BrowserMod Debug
+  sequence:
+  - action: browser_mod.debug
+  mode: single
+  description: ''

@@ -47,37 +47,91 @@
   alias: Alarm Trigger
   description: ''
   triggers:
-  - trigger: time
-    at: input_datetime.alarm_time
-  - trigger: time
-    id: Mon
+  - at: input_datetime.alarm_time
+    trigger: time
+  - id: Mon
     at: input_datetime.monday
-  - trigger: time
-    id: Tue
+    trigger: time
+    enabled: false
+  - id: Tue
     at: input_datetime.tuesday
-  - trigger: time
-    id: Wed
+    trigger: time
+    enabled: false
+  - id: Wed
     at: input_datetime.wednesday
-  - trigger: time
-    id: Thu
+    trigger: time
+    enabled: false
+  - id: Thu
     at: input_datetime.thursday
-  - trigger: time
-    id: Fri
+    trigger: time
+    enabled: false
+  - id: Fri
     at: input_datetime.friday
-  - trigger: time
-    id: Sat
+    trigger: time
+    enabled: false
+  - id: Sat
     at: input_datetime.saturday
-  - trigger: time
-    id: Sun
+    trigger: time
+    enabled: false
+  - id: Sun
     at: input_datetime.sunday
+    trigger: time
+    enabled: false
   conditions:
   - condition: state
     entity_id: input_boolean.alarm_status
     state: 'on'
   - condition: template
-    value_template: '{{ now().strftime(''%a'') == trigger.id  }}'
+    value_template: '{{ now().strftime(''%a'') == trigger.id }}'
+    enabled: false
   actions:
-  - action: script.play_alarm_sound
-    metadata: {}
-    data: {}
+  - data:
+      dismissable: true
+      browser_id:
+      - 802c7285aa35be891e35df0acf3b1208
+      title: Alarm has triggered
+      right_button: Snooze
+      left_button: Stop
+      right_button_action:
+        action: call-service
+        service: script.increment_minute
+      timeout: 10000
+      dismiss_action:
+        action: fire-dom-event
+        browser_id: 25fb6da7-ffb42068
+        service: browser_mod.sequence
+        service_data:
+          sequence:
+          - service: browser_mod.close_popup
+            data:
+              browser_id: 25fb6da7-ffb42068
+          - service: media_player.media_stop
+            target:
+              entity_id: media_player.rpi_audio
+    action: browser_mod.popup
+  - data:
+      media_content_id: http://localhost:8123/local/alarm_sound.mp3
+      media_content_type: audio/mp3
+    action: media_player.play_media
+    target:
+      device_id: 802c7285aa35be891e35df0acf3b1208
   mode: restart
+- id: '1746672055810'
+  alias: Set Alarm Time from Day
+  description: ''
+  triggers:
+  - at: 00:00:01
+    trigger: time
+  conditions: []
+  actions:
+  - variables:
+      day: '{{ now().strftime(''%A'') | lower }}'
+  - data:
+      entity_id: input_datetime.alarm_time
+      time: "{% set source = {\n  'monday': states('input_datetime.monday'),\n  'tuesday':
+        states('input_datetime.tuesday'),\n  'wednesday': states('input_datetime.wednesday'),\n
+        \ 'thursday': states('input_datetime.thursday'),\n  'friday': states('input_datetime.friday'),\n
+        \ 'saturday': states('input_datetime.saturday'),\n  'sunday': states('input_datetime.sunday')\n}
+        %} {{ source[day] }}\n"
+    action: input_datetime.set_datetime
+  mode: single
