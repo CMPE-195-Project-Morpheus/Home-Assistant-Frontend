@@ -4,13 +4,15 @@ This is our CMPE 195B senior project. The goal of this project was to create a s
 # Hardware Used
 In this project we used the following hardware:
 - Raspberry Pi 3 Model B+
+- 128 GB MicroSD card for OS install
 - Generic USB Microphone
 - Speaker with 3.5 mm connection
 - 5 inch Raspberry Pi Display
 - Separate computer to run various services to process the voice assistant data
 
 # Raspberry Pi OS Install
-
+![Raspberry_Pi_OS_Install](https://github.com/user-attachments/assets/62f728f9-0f50-4e1d-bcfd-d3fb5d24c8d4)
+In order to install Raspberry Pi OS you need to install the Raspberry Pi Imager (https://www.raspberrypi.com/software/)
 
 # Home Assistant Configuration
 ## Install + Setup:
