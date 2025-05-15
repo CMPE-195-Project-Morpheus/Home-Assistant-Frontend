@@ -15,7 +15,7 @@ In this project we used the following hardware:
 
 The images above show our current hardware implementation.
 
-# Raspberry Pi OS Install
+# Raspberry Pi (RPi) OS Install
 ![Raspberry_Pi_OS_Install](https://github.com/user-attachments/assets/62f728f9-0f50-4e1d-bcfd-d3fb5d24c8d4)
 
 In order to install Raspberry Pi OS you need to install the Raspberry Pi Imager (https://www.raspberrypi.com/software/) and use a microSD card to install the OS on. In our config we selected the RPi 3, RPi OS 64-bit, and chose the microSD card as our storage. The OS version we are using is RPi OS 64-bit Debian 12.
@@ -26,7 +26,7 @@ https://docs.docker.com/engine/install/raspberry-pi-os/#install-using-the-reposi
 
 Once Docker Engine is installed we can proceed to the installation of Home Assistant Container.
 
-# Home Assistant Configuration
+# Home Assistant (HA) Configuration
 ## Install + Setup:
 1) run the following command for install:
    docker run -d \
@@ -130,6 +130,23 @@ We customized the scheduler card to show the different apply config scripts crea
 
 This shows scheduling one of the light config scripts to run at a certain time.
 
+### Voice Assistant Implementation:
+The implementation of voice assistant functionality in HA requires various components in order to create the Assist pipeline. These components are all connected to Home Assistant via the Wyoming protocol integration which allows each of these components to communicate with the other components as well as HA. Also, the Ollama integration is required.
+Here is a list of the required components:
+- Wyoming integration enabled in HA
+- Ollama integration enabled in HA
+- Wyoming satellite (send audio/text data between the various voice services)
+- Wyoming microwakeword (wake word detection)
+- Wyoming faster whisper (speech to text recognition)
+- Wyoming piper (text to speech conversion)
+- Ollama (conversation agent). Note Ollama does not use the Wyoming protocol but rather has its own integration in HA.
 
+#### WSL Setup:
+Since the RPi we are using is not powerful enough to run all of these services, we had to run them on a separate computer. We chose to run them on a separate computer in the Windows Subsytem for Linux (WSL).
 
+The WSL install can be done using the following tutorial: 
+https://learn.microsoft.com/en-us/windows/wsl/install
+
+  
+test
 
