@@ -10,6 +10,11 @@ In this project we used the following hardware:
 - 5 inch Raspberry Pi Display
 - Separate computer to run various services to process the voice assistant data
 
+![image](https://github.com/user-attachments/assets/7c61d234-c8f7-4c76-a245-99bfbaf7bf3f)
+![image](https://github.com/user-attachments/assets/e6cc2abc-3600-4866-b90d-697d0a20c307)
+
+The images above show our current hardware implementation.
+
 # Raspberry Pi OS Install
 ![Raspberry_Pi_OS_Install](https://github.com/user-attachments/assets/62f728f9-0f50-4e1d-bcfd-d3fb5d24c8d4)
 
@@ -56,10 +61,42 @@ Once Docker Engine is installed we can proceed to the installation of Home Assis
 
 ## Scheduler Component Integration
 ### Scheduler Component Install
-In order to install the scheduler component we used the following components:
+In order to install the scheduler component we used the following components and installed it based on their documentation. The version of the scheduler card we are using at the time of this project is 3.12.3. We installed the scheduler component via the Home Assistant Community Store (HACS). At the time of this project we are using version 3.3.8 of the scheduler component.:
+
 https://github.com/nielsfaber/scheduler-component
 https://github.com/nielsfaber/scheduler-card
 
+### Light Scheduling Implementation
+In order to allow the user to be able to schedule different configurations for a Matter enabled light bulb various scripts and input helpers were used. The config for these input helpers can be found in the .storage folder or you can create them via the Home Assistant UI.
+
+#### Scheduler Card + Light Configuration Implementation
+![image50](https://github.com/user-attachments/assets/afe6aefe-ff1e-42ed-9246-823eb1cb922a)
+
+This shows the Scheduler card titled Scheduler along with the cards we made for the light configuration.
+
+![image26](https://github.com/user-attachments/assets/a4671082-bf1e-49b0-9258-788fc0a1639b)
+
+First I created different input helpers to store values for each configuration. These are variables that take user input and store them. These input helpers can be created in the Home Assistant settings under "Devices & Services".
+
+![image16](https://github.com/user-attachments/assets/1f365a05-3758-4012-9f2a-7c611dc35ba2)
+
+For the card on the dashboard to allow the user to select the input I created the following input helpers which display the levels that are able to be selected for the input as a slider and also has a dropdown menu to select which config to save the values to.
+
+![image17](https://github.com/user-attachments/assets/01d71cc4-9024-40f3-aac8-18c4a370733e)
+
+These are the settings of the light brightness input helper. This will be used as user input for the user to set the light brightness and eventually save it to a config.
+
+![image4](https://github.com/user-attachments/assets/c50e47af-43a0-40e7-aa1d-0b6d7d068515)
+
+These are the settings of the light color temp input helper. This will be used as user input for the uer to set the light color temperature and eventually save it to a config.
+
+![image57](https://github.com/user-attachments/assets/270dc098-8ae3-4b02-9917-4cb3bb25ea37)
+
+This is an input number to save the selected color temp to config 1.
+
+![image58](https://github.com/user-attachments/assets/cb24c244-a8c3-4979-a484-46b08bf1a6c2)
+
+This is an input number to save the selected brightness to config 1.
 
 
 
