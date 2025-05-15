@@ -9,6 +9,9 @@ In this project we used the following hardware:
 - 5 inch Raspberry Pi Display
 - Separate computer to run various services to process the voice assistant data
 
+# Raspberry Pi OS Install
+
+
 # Home Assistant Configuration
 ## Install + Setup:
 1) download and configure Docker via https://www.docker.com/get-started/ or follow the instructions at https://docs.docker.com/engine/install/ubuntu/
