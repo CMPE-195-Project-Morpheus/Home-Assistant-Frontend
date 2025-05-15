@@ -4,421 +4,421 @@
   "key": "core.restore_state",
   "data": [
     {
-      "state": {"entity_id":"person.admin","state":"unknown","attributes":{"editable":true,"id":"admin","device_trackers":["device_tracker.iphone"],"user_id":"e4ca2c7943004cf7b800b663a5fad745","friendly_name":"admin"},"last_changed":"2025-05-08T02:49:19.696668+00:00","last_reported":"2025-05-08T02:49:59.635752+00:00","last_updated":"2025-05-08T02:49:59.635752+00:00","context":{"id":"01JTPWSGJKA36PK8JNS6HENDXQ","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"person.admin","state":"unknown","attributes":{"editable":true,"id":"admin","device_trackers":["device_tracker.iphone"],"user_id":"e4ca2c7943004cf7b800b663a5fad745","friendly_name":"admin"},"last_changed":"2025-05-14T21:47:54.514327+00:00","last_reported":"2025-05-14T21:48:37.425092+00:00","last_updated":"2025-05-14T21:48:37.425092+00:00","context":{"id":"01JV8CAQ5H0Z0FDT4X53J5K76N","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"stt.home_assistant_cloud","state":"unknown","attributes":{"friendly_name":"Home Assistant Cloud"},"last_changed":"2025-05-08T02:49:25.618928+00:00","last_reported":"2025-05-08T02:49:25.618928+00:00","last_updated":"2025-05-08T02:49:25.618928+00:00","context":{"id":"01JTPWRFBJ741N7H7QG49FEGER","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"stt.home_assistant_cloud","state":"unknown","attributes":{"friendly_name":"Home Assistant Cloud"},"last_changed":"2025-05-14T21:48:05.294136+00:00","last_reported":"2025-05-14T21:48:05.294136+00:00","last_updated":"2025-05-14T21:48:05.294136+00:00","context":{"id":"01JV8C9QSE8X66CVH5KCB6C52S","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"tts.home_assistant_cloud","state":"unknown","attributes":{"friendly_name":"Home Assistant Cloud"},"last_changed":"2025-05-08T02:49:25.620561+00:00","last_reported":"2025-05-08T02:49:25.620561+00:00","last_updated":"2025-05-08T02:49:25.620561+00:00","context":{"id":"01JTPWRFBMWR46H6P40GB43MS3","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"tts.home_assistant_cloud","state":"unknown","attributes":{"friendly_name":"Home Assistant Cloud"},"last_changed":"2025-05-14T21:48:05.296055+00:00","last_reported":"2025-05-14T21:48:05.296055+00:00","last_updated":"2025-05-14T21:48:05.296055+00:00","context":{"id":"01JV8C9QSG66Z23VG6EB9QT7KS","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"conversation.home_assistant","state":"2025-05-08T03:46:46.732037+00:00","attributes":{"friendly_name":"Home Assistant","supported_features":1},"last_changed":"2025-05-08T03:46:46.732217+00:00","last_reported":"2025-05-08T03:46:46.732217+00:00","last_updated":"2025-05-08T03:46:46.732217+00:00","context":{"id":"01JTQ018SJ02Y0H1JSHJK8WTZQ","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"conversation.home_assistant","state":"2025-05-14T03:34:51.272565+00:00","attributes":{"friendly_name":"Home Assistant","supported_features":1},"last_changed":"2025-05-14T21:48:11.123126+00:00","last_reported":"2025-05-14T21:48:11.123126+00:00","last_updated":"2025-05-14T21:48:11.123126+00:00","context":{"id":"01JV8C9XFK40WVPF9X3FJTKJ4D","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"script.increment_hour","state":"off","attributes":{"last_triggered":"2025-05-07T02:55:19.152697+00:00","mode":"single","current":0,"friendly_name":"Increment Hour"},"last_changed":"2025-05-08T02:49:33.334086+00:00","last_reported":"2025-05-08T02:49:33.334086+00:00","last_updated":"2025-05-08T02:49:33.334086+00:00","context":{"id":"01JTPWRPWPSHEEBQT59ZMDHE5R","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"script.increment_hour","state":"off","attributes":{"last_triggered":"2025-05-07T02:55:19.152697+00:00","mode":"single","current":0,"friendly_name":"Increment Hour"},"last_changed":"2025-05-14T21:48:16.783283+00:00","last_reported":"2025-05-14T21:48:16.783283+00:00","last_updated":"2025-05-14T21:48:16.783283+00:00","context":{"id":"01JV8CA30F3R4MB2QXZ4G6EJJ0","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"script.decrement_hour","state":"off","attributes":{"last_triggered":"2025-05-07T02:55:22.200986+00:00","mode":"single","current":0,"friendly_name":"Decrement Hour"},"last_changed":"2025-05-08T02:49:33.334740+00:00","last_reported":"2025-05-08T02:49:33.334740+00:00","last_updated":"2025-05-08T02:49:33.334740+00:00","context":{"id":"01JTPWRPWPDGDDCPZB3D3YEENF","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"script.decrement_hour","state":"off","attributes":{"last_triggered":"2025-05-07T02:55:22.200986+00:00","mode":"single","current":0,"friendly_name":"Decrement Hour"},"last_changed":"2025-05-14T21:48:16.784638+00:00","last_reported":"2025-05-14T21:48:16.784638+00:00","last_updated":"2025-05-14T21:48:16.784638+00:00","context":{"id":"01JV8CA30GT752T89HYYBHEFYD","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"script.increment_minute","state":"off","attributes":{"last_triggered":"2025-05-08T01:43:33.198734+00:00","mode":"single","current":0,"friendly_name":"Increment Minute"},"last_changed":"2025-05-08T02:49:33.335551+00:00","last_reported":"2025-05-08T02:49:33.335551+00:00","last_updated":"2025-05-08T02:49:33.335551+00:00","context":{"id":"01JTPWRPWQB4ZW20P8MGMX0QSN","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"script.increment_minute","state":"off","attributes":{"last_triggered":"2025-05-14T03:23:06.615622+00:00","mode":"single","current":0,"friendly_name":"Increment Minute"},"last_changed":"2025-05-14T21:48:16.785532+00:00","last_reported":"2025-05-14T21:48:16.785532+00:00","last_updated":"2025-05-14T21:48:16.785532+00:00","context":{"id":"01JV8CA30H57N2BNT9FCPNP7R6","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"script.decrement_minute","state":"off","attributes":{"last_triggered":"2025-05-07T02:55:25.283723+00:00","mode":"single","current":0,"friendly_name":"Decrement Minute"},"last_changed":"2025-05-08T02:49:33.339451+00:00","last_reported":"2025-05-08T02:49:33.339451+00:00","last_updated":"2025-05-08T02:49:33.339451+00:00","context":{"id":"01JTPWRPWV5A7BTJ4FFQA42V2Q","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"script.decrement_minute","state":"off","attributes":{"last_triggered":"2025-05-07T02:55:25.283723+00:00","mode":"single","current":0,"friendly_name":"Decrement Minute"},"last_changed":"2025-05-14T21:48:16.786250+00:00","last_reported":"2025-05-14T21:48:16.786250+00:00","last_updated":"2025-05-14T21:48:16.786250+00:00","context":{"id":"01JV8CA30J3NV6V4BSWBJAM4AJ","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"script.toggle_alarm_am_pm","state":"off","attributes":{"last_triggered":null,"mode":"single","current":0,"friendly_name":"Toggle Alarm AM/PM"},"last_changed":"2025-05-08T02:49:33.358821+00:00","last_reported":"2025-05-08T02:49:33.358821+00:00","last_updated":"2025-05-08T02:49:33.358821+00:00","context":{"id":"01JTPWRPXEVYZYPQ3XA2RH50RD","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"script.toggle_alarm_am_pm","state":"off","attributes":{"last_triggered":null,"mode":"single","current":0,"friendly_name":"Toggle Alarm AM/PM"},"last_changed":"2025-05-14T21:48:16.786910+00:00","last_reported":"2025-05-14T21:48:16.786910+00:00","last_updated":"2025-05-14T21:48:16.786910+00:00","context":{"id":"01JV8CA30J79WKDB9CK1073W6W","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"script.play_alarm_sound","state":"off","attributes":{"last_triggered":"2025-05-07T03:19:45.787407+00:00","mode":"single","current":0,"friendly_name":"play_alarm_sound"},"last_changed":"2025-05-08T02:49:33.359645+00:00","last_reported":"2025-05-08T02:49:33.359645+00:00","last_updated":"2025-05-08T02:49:33.359645+00:00","context":{"id":"01JTPWRPXFWCW1BVX9QWDXTG87","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"script.play_alarm_sound","state":"off","attributes":{"last_triggered":"2025-05-07T03:19:45.787407+00:00","mode":"single","current":0,"friendly_name":"play_alarm_sound"},"last_changed":"2025-05-14T21:48:16.787662+00:00","last_reported":"2025-05-14T21:48:16.787662+00:00","last_updated":"2025-05-14T21:48:16.787662+00:00","context":{"id":"01JV8CA30K5JFTM2677NTYZEPG","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"script.save_light_settings_to_selected_config","state":"off","attributes":{"last_triggered":"2025-04-24T17:05:18.857405+00:00","mode":"single","current":0,"friendly_name":"save_light_config"},"last_changed":"2025-05-08T02:49:33.360202+00:00","last_reported":"2025-05-08T02:49:33.360202+00:00","last_updated":"2025-05-08T02:49:33.360202+00:00","context":{"id":"01JTPWRPXG3JBBSD9K5PVZS4Y0","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"script.save_light_settings_to_selected_config","state":"off","attributes":{"last_triggered":"2025-04-24T17:05:18.857405+00:00","mode":"single","current":0,"friendly_name":"save_light_config"},"last_changed":"2025-05-14T21:48:16.788481+00:00","last_reported":"2025-05-14T21:48:16.788481+00:00","last_updated":"2025-05-14T21:48:16.788481+00:00","context":{"id":"01JV8CA30MBTQPBXAJ7P2MSVH6","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"script.apply_config1","state":"off","attributes":{"last_triggered":"2025-04-24T06:20:00.005837+00:00","mode":"single","current":0,"friendly_name":"Apply config 1"},"last_changed":"2025-05-08T02:49:33.360676+00:00","last_reported":"2025-05-08T02:49:33.360676+00:00","last_updated":"2025-05-08T02:49:33.360676+00:00","context":{"id":"01JTPWRPXG2EKM6DPXYQJ7K45V","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"script.apply_config1","state":"off","attributes":{"last_triggered":"2025-04-24T06:20:00.005837+00:00","mode":"single","current":0,"friendly_name":"Apply config 1"},"last_changed":"2025-05-14T21:48:16.789575+00:00","last_reported":"2025-05-14T21:48:16.789575+00:00","last_updated":"2025-05-14T21:48:16.789575+00:00","context":{"id":"01JV8CA30NEYBFEFMK3B6R6Z5D","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"script.apply_config_2","state":"off","attributes":{"last_triggered":"2025-04-24T06:10:00.004552+00:00","mode":"single","current":0,"friendly_name":"Apply config 2"},"last_changed":"2025-05-08T02:49:33.361269+00:00","last_reported":"2025-05-08T02:49:33.361269+00:00","last_updated":"2025-05-08T02:49:33.361269+00:00","context":{"id":"01JTPWRPXHX37X84VWZB4XAN81","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"script.apply_config_2","state":"off","attributes":{"last_triggered":"2025-04-24T06:10:00.004552+00:00","mode":"single","current":0,"friendly_name":"Apply config 2"},"last_changed":"2025-05-14T21:48:16.790484+00:00","last_reported":"2025-05-14T21:48:16.790484+00:00","last_updated":"2025-05-14T21:48:16.790484+00:00","context":{"id":"01JV8CA30PNC5Z7R2M7P9YWJEE","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"script.apply_config_3","state":"off","attributes":{"last_triggered":null,"mode":"single","current":0,"friendly_name":"Apply config 3"},"last_changed":"2025-05-08T02:49:33.361949+00:00","last_reported":"2025-05-08T02:49:33.361949+00:00","last_updated":"2025-05-08T02:49:33.361949+00:00","context":{"id":"01JTPWRPXHCXTTSY4MAZG2JYC7","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"script.apply_config_3","state":"off","attributes":{"last_triggered":null,"mode":"single","current":0,"friendly_name":"Apply config 3"},"last_changed":"2025-05-14T21:48:16.791303+00:00","last_reported":"2025-05-14T21:48:16.791303+00:00","last_updated":"2025-05-14T21:48:16.791303+00:00","context":{"id":"01JV8CA30QCNP2ZN72BHG8YR33","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"script.browsermod_debug","state":"off","attributes":{"last_triggered":"2025-05-08T02:20:03.822508+00:00","mode":"single","current":0,"friendly_name":"BrowserMod Debug"},"last_changed":"2025-05-08T02:49:33.362475+00:00","last_reported":"2025-05-08T02:49:33.362475+00:00","last_updated":"2025-05-08T02:49:33.362475+00:00","context":{"id":"01JTPWRPXJRJGB43VE7X2F0NNF","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"script.browsermod_debug","state":"off","attributes":{"last_triggered":"2025-05-08T02:20:03.822508+00:00","mode":"single","current":0,"friendly_name":"BrowserMod Debug"},"last_changed":"2025-05-14T21:48:16.792022+00:00","last_reported":"2025-05-14T21:48:16.792022+00:00","last_updated":"2025-05-14T21:48:16.792022+00:00","context":{"id":"01JV8CA30RMW0VRESRX89DDJC4","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"input_select.light_config_selector","state":"Config1","attributes":{"options":["Config1","Config2","Config3"],"editable":true,"icon":"mdi:filter-cog","friendly_name":"Light Config Selector"},"last_changed":"2025-05-08T02:50:02.313738+00:00","last_reported":"2025-05-08T02:50:02.313194+00:00","last_updated":"2025-05-08T02:50:02.313738+00:00","context":{"id":"01JTPWSK62HQ270QX5KDT7CFWX","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"input_boolean.alarm_status","state":"on","attributes":{"editable":true,"icon":"mdi:clock","friendly_name":"Alarm Status"},"last_changed":"2025-05-14T21:48:16.819353+00:00","last_reported":"2025-05-14T21:48:16.819353+00:00","last_updated":"2025-05-14T21:48:16.819353+00:00","context":{"id":"01JV8CA31K65XXCE6EE0KE856R","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"input_select.am_pm","state":"AM","attributes":{"options":["AM"],"editable":true,"friendly_name":"am_pm"},"last_changed":"2025-05-08T02:49:33.380741+00:00","last_reported":"2025-05-08T02:49:33.380741+00:00","last_updated":"2025-05-08T02:49:33.380741+00:00","context":{"id":"01JTPWRPY49P7CFTY7M9807KWZ","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"input_number.light_color_temp","state":"5800.0","attributes":{"initial":null,"editable":true,"min":2500.0,"max":6500.0,"step":100.0,"mode":"slider","unit_of_measurement":"K","icon":"mdi:temperature-kelvin","friendly_name":"light_color_temp"},"last_changed":"2025-05-14T21:48:16.826547+00:00","last_reported":"2025-05-14T21:48:16.826547+00:00","last_updated":"2025-05-14T21:48:16.826547+00:00","context":{"id":"01JV8CA31T9P7CFTY7M9807KWZ","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"input_number.light_color_temp","state":"6500.0","attributes":{"initial":null,"editable":true,"min":2500.0,"max":6500.0,"step":100.0,"mode":"slider","unit_of_measurement":"K","icon":"mdi:temperature-kelvin","friendly_name":"light_color_temp"},"last_changed":"2025-05-08T02:49:33.394242+00:00","last_reported":"2025-05-08T02:49:33.394242+00:00","last_updated":"2025-05-08T02:49:33.394242+00:00","context":{"id":"01JTPWRPYJZ8TS7MNAHAEYNHTZ","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"input_number.light_brightness","state":"201.0","attributes":{"initial":null,"editable":true,"min":0.0,"max":255.0,"step":1.0,"mode":"slider","unit_of_measurement":"Level","icon":"mdi:brightness-7","friendly_name":"light_brightness"},"last_changed":"2025-05-14T21:48:16.827244+00:00","last_reported":"2025-05-14T21:48:16.827244+00:00","last_updated":"2025-05-14T21:48:16.827244+00:00","context":{"id":"01JV8CA31VZ8TS7MNAHAEYNHTZ","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"input_number.light_brightness","state":"95.0","attributes":{"initial":null,"editable":true,"min":0.0,"max":255.0,"step":1.0,"mode":"slider","unit_of_measurement":"Level","icon":"mdi:brightness-7","friendly_name":"light_brightness"},"last_changed":"2025-05-08T03:57:28.328294+00:00","last_reported":"2025-05-08T03:57:28.328294+00:00","last_updated":"2025-05-08T03:57:28.328294+00:00","context":{"id":"01JTQ0N29V9YAF0JEMG62J44Y6","parent_id":null,"user_id":"e4ca2c7943004cf7b800b663a5fad745"}},
+      "state": {"entity_id":"input_number.config1_brightness","state":"53.0","attributes":{"initial":null,"editable":true,"min":0.0,"max":255.0,"step":1.0,"mode":"slider","unit_of_measurement":"Level","icon":"mdi:brightness-7","friendly_name":"config1_brightness"},"last_changed":"2025-05-14T21:48:16.827740+00:00","last_reported":"2025-05-14T21:48:16.827740+00:00","last_updated":"2025-05-14T21:48:16.827740+00:00","context":{"id":"01JV8CA31VP1EC7GBB0EJF6S0K","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"input_number.config1_brightness","state":"53.0","attributes":{"initial":null,"editable":true,"min":0.0,"max":255.0,"step":1.0,"mode":"slider","unit_of_measurement":"Level","icon":"mdi:brightness-7","friendly_name":"config1_brightness"},"last_changed":"2025-05-08T02:49:33.395154+00:00","last_reported":"2025-05-08T02:49:33.395154+00:00","last_updated":"2025-05-08T02:49:33.395154+00:00","context":{"id":"01JTPWRPYK29G1WC4XXZR41VBF","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"input_number.config2_brightness","state":"63.0","attributes":{"initial":null,"editable":true,"min":0.0,"max":255.0,"step":1.0,"mode":"slider","unit_of_measurement":"Level","icon":"mdi:brightness-7","friendly_name":"config2_brightness"},"last_changed":"2025-05-14T21:48:16.828191+00:00","last_reported":"2025-05-14T21:48:16.828191+00:00","last_updated":"2025-05-14T21:48:16.828191+00:00","context":{"id":"01JV8CA31W29G1WC4XXZR41VBF","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"input_number.config2_brightness","state":"63.0","attributes":{"initial":null,"editable":true,"min":0.0,"max":255.0,"step":1.0,"mode":"slider","unit_of_measurement":"Level","icon":"mdi:brightness-7","friendly_name":"config2_brightness"},"last_changed":"2025-05-08T02:49:33.395599+00:00","last_reported":"2025-05-08T02:49:33.395599+00:00","last_updated":"2025-05-08T02:49:33.395599+00:00","context":{"id":"01JTPWRPYK6BHWP5WBRGQT5QGM","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"input_number.config3_brightness","state":"0.0","attributes":{"initial":null,"editable":true,"min":0.0,"max":255.0,"step":1.0,"mode":"slider","unit_of_measurement":"Level","icon":"mdi:brightness-7","friendly_name":"config3_brightness"},"last_changed":"2025-05-14T21:48:16.828775+00:00","last_reported":"2025-05-14T21:48:16.828775+00:00","last_updated":"2025-05-14T21:48:16.828775+00:00","context":{"id":"01JV8CA31W6BHWP5WBRGQT5QGM","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"input_number.config3_brightness","state":"0.0","attributes":{"initial":null,"editable":true,"min":0.0,"max":255.0,"step":1.0,"mode":"slider","unit_of_measurement":"Level","icon":"mdi:brightness-7","friendly_name":"config3_brightness"},"last_changed":"2025-05-08T02:49:33.395998+00:00","last_reported":"2025-05-08T02:49:33.395998+00:00","last_updated":"2025-05-08T02:49:33.395998+00:00","context":{"id":"01JTPWRPYKSM3M9396ZT1N0N3N","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"input_number.config1_color_temp","state":"3200.0","attributes":{"initial":null,"editable":true,"min":2500.0,"max":6500.0,"step":1.0,"mode":"slider","unit_of_measurement":"K","icon":"mdi:temperature-kelvin","friendly_name":"config1_color_temp"},"last_changed":"2025-05-14T21:48:16.829309+00:00","last_reported":"2025-05-14T21:48:16.829309+00:00","last_updated":"2025-05-14T21:48:16.829309+00:00","context":{"id":"01JV8CA31XSM3M9396ZT1N0N3N","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"input_number.config1_color_temp","state":"3200.0","attributes":{"initial":null,"editable":true,"min":2500.0,"max":6500.0,"step":1.0,"mode":"slider","unit_of_measurement":"K","icon":"mdi:temperature-kelvin","friendly_name":"config1_color_temp"},"last_changed":"2025-05-08T02:49:33.396362+00:00","last_reported":"2025-05-08T02:49:33.396362+00:00","last_updated":"2025-05-08T02:49:33.396362+00:00","context":{"id":"01JTPWRPYM11YFKNPTA2EQ7RGX","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"input_number.config2_color_temp","state":"5000.0","attributes":{"initial":null,"editable":true,"min":2500.0,"max":6500.0,"step":1.0,"mode":"slider","unit_of_measurement":"Kelvin","icon":"mdi:temperature-kelvin","friendly_name":"config2_color_temp"},"last_changed":"2025-05-14T21:48:16.829768+00:00","last_reported":"2025-05-14T21:48:16.829768+00:00","last_updated":"2025-05-14T21:48:16.829768+00:00","context":{"id":"01JV8CA31X11YFKNPTA2EQ7RGX","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"input_number.config2_color_temp","state":"5000.0","attributes":{"initial":null,"editable":true,"min":2500.0,"max":6500.0,"step":1.0,"mode":"slider","unit_of_measurement":"Kelvin","icon":"mdi:temperature-kelvin","friendly_name":"config2_color_temp"},"last_changed":"2025-05-08T02:49:33.396714+00:00","last_reported":"2025-05-08T02:49:33.396714+00:00","last_updated":"2025-05-08T02:49:33.396714+00:00","context":{"id":"01JTPWRPYMDY694JTWCMPQXM8N","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"input_number.config3_color_temp","state":"2500.0","attributes":{"initial":null,"editable":true,"min":2500.0,"max":6500.0,"step":1.0,"mode":"slider","unit_of_measurement":"K","icon":"mdi:temperature-kelvin","friendly_name":"config3_color_temp"},"last_changed":"2025-05-14T21:48:16.830212+00:00","last_reported":"2025-05-14T21:48:16.830212+00:00","last_updated":"2025-05-14T21:48:16.830212+00:00","context":{"id":"01JV8CA31YDY694JTWCMPQXM8N","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"input_number.config3_color_temp","state":"2500.0","attributes":{"initial":null,"editable":true,"min":2500.0,"max":6500.0,"step":1.0,"mode":"slider","unit_of_measurement":"K","icon":"mdi:temperature-kelvin","friendly_name":"config3_color_temp"},"last_changed":"2025-05-08T02:49:33.399827+00:00","last_reported":"2025-05-08T02:49:33.399827+00:00","last_updated":"2025-05-08T02:49:33.399827+00:00","context":{"id":"01JTPWRPYQ9PTCR8TSCGBK4PP6","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"input_select.light_config_selector","state":"Config1","attributes":{"options":["Config1","Config2","Config3"],"editable":true,"icon":"mdi:filter-cog","friendly_name":"Light Config Selector"},"last_changed":"2025-05-14T21:48:38.491014+00:00","last_reported":"2025-05-14T21:48:38.490294+00:00","last_updated":"2025-05-14T21:48:38.491014+00:00","context":{"id":"01JV8CAR67XR6B1GQWKQEQ78DZ","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"input_boolean.alarm_status","state":"off","attributes":{"editable":true,"icon":"mdi:clock","friendly_name":"Alarm Status"},"last_changed":"2025-05-08T04:04:40.599164+00:00","last_reported":"2025-05-08T04:04:40.599164+00:00","last_updated":"2025-05-08T04:04:40.599164+00:00","context":{"id":"01JTQ128GPNWV4APJF1T3NDH28","parent_id":null,"user_id":"e4ca2c7943004cf7b800b663a5fad745"}},
+      "state": {"entity_id":"input_select.am_pm","state":"AM","attributes":{"options":["AM"],"editable":true,"friendly_name":"am_pm"},"last_changed":"2025-05-14T21:48:16.843766+00:00","last_reported":"2025-05-14T21:48:16.843766+00:00","last_updated":"2025-05-14T21:48:16.843766+00:00","context":{"id":"01JV8CA32B20GXGE71FM3YDD1K","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"update.smart_multicolor_bulb","state":"unavailable","attributes":{"device_class":"firmware","friendly_name":"Smart Multicolor Bulb","supported_features":23},"last_changed":"2025-05-08T02:49:44.181559+00:00","last_reported":"2025-05-08T02:49:44.181559+00:00","last_updated":"2025-05-08T02:49:44.181559+00:00","context":{"id":"01JTPWS1FNJNEQBV0F7AQJH3HE","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.smart_multicolor_bulb","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"1.0.0","in_progress":false,"latest_version":"1.0.0","release_summary":null,"release_url":null,"skipped_version":null,"title":null,"update_percentage":null,"device_class":"firmware","friendly_name":"Smart Multicolor Bulb","supported_features":23},"last_changed":"2025-05-15T00:12:32.921519+00:00","last_reported":"2025-05-15T00:12:32.921519+00:00","last_updated":"2025-05-15T00:12:32.921519+00:00","context":{"id":"01JV8MJ88S20DK6H36D6DS39Z7","parent_id":null,"user_id":null}},
       "extra_data": {
         "software_update": null
       },
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"input_datetime.alarm_time","state":"20:04:00","attributes":{"has_date":false,"has_time":true,"editable":true,"hour":20,"minute":4,"second":0,"timestamp":72240,"friendly_name":"Alarm Time"},"last_changed":"2025-05-08T03:03:22.855088+00:00","last_reported":"2025-05-08T03:03:22.855088+00:00","last_updated":"2025-05-08T03:03:22.855088+00:00","context":{"id":"01JTPXJ0YTMGCFN93RN0HJ44VT","parent_id":"01JTPXJ0YSCQ9PVV87KT25GBP2","user_id":null}},
+      "state": {"entity_id":"input_datetime.alarm_time","state":"20:24:00","attributes":{"has_date":false,"has_time":true,"editable":true,"hour":20,"minute":24,"second":0,"timestamp":73440,"friendly_name":"Alarm Time"},"last_changed":"2025-05-14T21:48:27.900230+00:00","last_reported":"2025-05-14T21:48:27.900230+00:00","last_updated":"2025-05-14T21:48:27.900230+00:00","context":{"id":"01JV8CADVWA28PW4QPJZGF2M41","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"input_datetime.monday","state":"00:00:00","attributes":{"has_date":false,"has_time":true,"editable":true,"hour":0,"minute":0,"second":0,"timestamp":0,"friendly_name":"Monday"},"last_changed":"2025-05-08T02:49:51.034272+00:00","last_reported":"2025-05-08T02:49:51.034272+00:00","last_updated":"2025-05-08T02:49:51.034272+00:00","context":{"id":"01JTPWS85TF959RQ7TNECYZ705","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"input_datetime.monday","state":"00:00:00","attributes":{"has_date":false,"has_time":true,"editable":true,"hour":0,"minute":0,"second":0,"timestamp":0,"friendly_name":"Monday"},"last_changed":"2025-05-14T21:48:27.901314+00:00","last_reported":"2025-05-14T21:48:27.901314+00:00","last_updated":"2025-05-14T21:48:27.901314+00:00","context":{"id":"01JV8CADVXQVZDN3AAABNS15GG","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"input_datetime.tuesday","state":"00:00:00","attributes":{"has_date":false,"has_time":true,"editable":true,"hour":0,"minute":0,"second":0,"timestamp":0,"friendly_name":"Tuesday"},"last_changed":"2025-05-08T02:49:51.035073+00:00","last_reported":"2025-05-08T02:49:51.035073+00:00","last_updated":"2025-05-08T02:49:51.035073+00:00","context":{"id":"01JTPWS85VP6VCMHFQ3A1EHDSF","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"input_datetime.tuesday","state":"00:00:00","attributes":{"has_date":false,"has_time":true,"editable":true,"hour":0,"minute":0,"second":0,"timestamp":0,"friendly_name":"Tuesday"},"last_changed":"2025-05-14T21:48:27.902114+00:00","last_reported":"2025-05-14T21:48:27.902114+00:00","last_updated":"2025-05-14T21:48:27.902114+00:00","context":{"id":"01JV8CADVY8NRTNPQEYYHTV92B","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"input_datetime.wednesday","state":"20:04:00","attributes":{"has_date":false,"has_time":true,"editable":true,"hour":20,"minute":4,"second":0,"timestamp":72240,"friendly_name":"Wednesday"},"last_changed":"2025-05-08T03:03:18.853047+00:00","last_reported":"2025-05-08T03:03:18.853047+00:00","last_updated":"2025-05-08T03:03:18.853047+00:00","context":{"id":"01JTPXHX23A3DMW5XMXSGPWSRA","parent_id":null,"user_id":"e4ca2c7943004cf7b800b663a5fad745"}},
+      "state": {"entity_id":"input_datetime.wednesday","state":"20:04:00","attributes":{"has_date":false,"has_time":true,"editable":true,"hour":20,"minute":4,"second":0,"timestamp":72240,"friendly_name":"Wednesday"},"last_changed":"2025-05-14T21:48:27.902802+00:00","last_reported":"2025-05-14T21:48:27.902802+00:00","last_updated":"2025-05-14T21:48:27.902802+00:00","context":{"id":"01JV8CADVYX5QMJGCF7JHSCSMH","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"input_datetime.thursday","state":"00:00:00","attributes":{"has_date":false,"has_time":true,"editable":true,"hour":0,"minute":0,"second":0,"timestamp":0,"friendly_name":"Thursday"},"last_changed":"2025-05-08T02:49:51.036265+00:00","last_reported":"2025-05-08T02:49:51.036265+00:00","last_updated":"2025-05-08T02:49:51.036265+00:00","context":{"id":"01JTPWS85WZJRVTTCKH0F07K18","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"input_datetime.thursday","state":"00:00:00","attributes":{"has_date":false,"has_time":true,"editable":true,"hour":0,"minute":0,"second":0,"timestamp":0,"friendly_name":"Thursday"},"last_changed":"2025-05-14T21:48:27.903447+00:00","last_reported":"2025-05-14T21:48:27.903447+00:00","last_updated":"2025-05-14T21:48:27.903447+00:00","context":{"id":"01JV8CADVZE567CNME6C82XAKZ","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"input_datetime.friday","state":"00:00:00","attributes":{"has_date":false,"has_time":true,"editable":true,"hour":0,"minute":0,"second":0,"timestamp":0,"friendly_name":"Friday"},"last_changed":"2025-05-08T02:49:51.036875+00:00","last_reported":"2025-05-08T02:49:51.036875+00:00","last_updated":"2025-05-08T02:49:51.036875+00:00","context":{"id":"01JTPWS85WJKG1JDR5PN18C143","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"input_datetime.friday","state":"00:00:00","attributes":{"has_date":false,"has_time":true,"editable":true,"hour":0,"minute":0,"second":0,"timestamp":0,"friendly_name":"Friday"},"last_changed":"2025-05-14T21:48:27.904097+00:00","last_reported":"2025-05-14T21:48:27.904097+00:00","last_updated":"2025-05-14T21:48:27.904097+00:00","context":{"id":"01JV8CADW016BJH48GWZMS3VMJ","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"input_datetime.saturday","state":"00:00:00","attributes":{"has_date":false,"has_time":true,"editable":true,"hour":0,"minute":0,"second":0,"timestamp":0,"friendly_name":"Saturday"},"last_changed":"2025-05-08T02:49:51.037525+00:00","last_reported":"2025-05-08T02:49:51.037525+00:00","last_updated":"2025-05-08T02:49:51.037525+00:00","context":{"id":"01JTPWS85X7EQQY2H5BN27Y4SH","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"input_datetime.saturday","state":"00:00:00","attributes":{"has_date":false,"has_time":true,"editable":true,"hour":0,"minute":0,"second":0,"timestamp":0,"friendly_name":"Saturday"},"last_changed":"2025-05-14T21:48:27.905236+00:00","last_reported":"2025-05-14T21:48:27.905236+00:00","last_updated":"2025-05-14T21:48:27.905236+00:00","context":{"id":"01JV8CADW147QZHR4B9ZNC23ZX","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"input_datetime.sunday","state":"00:00:00","attributes":{"has_date":false,"has_time":true,"editable":true,"hour":0,"minute":0,"second":0,"timestamp":0,"friendly_name":"Sunday"},"last_changed":"2025-05-08T02:49:51.038105+00:00","last_reported":"2025-05-08T02:49:51.038105+00:00","last_updated":"2025-05-08T02:49:51.038105+00:00","context":{"id":"01JTPWS85YEZQMGKTKDVG12NFE","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"input_datetime.sunday","state":"00:00:00","attributes":{"has_date":false,"has_time":true,"editable":true,"hour":0,"minute":0,"second":0,"timestamp":0,"friendly_name":"Sunday"},"last_changed":"2025-05-14T21:48:27.905982+00:00","last_reported":"2025-05-14T21:48:27.905982+00:00","last_updated":"2025-05-14T21:48:27.905982+00:00","context":{"id":"01JV8CADW11AFV802T2VHA01CN","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"update.sox_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"1.3.0-1","in_progress":false,"latest_version":"1.3.0-1","release_summary":null,"release_url":"https://github.com/definitio/ha-sox/releases/1.3.0-1","skipped_version":null,"title":null,"update_percentage":null,"entity_picture":"https://brands.home-assistant.io/_/sox/icon.png","friendly_name":"SoX update","supported_features":23},"last_changed":"2025-05-08T02:49:51.949940+00:00","last_reported":"2025-05-08T02:49:51.949940+00:00","last_updated":"2025-05-08T02:49:51.949940+00:00","context":{"id":"01JTPWS92DGG46EC80FM5GVAZJ","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"binary_sensor.iphone_focus","state":"off","attributes":{"icon":"mdi:moon-waning-crescent","friendly_name":"iPhone Focus"},"last_changed":"2025-05-14T21:48:35.246607+00:00","last_reported":"2025-05-14T21:48:35.246607+00:00","last_updated":"2025-05-14T21:48:35.246607+00:00","context":{"id":"01JV8CAN1EFCS836DRMGVW5Q7X","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"update.browser_mod_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"v2.3.3","in_progress":false,"latest_version":"v2.3.3","release_summary":null,"release_url":"https://github.com/thomasloven/hass-browser_mod/releases/v2.3.3","skipped_version":null,"title":null,"update_percentage":null,"entity_picture":"https://brands.home-assistant.io/_/browser_mod/icon.png","friendly_name":"browser_mod update","supported_features":23},"last_changed":"2025-05-08T02:49:51.951245+00:00","last_reported":"2025-05-08T02:49:51.951245+00:00","last_updated":"2025-05-08T02:49:51.951245+00:00","context":{"id":"01JTPWS92F4H2GT1T1PERTZB8P","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"device_tracker.iphone","state":"unknown","attributes":{"source_type":"gps","friendly_name":"iPhone"},"last_changed":"2025-05-14T21:48:35.252142+00:00","last_reported":"2025-05-14T21:48:35.252142+00:00","last_updated":"2025-05-14T21:48:35.252142+00:00","context":{"id":"01JV8CAN1MMA0GGHC97E9K2193","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"update.scheduler_component_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"v3.3.8","in_progress":false,"latest_version":"v3.3.8","release_summary":null,"release_url":"https://github.com/nielsfaber/scheduler-component/releases/v3.3.8","skipped_version":null,"title":null,"update_percentage":null,"entity_picture":"https://brands.home-assistant.io/_/scheduler/icon.png","friendly_name":"Scheduler component update","supported_features":23},"last_changed":"2025-05-08T02:49:51.952211+00:00","last_reported":"2025-05-08T02:49:51.952211+00:00","last_updated":"2025-05-08T02:49:51.952211+00:00","context":{"id":"01JTPWS92GX0EMASCYWG9XHYBV","parent_id":null,"user_id":null}},
-      "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
-    },
-    {
-      "state": {"entity_id":"update.alexa_media_player_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"v5.7.1","in_progress":false,"latest_version":"v5.7.1","release_summary":null,"release_url":"https://github.com/alandtse/alexa_media_player/releases/v5.7.1","skipped_version":null,"title":null,"update_percentage":null,"entity_picture":"https://brands.home-assistant.io/_/alexa_media/icon.png","friendly_name":"Alexa Media Player update","supported_features":23},"last_changed":"2025-05-08T02:49:51.953445+00:00","last_reported":"2025-05-08T02:49:51.953445+00:00","last_updated":"2025-05-08T02:49:51.953445+00:00","context":{"id":"01JTPWS92H8RMN54846HHAZHNR","parent_id":null,"user_id":null}},
-      "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
-    },
-    {
-      "state": {"entity_id":"update.hacs_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"2.0.5","in_progress":false,"latest_version":"2.0.5","release_summary":null,"release_url":"https://github.com/hacs/integration/releases/2.0.5","skipped_version":null,"title":null,"update_percentage":null,"entity_picture":"https://brands.home-assistant.io/_/hacs/icon.png","friendly_name":"HACS update","supported_features":23},"last_changed":"2025-05-08T02:49:51.954706+00:00","last_reported":"2025-05-08T02:49:51.954706+00:00","last_updated":"2025-05-08T02:49:51.954706+00:00","context":{"id":"01JTPWS92J0WVQHES2D66YSRE9","parent_id":null,"user_id":null}},
-      "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
-    },
-    {
-      "state": {"entity_id":"binary_sensor.iphone_focus","state":"off","attributes":{"icon":"mdi:moon-waning-crescent","friendly_name":"iPhone Focus"},"last_changed":"2025-05-08T02:49:52.386940+00:00","last_reported":"2025-05-08T02:49:52.386940+00:00","last_updated":"2025-05-08T02:49:52.386940+00:00","context":{"id":"01JTPWS9G266FWJM3DSC5K7ZG0","parent_id":null,"user_id":null}},
-      "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
-    },
-    {
-      "state": {"entity_id":"device_tracker.iphone","state":"unknown","attributes":{"source_type":"gps","friendly_name":"iPhone"},"last_changed":"2025-05-08T02:49:52.391883+00:00","last_reported":"2025-05-08T02:49:52.391883+00:00","last_updated":"2025-05-08T02:49:52.391883+00:00","context":{"id":"01JTPWS9G7FCS836DRMGVW5Q7X","parent_id":null,"user_id":null}},
-      "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
-    },
-    {
-      "state": {"entity_id":"sensor.iphone_battery_level","state":"80","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-80","friendly_name":"iPhone Battery Level"},"last_changed":"2025-05-08T02:49:52.396161+00:00","last_reported":"2025-05-08T02:49:52.396161+00:00","last_updated":"2025-05-08T02:49:52.396161+00:00","context":{"id":"01JTPWS9GC3YTYMZDEBCW3ZK0G","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.iphone_battery_level","state":"80","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-80","friendly_name":"iPhone Battery Level"},"last_changed":"2025-05-14T21:48:35.258139+00:00","last_reported":"2025-05-14T21:48:35.258139+00:00","last_updated":"2025-05-14T21:48:35.258139+00:00","context":{"id":"01JV8CAN1T8HEAGBPMFQG40G2R","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": 80,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"sensor.iphone_battery_state","state":"Not Charging","attributes":{"Low Power Mode":false,"icon":"mdi:battery-80","friendly_name":"iPhone Battery State"},"last_changed":"2025-05-08T02:49:52.397239+00:00","last_reported":"2025-05-08T02:49:52.397239+00:00","last_updated":"2025-05-08T02:49:52.397239+00:00","context":{"id":"01JTPWS9GDMA0GGHC97E9K2193","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.iphone_battery_state","state":"Not Charging","attributes":{"Low Power Mode":false,"icon":"mdi:battery-80","friendly_name":"iPhone Battery State"},"last_changed":"2025-05-14T21:48:35.259485+00:00","last_reported":"2025-05-14T21:48:35.259485+00:00","last_updated":"2025-05-14T21:48:35.259485+00:00","context":{"id":"01JV8CAN1VQ8PCN6MMVWNFMDFN","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "Not Charging",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"sensor.iphone_geocoded_location","state":"Unknown","attributes":{"icon":"mdi:map","friendly_name":"iPhone Geocoded Location"},"last_changed":"2025-05-08T02:49:52.398098+00:00","last_reported":"2025-05-08T02:49:52.398098+00:00","last_updated":"2025-05-08T02:49:52.398098+00:00","context":{"id":"01JTPWS9GE8HEAGBPMFQG40G2R","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.iphone_geocoded_location","state":"Unknown","attributes":{"icon":"mdi:map","friendly_name":"iPhone Geocoded Location"},"last_changed":"2025-05-14T21:48:35.260685+00:00","last_reported":"2025-05-14T21:48:35.260685+00:00","last_updated":"2025-05-14T21:48:35.260685+00:00","context":{"id":"01JV8CAN1WRSGA3TN666RR4BWJ","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "Unknown",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"sensor.iphone_sim_1","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000001","Carrier Name":"--","Current Radio Technology":"Long-Term Evolution (LTE)","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"iPhone SIM 1"},"last_changed":"2025-05-08T02:49:52.398877+00:00","last_reported":"2025-05-08T02:49:52.398877+00:00","last_updated":"2025-05-08T02:49:52.398877+00:00","context":{"id":"01JTPWS9GEQ8PCN6MMVWNFMDFN","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.iphone_sim_1","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000001","Carrier Name":"--","Current Radio Technology":"Long-Term Evolution (LTE)","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"iPhone SIM 1"},"last_changed":"2025-05-14T21:48:35.261794+00:00","last_reported":"2025-05-14T21:48:35.261794+00:00","last_updated":"2025-05-14T21:48:35.261794+00:00","context":{"id":"01JV8CAN1X93TNH9G2KCNEGRGD","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "--",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"sensor.iphone_sim_2","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000002","Carrier Name":"--","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"iPhone SIM 2"},"last_changed":"2025-05-08T02:49:52.399788+00:00","last_reported":"2025-05-08T02:49:52.399788+00:00","last_updated":"2025-05-08T02:49:52.399788+00:00","context":{"id":"01JTPWS9GFRSGA3TN666RR4BWJ","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.iphone_sim_2","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000002","Carrier Name":"--","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"iPhone SIM 2"},"last_changed":"2025-05-14T21:48:35.262728+00:00","last_reported":"2025-05-14T21:48:35.262728+00:00","last_updated":"2025-05-14T21:48:35.262728+00:00","context":{"id":"01JV8CAN1Y8G2VTW61TFX1KE5P","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "--",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"sensor.iphone_last_update_trigger","state":"Launch","attributes":{"icon":"mdi:cellphone-wireless","friendly_name":"iPhone Last Update Trigger"},"last_changed":"2025-05-08T02:49:52.401390+00:00","last_reported":"2025-05-08T02:49:52.401390+00:00","last_updated":"2025-05-08T02:49:52.401390+00:00","context":{"id":"01JTPWS9GH93TNH9G2KCNEGRGD","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.iphone_last_update_trigger","state":"Launch","attributes":{"icon":"mdi:cellphone-wireless","friendly_name":"iPhone Last Update Trigger"},"last_changed":"2025-05-14T21:48:35.263973+00:00","last_reported":"2025-05-14T21:48:35.263973+00:00","last_updated":"2025-05-14T21:48:35.263973+00:00","context":{"id":"01JV8CAN1ZJSXA201YVEZAJAWH","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "Launch",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"sensor.iphone_app_version","state":"2025.3","attributes":{"icon":"mdi:cellphone","friendly_name":"iPhone App Version"},"last_changed":"2025-05-08T02:49:52.402390+00:00","last_reported":"2025-05-08T02:49:52.402390+00:00","last_updated":"2025-05-08T02:49:52.402390+00:00","context":{"id":"01JTPWS9GJ8G2VTW61TFX1KE5P","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.iphone_app_version","state":"2025.3","attributes":{"icon":"mdi:cellphone","friendly_name":"iPhone App Version"},"last_changed":"2025-05-14T21:48:35.265128+00:00","last_reported":"2025-05-14T21:48:35.265128+00:00","last_updated":"2025-05-14T21:48:35.265128+00:00","context":{"id":"01JV8CAN21TYWZGJSBJ1EW6XEF","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "2025.3",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"sensor.iphone_audio_output","state":"Built-in Speaker","attributes":{"icon":"mdi:volume-high","friendly_name":"iPhone Audio Output"},"last_changed":"2025-05-08T02:49:52.403513+00:00","last_reported":"2025-05-08T02:49:52.403513+00:00","last_updated":"2025-05-08T02:49:52.403513+00:00","context":{"id":"01JTPWS9GKJSXA201YVEZAJAWH","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.iphone_audio_output","state":"Built-in Speaker","attributes":{"icon":"mdi:volume-high","friendly_name":"iPhone Audio Output"},"last_changed":"2025-05-14T21:48:35.266130+00:00","last_reported":"2025-05-14T21:48:35.266130+00:00","last_updated":"2025-05-14T21:48:35.266130+00:00","context":{"id":"01JV8CAN22W5S3HFZ4PFK720ZP","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "Built-in Speaker",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"sensor.iphone_storage","state":"35.86","attributes":{"Available":"70.61 GB","Available (Important)":"113.74 GB","Available (Opportunistic)":"91.75 GB","Total":"255.86 GB","unit_of_measurement":"% available","icon":"mdi:database","friendly_name":"iPhone Storage"},"last_changed":"2025-05-08T02:49:52.404413+00:00","last_reported":"2025-05-08T02:49:52.404413+00:00","last_updated":"2025-05-08T02:49:52.404413+00:00","context":{"id":"01JTPWS9GMTYWZGJSBJ1EW6XEF","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.iphone_storage","state":"35.86","attributes":{"Available":"70.61 GB","Available (Important)":"113.74 GB","Available (Opportunistic)":"91.75 GB","Total":"255.86 GB","unit_of_measurement":"% available","icon":"mdi:database","friendly_name":"iPhone Storage"},"last_changed":"2025-05-14T21:48:35.267067+00:00","last_reported":"2025-05-14T21:48:35.267067+00:00","last_updated":"2025-05-14T21:48:35.267067+00:00","context":{"id":"01JV8CAN23G561S9JSTFDSH9NJ","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "35.86",
         "native_unit_of_measurement": "% available"
       },
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"sensor.iphone_location_permission","state":"Authorized when in use","attributes":{"icon":"mdi:map","friendly_name":"iPhone Location permission"},"last_changed":"2025-05-08T02:49:52.405354+00:00","last_reported":"2025-05-08T02:49:52.405354+00:00","last_updated":"2025-05-08T02:49:52.405354+00:00","context":{"id":"01JTPWS9GNW5S3HFZ4PFK720ZP","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.iphone_location_permission","state":"Authorized when in use","attributes":{"icon":"mdi:map","friendly_name":"iPhone Location permission"},"last_changed":"2025-05-14T21:48:35.268008+00:00","last_reported":"2025-05-14T21:48:35.268008+00:00","last_updated":"2025-05-14T21:48:35.268008+00:00","context":{"id":"01JV8CAN241MMEGQ3E2E81J0J8","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "Authorized when in use",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"sensor.iphone_ssid","state":"Lakers123","attributes":{"icon":"mdi:wifi","friendly_name":"iPhone SSID"},"last_changed":"2025-05-08T02:49:52.406305+00:00","last_reported":"2025-05-08T02:49:52.406305+00:00","last_updated":"2025-05-08T02:49:52.406305+00:00","context":{"id":"01JTPWS9GPG561S9JSTFDSH9NJ","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.iphone_ssid","state":"Lakers123","attributes":{"icon":"mdi:wifi","friendly_name":"iPhone SSID"},"last_changed":"2025-05-14T21:48:36.320574+00:00","last_reported":"2025-05-14T21:48:36.320574+00:00","last_updated":"2025-05-14T21:48:36.320574+00:00","context":{"id":"01JV8CAP30NPV32MDFSGYFRCJ9","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "Lakers123",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"sensor.iphone_bssid","state":"dc:eb:69:af:c0:45","attributes":{"icon":"mdi:wifi-star","friendly_name":"iPhone BSSID"},"last_changed":"2025-05-08T02:49:52.407185+00:00","last_reported":"2025-05-08T02:49:52.407185+00:00","last_updated":"2025-05-08T02:49:52.407185+00:00","context":{"id":"01JTPWS9GQ1MMEGQ3E2E81J0J8","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.iphone_bssid","state":"dc:eb:69:af:c0:45","attributes":{"icon":"mdi:wifi-star","friendly_name":"iPhone BSSID"},"last_changed":"2025-05-14T21:48:36.321658+00:00","last_reported":"2025-05-14T21:48:36.321658+00:00","last_updated":"2025-05-14T21:48:36.321658+00:00","context":{"id":"01JV8CAP313HMW8RY29B2SMEC1","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "dc:eb:69:af:c0:45",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"sensor.iphone_connection_type","state":"Wi-Fi","attributes":{"icon":"mdi:wifi","friendly_name":"iPhone Connection Type"},"last_changed":"2025-05-08T02:49:52.407952+00:00","last_reported":"2025-05-08T02:49:52.407952+00:00","last_updated":"2025-05-08T02:49:52.407952+00:00","context":{"id":"01JTPWS9GQNPV32MDFSGYFRCJ9","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.iphone_connection_type","state":"Wi-Fi","attributes":{"icon":"mdi:wifi","friendly_name":"iPhone Connection Type"},"last_changed":"2025-05-14T21:48:36.322567+00:00","last_reported":"2025-05-14T21:48:36.322567+00:00","last_updated":"2025-05-14T21:48:36.322567+00:00","context":{"id":"01JV8CAP32ZG7C1SZ55DRRK207","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "Wi-Fi",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"sensor.iphone_floors_ascended","state":"0","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-up","friendly_name":"iPhone Floors Ascended"},"last_changed":"2025-05-08T02:49:52.408761+00:00","last_reported":"2025-05-08T02:49:52.408761+00:00","last_updated":"2025-05-08T02:49:52.408761+00:00","context":{"id":"01JTPWS9GR3HMW8RY29B2SMEC1","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.iphone_floors_ascended","state":"0","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-up","friendly_name":"iPhone Floors Ascended"},"last_changed":"2025-05-14T21:48:36.323490+00:00","last_reported":"2025-05-14T21:48:36.323490+00:00","last_updated":"2025-05-14T21:48:36.323490+00:00","context":{"id":"01JV8CAP33241WEADN0CSAVAXN","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": 0,
         "native_unit_of_measurement": "floors"
       },
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"sensor.iphone_activity","state":"Unknown","attributes":{"Confidence":"High","Types":["Unknown"],"icon":"mdi:help-circle","friendly_name":"iPhone Activity"},"last_changed":"2025-05-08T02:49:52.409632+00:00","last_reported":"2025-05-08T02:49:52.409632+00:00","last_updated":"2025-05-08T02:49:52.409632+00:00","context":{"id":"01JTPWS9GSZG7C1SZ55DRRK207","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.iphone_activity","state":"Unknown","attributes":{"Confidence":"High","Types":["Unknown"],"icon":"mdi:help-circle","friendly_name":"iPhone Activity"},"last_changed":"2025-05-14T21:48:36.324461+00:00","last_reported":"2025-05-14T21:48:36.324461+00:00","last_updated":"2025-05-14T21:48:36.324461+00:00","context":{"id":"01JV8CAP34QNKZ4F6CDBDWH2Y5","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": "Unknown",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"sensor.iphone_distance","state":"261","attributes":{"unit_of_measurement":"m","icon":"mdi:hiking","friendly_name":"iPhone Distance"},"last_changed":"2025-05-08T02:49:52.410403+00:00","last_reported":"2025-05-08T02:49:52.410403+00:00","last_updated":"2025-05-08T02:49:52.410403+00:00","context":{"id":"01JTPWS9GT241WEADN0CSAVAXN","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.iphone_distance","state":"261","attributes":{"unit_of_measurement":"m","icon":"mdi:hiking","friendly_name":"iPhone Distance"},"last_changed":"2025-05-14T21:48:36.325418+00:00","last_reported":"2025-05-14T21:48:36.325418+00:00","last_updated":"2025-05-14T21:48:36.325418+00:00","context":{"id":"01JV8CAP353JBAGEXT5NGZXC8D","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": 261,
         "native_unit_of_measurement": "m"
       },
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"sensor.iphone_steps","state":"351","attributes":{"unit_of_measurement":"steps","icon":"mdi:walk","friendly_name":"iPhone Steps"},"last_changed":"2025-05-08T02:49:52.411742+00:00","last_reported":"2025-05-08T02:49:52.411742+00:00","last_updated":"2025-05-08T02:49:52.411742+00:00","context":{"id":"01JTPWS9GVQNKZ4F6CDBDWH2Y5","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.iphone_steps","state":"351","attributes":{"unit_of_measurement":"steps","icon":"mdi:walk","friendly_name":"iPhone Steps"},"last_changed":"2025-05-14T21:48:36.326361+00:00","last_reported":"2025-05-14T21:48:36.326361+00:00","last_updated":"2025-05-14T21:48:36.326361+00:00","context":{"id":"01JV8CAP36EYQEQM3K5718QP4N","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": 351,
         "native_unit_of_measurement": "steps"
       },
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"sensor.iphone_floors_descended","state":"0","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-down","friendly_name":"iPhone Floors Descended"},"last_changed":"2025-05-08T02:49:52.412857+00:00","last_reported":"2025-05-08T02:49:52.412857+00:00","last_updated":"2025-05-08T02:49:52.412857+00:00","context":{"id":"01JTPWS9GW3JBAGEXT5NGZXC8D","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.iphone_floors_descended","state":"0","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-down","friendly_name":"iPhone Floors Descended"},"last_changed":"2025-05-14T21:48:36.327323+00:00","last_reported":"2025-05-14T21:48:36.327323+00:00","last_updated":"2025-05-14T21:48:36.327323+00:00","context":{"id":"01JV8CAP37H2TVCEGRWZEHD52Y","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": 0,
         "native_unit_of_measurement": "floors"
       },
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"sensor.iphone_average_active_pace","state":"1","attributes":{"unit_of_measurement":"m/s","icon":"mdi:speedometer","friendly_name":"iPhone Average Active Pace"},"last_changed":"2025-05-08T02:49:52.414000+00:00","last_reported":"2025-05-08T02:49:52.414000+00:00","last_updated":"2025-05-08T02:49:52.414000+00:00","context":{"id":"01JTPWS9GYEYQEQM3K5718QP4N","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"sensor.iphone_average_active_pace","state":"1","attributes":{"unit_of_measurement":"m/s","icon":"mdi:speedometer","friendly_name":"iPhone Average Active Pace"},"last_changed":"2025-05-14T21:48:36.328284+00:00","last_reported":"2025-05-14T21:48:36.328284+00:00","last_updated":"2025-05-14T21:48:36.328284+00:00","context":{"id":"01JV8CAP380VY7CANMARNESCMX","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_value": 1,
         "native_unit_of_measurement": "m/s"
       },
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"tts.google_translate_en_com","state":"unknown","attributes":{"friendly_name":"Google Translate en com"},"last_changed":"2025-05-08T02:49:52.598691+00:00","last_reported":"2025-05-08T02:49:52.598691+00:00","last_updated":"2025-05-08T02:49:52.598691+00:00","context":{"id":"01JTPWS9PP1QPAYDNZ1SJMGKNR","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"tts.google_translate_en_com","state":"unknown","attributes":{"friendly_name":"Google Translate en com"},"last_changed":"2025-05-14T21:48:36.617975+00:00","last_reported":"2025-05-14T21:48:36.617975+00:00","last_updated":"2025-05-14T21:48:36.617975+00:00","context":{"id":"01JV8CAPC936FE1FZSPZGKG6RZ","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"automation.light_selector_dropdown_populator","state":"on","attributes":{"id":"1744409555312","last_triggered":"2025-05-08T02:50:02.306790+00:00","mode":"single","current":0,"friendly_name":"Light_config_selector"},"last_changed":"2025-05-08T02:49:52.996535+00:00","last_reported":"2025-05-08T02:50:02.314764+00:00","last_updated":"2025-05-08T02:50:02.314371+00:00","context":{"id":"01JTPWSK62HQ270QX5KDT7CFWX","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.scheduler_component_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"v3.3.8","in_progress":false,"latest_version":"v3.3.8","release_summary":null,"release_url":"https://github.com/nielsfaber/scheduler-component/releases/v3.3.8","skipped_version":null,"title":null,"update_percentage":null,"entity_picture":"https://brands.home-assistant.io/_/scheduler/icon.png","friendly_name":"Scheduler component update","supported_features":23},"last_changed":"2025-05-14T21:48:36.681749+00:00","last_reported":"2025-05-14T21:48:36.681749+00:00","last_updated":"2025-05-14T21:48:36.681749+00:00","context":{"id":"01JV8CAPE9EVGDAZJHW8421GBK","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"automation.multi_light_settings","state":"on","attributes":{"id":"1744427052558","last_triggered":"2025-05-08T03:57:28.404376+00:00","mode":"single","current":0,"friendly_name":"multi_light_settings"},"last_changed":"2025-05-08T02:49:53.001319+00:00","last_reported":"2025-05-08T03:57:28.709707+00:00","last_updated":"2025-05-08T03:57:28.709707+00:00","context":{"id":"01JTQ0N2D13E0HFCNT2NQNBECR","parent_id":"01JTQ0N29V9YAF0JEMG62J44Y6","user_id":null}},
+      "state": {"entity_id":"update.sox_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"1.3.0-1","in_progress":false,"latest_version":"1.3.0-1","release_summary":null,"release_url":"https://github.com/definitio/ha-sox/releases/1.3.0-1","skipped_version":null,"title":null,"update_percentage":null,"entity_picture":"https://brands.home-assistant.io/_/sox/icon.png","friendly_name":"SoX update","supported_features":23},"last_changed":"2025-05-14T21:48:36.683327+00:00","last_reported":"2025-05-14T21:48:36.683327+00:00","last_updated":"2025-05-14T21:48:36.683327+00:00","context":{"id":"01JV8CAPEBJE39P2ZT8BMMMX3Y","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"automation.set_alarm_time_from_day","state":"on","attributes":{"id":"1746672055810","last_triggered":"2025-05-08T03:03:22.843755+00:00","mode":"single","current":0,"friendly_name":"Set Alarm Time from Day"},"last_changed":"2025-05-08T02:49:53.002928+00:00","last_reported":"2025-05-08T03:03:22.857043+00:00","last_updated":"2025-05-08T03:03:22.857043+00:00","context":{"id":"01JTPXJ0YTMGCFN93RN0HJ44VT","parent_id":"01JTPXJ0YSCQ9PVV87KT25GBP2","user_id":null}},
+      "state": {"entity_id":"update.browser_mod_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"v2.3.3","in_progress":false,"latest_version":"v2.3.3","release_summary":null,"release_url":"https://github.com/thomasloven/hass-browser_mod/releases/v2.3.3","skipped_version":null,"title":null,"update_percentage":null,"entity_picture":"https://brands.home-assistant.io/_/browser_mod/icon.png","friendly_name":"browser_mod update","supported_features":23},"last_changed":"2025-05-14T21:48:36.684393+00:00","last_reported":"2025-05-14T21:48:36.684393+00:00","last_updated":"2025-05-14T21:48:36.684393+00:00","context":{"id":"01JV8CAPECHR4XWBGSMY7HWRDS","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"automation.alarm_trigger","state":"on","attributes":{"id":"1744771336410","last_triggered":"2025-05-08T03:04:00.499775+00:00","mode":"restart","current":0,"friendly_name":"Alarm Trigger"},"last_changed":"2025-05-08T03:06:16.730711+00:00","last_reported":"2025-05-08T03:06:16.730711+00:00","last_updated":"2025-05-08T03:06:16.730711+00:00","context":{"id":"01JTPXQARTWVK3Y8ESR2DRG264","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.alexa_media_player_update","state":"on","attributes":{"auto_update":false,"display_precision":0,"installed_version":"v5.7.1","in_progress":false,"latest_version":"v5.7.2","release_summary":null,"release_url":"https://github.com/alandtse/alexa_media_player/releases/v5.7.2","skipped_version":null,"title":null,"update_percentage":null,"entity_picture":"https://brands.home-assistant.io/_/alexa_media/icon.png","friendly_name":"Alexa Media Player update","supported_features":23},"last_changed":"2025-05-14T21:48:36.686185+00:00","last_reported":"2025-05-14T21:48:36.686185+00:00","last_updated":"2025-05-14T21:48:36.686185+00:00","context":{"id":"01JV8CAPEESWMGV0988WY4RWZJ","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"wake_word.openwakeword","state":"unknown","attributes":{"friendly_name":"microWakeWord"},"last_changed":"2025-05-08T03:12:17.187817+00:00","last_reported":"2025-05-08T03:12:17.187817+00:00","last_updated":"2025-05-08T03:12:17.187817+00:00","context":{"id":"01JTPY2AS34KS3E0FYMGA7873T","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"update.hacs_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"2.0.5","in_progress":false,"latest_version":"2.0.5","release_summary":null,"release_url":"https://github.com/hacs/integration/releases/2.0.5","skipped_version":null,"title":null,"update_percentage":null,"entity_picture":"https://brands.home-assistant.io/_/hacs/icon.png","friendly_name":"HACS update","supported_features":23},"last_changed":"2025-05-14T21:48:36.687176+00:00","last_reported":"2025-05-14T21:48:36.687176+00:00","last_updated":"2025-05-14T21:48:36.687176+00:00","context":{"id":"01JV8CAPEFRN290SXH7KR7F3C0","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"select.wyoming_satellite_assistant","state":"preferred","attributes":{"options":["preferred","Home Assistant","Home Assistant Cloud","Local voice assistant"],"friendly_name":"wyoming satellite Assistant"},"last_changed":"2025-05-08T03:12:20.584908+00:00","last_reported":"2025-05-08T03:12:20.584908+00:00","last_updated":"2025-05-08T03:12:20.584908+00:00","context":{"id":"01JTPY2E38PMAGTXGANS6ANHMQ","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"automation.light_selector_dropdown_populator","state":"on","attributes":{"id":"1744409555312","last_triggered":"2025-05-14T21:48:38.471575+00:00","mode":"single","current":0,"friendly_name":"Light_config_selector"},"last_changed":"2025-05-14T21:48:36.757921+00:00","last_reported":"2025-05-14T21:48:38.492560+00:00","last_updated":"2025-05-14T21:48:38.491983+00:00","context":{"id":"01JV8CAR67XR6B1GQWKQEQ78DZ","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"select.wyoming_satellite_noise_suppression_level","state":"off","attributes":{"options":["off","low","medium","high","max"],"friendly_name":"wyoming satellite Noise suppression level"},"last_changed":"2025-05-08T03:12:20.604746+00:00","last_reported":"2025-05-08T03:12:20.604746+00:00","last_updated":"2025-05-08T03:12:20.604746+00:00","context":{"id":"01JTPY2E3WXS8WJ3T7FKQ21C4V","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"automation.multi_light_settings","state":"on","attributes":{"id":"1744427052558","last_triggered":"2025-05-09T08:08:35.510975+00:00","mode":"single","current":0,"friendly_name":"multi_light_settings"},"last_changed":"2025-05-14T21:48:36.758869+00:00","last_reported":"2025-05-14T21:48:36.758869+00:00","last_updated":"2025-05-14T21:48:36.758869+00:00","context":{"id":"01JV8CAPGP20NJAENTRYW6MHXX","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"select.wyoming_satellite_finished_speaking_detection","state":"default","attributes":{"options":["default","relaxed","aggressive"],"friendly_name":"wyoming satellite Finished speaking detection"},"last_changed":"2025-05-08T03:12:20.612346+00:00","last_reported":"2025-05-08T03:12:20.612346+00:00","last_updated":"2025-05-08T03:12:20.612346+00:00","context":{"id":"01JTPY2E44S6F4RHR03ZARCXHB","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"automation.alarm_trigger","state":"on","attributes":{"id":"1744771336410","last_triggered":"2025-05-15T03:24:00.067313+00:00","mode":"restart","current":0,"friendly_name":"Alarm Trigger"},"last_changed":"2025-05-14T21:48:36.762650+00:00","last_reported":"2025-05-15T03:24:00.103263+00:00","last_updated":"2025-05-15T03:24:00.103263+00:00","context":{"id":"01JV8ZGT616F1GXVCG1RP0H5PY","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"switch.wyoming_satellite_mute","state":"off","attributes":{"friendly_name":"wyoming satellite Mute"},"last_changed":"2025-05-08T03:12:20.632593+00:00","last_reported":"2025-05-08T03:12:20.632593+00:00","last_updated":"2025-05-08T03:12:20.632593+00:00","context":{"id":"01JTPY2E4RWWD5QB0HGCZ231QJ","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"automation.set_alarm_time_from_day","state":"on","attributes":{"id":"1746672055810","last_triggered":"2025-05-13T07:00:01.167870+00:00","mode":"single","current":0,"friendly_name":"Set Alarm Time from Day"},"last_changed":"2025-05-14T21:48:36.763610+00:00","last_reported":"2025-05-14T21:48:36.763610+00:00","last_updated":"2025-05-14T21:48:36.763610+00:00","context":{"id":"01JV8CAPGVPDKSMCT2EQCA6WQG","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"number.wyoming_satellite_auto_gain","state":"0","attributes":{"min":0,"max":31,"step":1.0,"mode":"auto","friendly_name":"wyoming satellite Auto gain"},"last_changed":"2025-05-08T03:12:20.666391+00:00","last_reported":"2025-05-08T03:12:20.667912+00:00","last_updated":"2025-05-08T03:12:20.666391+00:00","context":{"id":"01JTPY2E5TGHQ45BW9ZAP266NA","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"tts.piper","state":"2025-05-15T00:52:49.349315+00:00","attributes":{"friendly_name":"piper"},"last_changed":"2025-05-15T00:52:49.349480+00:00","last_reported":"2025-05-15T00:52:49.349480+00:00","last_updated":"2025-05-15T00:52:49.349480+00:00","context":{"id":"01JV8PW025YPTYDW68W7TBS91F","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
+    },
+    {
+      "state": {"entity_id":"select.wyoming_satellite_assistant","state":"Local voice assistant","attributes":{"options":["preferred","Home Assistant","Home Assistant Cloud","Local voice assistant"],"friendly_name":"wyoming satellite Assistant"},"last_changed":"2025-05-14T21:55:23.963436+00:00","last_reported":"2025-05-14T22:02:28.977456+00:00","last_updated":"2025-05-14T21:55:23.963436+00:00","context":{"id":"01JV8CQ45VGNV5EFSSZQ56ZBHM","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
+    },
+    {
+      "state": {"entity_id":"select.wyoming_satellite_noise_suppression_level","state":"off","attributes":{"options":["off","low","medium","high","max"],"friendly_name":"wyoming satellite Noise suppression level"},"last_changed":"2025-05-14T21:55:23.964889+00:00","last_reported":"2025-05-14T21:55:23.964889+00:00","last_updated":"2025-05-14T21:55:23.964889+00:00","context":{"id":"01JV8CQ45WRDZAMRE99FV8VYAT","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
+    },
+    {
+      "state": {"entity_id":"select.wyoming_satellite_finished_speaking_detection","state":"default","attributes":{"options":["default","relaxed","aggressive"],"friendly_name":"wyoming satellite Finished speaking detection"},"last_changed":"2025-05-14T21:55:23.966173+00:00","last_reported":"2025-05-14T21:55:23.966173+00:00","last_updated":"2025-05-14T21:55:23.966173+00:00","context":{"id":"01JV8CQ45YNC1D3HJP04ZHGARX","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
+    },
+    {
+      "state": {"entity_id":"switch.wyoming_satellite_mute","state":"off","attributes":{"friendly_name":"wyoming satellite Mute"},"last_changed":"2025-05-14T21:55:23.970063+00:00","last_reported":"2025-05-14T21:55:23.970063+00:00","last_updated":"2025-05-14T21:55:23.970063+00:00","context":{"id":"01JV8CQ462CY889V4CEFFYW0NJ","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
+    },
+    {
+      "state": {"entity_id":"number.wyoming_satellite_auto_gain","state":"0","attributes":{"min":0,"max":31,"step":1.0,"mode":"auto","friendly_name":"wyoming satellite Auto gain"},"last_changed":"2025-05-14T21:55:23.972237+00:00","last_reported":"2025-05-14T21:55:23.972797+00:00","last_updated":"2025-05-14T21:55:23.972237+00:00","context":{"id":"01JV8CQ4641BS1G82PMJH7D2HQ","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 31,
         "native_min_value": 0,
@@ -426,10 +426,10 @@
         "native_unit_of_measurement": null,
         "native_value": 0
       },
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"number.wyoming_satellite_mic_volume","state":"1.0","attributes":{"min":0.1,"max":10.0,"step":0.1,"mode":"auto","friendly_name":"wyoming satellite Mic volume"},"last_changed":"2025-05-08T03:12:20.679820+00:00","last_reported":"2025-05-08T03:12:20.680904+00:00","last_updated":"2025-05-08T03:12:20.679820+00:00","context":{"id":"01JTPY2E674NQHHKDKEGZJGYPY","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.wyoming_satellite_mic_volume","state":"1.0","attributes":{"min":0.1,"max":10.0,"step":0.1,"mode":"auto","friendly_name":"wyoming satellite Mic volume"},"last_changed":"2025-05-14T21:55:23.976156+00:00","last_reported":"2025-05-14T21:55:23.976640+00:00","last_updated":"2025-05-14T21:55:23.976156+00:00","context":{"id":"01JV8CQ468ACZEJKC98QCRE061","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 10.0,
         "native_min_value": 0.1,
@@ -437,35 +437,50 @@
         "native_unit_of_measurement": null,
         "native_value": 1.0
       },
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"stt.faster_whisper","state":"unknown","attributes":{"friendly_name":"faster-whisper"},"last_changed":"2025-05-08T03:35:32.112159+00:00","last_reported":"2025-05-08T03:35:32.120002+00:00","last_updated":"2025-05-08T03:35:32.112159+00:00","context":{"id":"01JTPZCX0GYD0JDS7WSZGFQEKG","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"stt.faster_whisper","state":"unknown","attributes":{"friendly_name":"faster-whisper"},"last_changed":"2025-05-14T21:55:26.016986+00:00","last_reported":"2025-05-14T21:55:26.018378+00:00","last_updated":"2025-05-14T21:55:26.016986+00:00","context":{"id":"01JV8CQ660Y7H0SWVDJYPAKSG8","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T04:19:59.643292+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"select.alexa_satellite_assistant","state":"Local voice assistant","attributes":{"options":["preferred","Home Assistant","Home Assistant Cloud","Local voice assistant"],"friendly_name":"wyoming satellite Assistant"},"last_changed":"2025-05-07T03:37:12.788190+00:00","last_reported":"2025-05-07T03:37:12.788190+00:00","last_updated":"2025-05-07T03:37:12.788190+00:00","context":{"id":"01JTMD38AM0ZBJFNW0P002QT6V","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"wake_word.microwakeword","state":"unknown","attributes":{"friendly_name":"microWakeWord"},"last_changed":"2025-05-14T21:55:37.380591+00:00","last_reported":"2025-05-14T21:55:37.381548+00:00","last_updated":"2025-05-14T21:55:37.380591+00:00","context":{"id":"01JV8CQH94WGGQ77SJMRZM6H35","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-07T03:45:07.460953+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"select.alexa_satellite_noise_suppression_level","state":"off","attributes":{"options":["off","low","medium","high","max"],"friendly_name":"wyoming satellite Noise suppression level"},"last_changed":"2025-05-07T03:37:12.790950+00:00","last_reported":"2025-05-07T03:37:12.790950+00:00","last_updated":"2025-05-07T03:37:12.790950+00:00","context":{"id":"01JTMD38AP7FK212Y3GE7NZ4MN","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"conversation.gemma3_1b","state":"2025-05-15T00:52:48.020033+00:00","attributes":{"friendly_name":"gemma3:1b","supported_features":0},"last_changed":"2025-05-15T00:52:48.020127+00:00","last_reported":"2025-05-15T00:52:48.020127+00:00","last_updated":"2025-05-15T00:52:48.020127+00:00","context":{"id":"01JV8PVT2KSCPPEZTHJVABCRYM","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-07T03:45:07.460953+00:00"
+      "last_seen": "2025-05-15T06:48:37.481379+00:00"
     },
     {
-      "state": {"entity_id":"select.alexa_satellite_finished_speaking_detection","state":"default","attributes":{"options":["default","relaxed","aggressive"],"friendly_name":"wyoming satellite Finished speaking detection"},"last_changed":"2025-05-07T03:37:12.800821+00:00","last_reported":"2025-05-07T03:37:12.800821+00:00","last_updated":"2025-05-07T03:37:12.800821+00:00","context":{"id":"01JTMD38B0KX7GTDPYBQB1PGSC","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"conversation.gemma3_1b_2","state":"2025-05-14T03:28:39.870671+00:00","attributes":{"friendly_name":"gemma3:1b","supported_features":0},"last_changed":"2025-05-14T03:28:39.871323+00:00","last_reported":"2025-05-14T03:28:39.871323+00:00","last_updated":"2025-05-14T03:28:39.871323+00:00","context":{"id":"01JV6DCDTH1HRJMH3NWXEXJCMA","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-07T03:45:07.460953+00:00"
+      "last_seen": "2025-05-14T03:39:42.647324+00:00"
     },
     {
-      "state": {"entity_id":"switch.alexa_satellite_mute","state":"off","attributes":{"friendly_name":"wyoming satellite Mute"},"last_changed":"2025-05-07T03:37:12.832699+00:00","last_reported":"2025-05-07T03:37:12.832699+00:00","last_updated":"2025-05-07T03:37:12.832699+00:00","context":{"id":"01JTMD38C05RXW2JB4GETVJ2NF","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"select.wyoming_satellite_assistant_2","state":"Local voice assistant","attributes":{"options":["preferred","Home Assistant","Home Assistant Cloud","Local voice assistant"],"friendly_name":"wyoming satellite Assistant"},"last_changed":"2025-05-14T03:32:06.170328+00:00","last_reported":"2025-05-14T03:32:16.823589+00:00","last_updated":"2025-05-14T03:32:06.170328+00:00","context":{"id":"01JV6DJXWSPWGWR6G5A4ZGBT0N","parent_id":null,"user_id":"e4ca2c7943004cf7b800b663a5fad745"}},
       "extra_data": null,
-      "last_seen": "2025-05-07T03:45:07.460953+00:00"
+      "last_seen": "2025-05-14T03:39:42.647324+00:00"
     },
     {
-      "state": {"entity_id":"number.alexa_satellite_auto_gain","state":"0","attributes":{"min":0,"max":31,"step":1.0,"mode":"auto","friendly_name":"wyoming satellite Auto gain"},"last_changed":"2025-05-07T03:37:12.898081+00:00","last_reported":"2025-05-07T03:37:12.898808+00:00","last_updated":"2025-05-07T03:37:12.898081+00:00","context":{"id":"01JTMD38E2XDJ8C3PAK54SAM22","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"select.wyoming_satellite_noise_suppression_level_2","state":"off","attributes":{"options":["off","low","medium","high","max"],"friendly_name":"wyoming satellite Noise suppression level"},"last_changed":"2025-05-14T03:19:25.727378+00:00","last_reported":"2025-05-14T03:19:25.727378+00:00","last_updated":"2025-05-14T03:19:25.727378+00:00","context":{"id":"01JV6CVQ8ZHNYREJ5S77PVKR59","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-05-14T03:39:42.647324+00:00"
+    },
+    {
+      "state": {"entity_id":"select.wyoming_satellite_finished_speaking_detection_2","state":"default","attributes":{"options":["default","relaxed","aggressive"],"friendly_name":"wyoming satellite Finished speaking detection"},"last_changed":"2025-05-14T03:19:25.729252+00:00","last_reported":"2025-05-14T03:19:25.729252+00:00","last_updated":"2025-05-14T03:19:25.729252+00:00","context":{"id":"01JV6CVQ91YAG9WCCN869X2R4Z","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-05-14T03:39:42.647324+00:00"
+    },
+    {
+      "state": {"entity_id":"switch.wyoming_satellite_mute_2","state":"off","attributes":{"friendly_name":"wyoming satellite Mute"},"last_changed":"2025-05-14T03:19:25.735156+00:00","last_reported":"2025-05-14T03:19:25.735156+00:00","last_updated":"2025-05-14T03:19:25.735156+00:00","context":{"id":"01JV6CVQ97C6Q7CHEAKDG8BJJW","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-05-14T03:39:42.647324+00:00"
+    },
+    {
+      "state": {"entity_id":"number.wyoming_satellite_auto_gain_2","state":"0","attributes":{"min":0,"max":31,"step":1.0,"mode":"auto","friendly_name":"wyoming satellite Auto gain"},"last_changed":"2025-05-14T03:19:25.739186+00:00","last_reported":"2025-05-14T03:19:25.744751+00:00","last_updated":"2025-05-14T03:19:25.739186+00:00","context":{"id":"01JV6CVQ9B8SWA5VMDR0PFXPSV","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 31,
         "native_min_value": 0,
@@ -473,10 +488,10 @@
         "native_unit_of_measurement": null,
         "native_value": 0
       },
-      "last_seen": "2025-05-07T03:45:07.460953+00:00"
+      "last_seen": "2025-05-14T03:39:42.647324+00:00"
     },
     {
-      "state": {"entity_id":"number.alexa_satellite_mic_volume","state":"1.0","attributes":{"min":0.1,"max":10.0,"step":0.1,"mode":"auto","friendly_name":"wyoming satellite Mic volume"},"last_changed":"2025-05-07T03:37:12.909873+00:00","last_reported":"2025-05-07T03:37:12.910522+00:00","last_updated":"2025-05-07T03:37:12.909873+00:00","context":{"id":"01JTMD38EDV6G9PSME4NASD5FA","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"number.wyoming_satellite_mic_volume_2","state":"1.0","attributes":{"min":0.1,"max":10.0,"step":0.1,"mode":"auto","friendly_name":"wyoming satellite Mic volume"},"last_changed":"2025-05-14T03:19:25.747696+00:00","last_reported":"2025-05-14T03:19:25.748785+00:00","last_updated":"2025-05-14T03:19:25.747696+00:00","context":{"id":"01JV6CVQ9KSSKD9HZ81WMZA2C8","parent_id":null,"user_id":null}},
       "extra_data": {
         "native_max_value": 10.0,
         "native_min_value": 0.1,
@@ -484,59 +499,32 @@
         "native_unit_of_measurement": null,
         "native_value": 1.0
       },
-      "last_seen": "2025-05-07T03:45:07.460953+00:00"
+      "last_seen": "2025-05-14T03:39:42.647324+00:00"
     },
     {
-      "state": {"entity_id":"select.my_satellite_assistant","state":"Local voice assistant","attributes":{"options":["preferred","Home Assistant","Home Assistant Cloud","Local voice assistant"],"friendly_name":"my satellite Assistant"},"last_changed":"2025-05-06T03:14:57.694204+00:00","last_reported":"2025-05-06T03:14:57.694204+00:00","last_updated":"2025-05-06T03:14:57.694204+00:00","context":{"id":"01JTHSDSGY42Y6YRPPBTJ28KKY","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"conversation.smollm2_135m","state":"2025-05-09T11:38:55.122445+00:00","attributes":{"friendly_name":"smollm2:135m","supported_features":0},"last_changed":"2025-05-10T03:38:41.807639+00:00","last_reported":"2025-05-10T03:38:41.807639+00:00","last_updated":"2025-05-10T03:38:41.807639+00:00","context":{"id":"01JTW4C48FWNHWQBE5YE1Z90MR","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-06T03:22:10.990205+00:00"
+      "last_seen": "2025-05-10T06:08:55.506505+00:00"
     },
     {
-      "state": {"entity_id":"select.my_satellite_noise_suppression_level","state":"off","attributes":{"options":["off","low","medium","high","max"],"friendly_name":"my satellite Noise suppression level"},"last_changed":"2025-05-06T03:14:57.696218+00:00","last_reported":"2025-05-06T03:14:57.696218+00:00","last_updated":"2025-05-06T03:14:57.696218+00:00","context":{"id":"01JTHSDSH038ZACDFBSK1K3Z2Q","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"wake_word.openwakeword","state":"unknown","attributes":{"friendly_name":"microWakeWord"},"last_changed":"2025-05-14T02:54:51.945310+00:00","last_reported":"2025-05-14T02:54:51.945310+00:00","last_updated":"2025-05-14T02:54:51.945310+00:00","context":{"id":"01JV6BER19YJKG3YDK23AR4E8Z","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-06T03:22:10.994363+00:00"
+      "last_seen": "2025-05-14T03:14:48.187219+00:00"
     },
     {
-      "state": {"entity_id":"select.my_satellite_finished_speaking_detection","state":"default","attributes":{"options":["default","relaxed","aggressive"],"friendly_name":"my satellite Finished speaking detection"},"last_changed":"2025-05-06T03:14:57.697426+00:00","last_reported":"2025-05-06T03:14:57.697426+00:00","last_updated":"2025-05-06T03:14:57.697426+00:00","context":{"id":"01JTHSDSH1Q8SS658A1EZ4TBCC","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"conversation.smollm2","state":"2025-05-09T09:44:57.974239+00:00","attributes":{"friendly_name":"smollm2","supported_features":0},"last_changed":"2025-05-09T09:44:57.974321+00:00","last_reported":"2025-05-09T09:44:57.974321+00:00","last_updated":"2025-05-09T09:44:57.974321+00:00","context":{"id":"01JTT6Y2B6MKSQN3GPJ4WSZCDG","parent_id":null,"user_id":"e4ca2c7943004cf7b800b663a5fad745"}},
       "extra_data": null,
-      "last_seen": "2025-05-06T03:22:10.995438+00:00"
+      "last_seen": "2025-05-09T09:46:02.058084+00:00"
     },
     {
-      "state": {"entity_id":"switch.my_satellite_mute","state":"off","attributes":{"friendly_name":"my satellite Mute"},"last_changed":"2025-05-06T03:14:57.703328+00:00","last_reported":"2025-05-06T03:14:57.703328+00:00","last_updated":"2025-05-06T03:14:57.703328+00:00","context":{"id":"01JTHSDSH74MJ68MZK54E7XB20","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"conversation.smollm2_135m_instruct_q2_k","state":"2025-05-09T11:27:32.885072+00:00","attributes":{"friendly_name":"smollm2:135m-instruct-q2_K","supported_features":0},"last_changed":"2025-05-09T11:27:32.885228+00:00","last_reported":"2025-05-09T11:27:32.885228+00:00","last_updated":"2025-05-09T11:27:32.885228+00:00","context":{"id":"01JTTCSWY6G28VJHDQBEFGQPGH","parent_id":null,"user_id":"e4ca2c7943004cf7b800b663a5fad745"}},
       "extra_data": null,
-      "last_seen": "2025-05-06T03:22:10.996575+00:00"
+      "last_seen": "2025-05-09T11:29:57.266355+00:00"
     },
     {
-      "state": {"entity_id":"number.my_satellite_auto_gain","state":"0","attributes":{"min":0,"max":31,"step":1.0,"mode":"auto","friendly_name":"my satellite Auto gain"},"last_changed":"2025-05-06T03:22:01.025640+00:00","last_reported":"2025-05-06T03:22:01.025640+00:00","last_updated":"2025-05-06T03:22:01.025640+00:00","context":{"id":"01JTHSTPY0TKM9YBZD2YS781TY","parent_id":null,"user_id":"e4ca2c7943004cf7b800b663a5fad745"}},
-      "extra_data": {
-        "native_max_value": 31,
-        "native_min_value": 0,
-        "native_step": null,
-        "native_unit_of_measurement": null,
-        "native_value": 0
-      },
-      "last_seen": "2025-05-06T03:22:10.998599+00:00"
-    },
-    {
-      "state": {"entity_id":"number.my_satellite_mic_volume","state":"10.0","attributes":{"min":0.1,"max":10.0,"step":0.1,"mode":"auto","friendly_name":"my satellite Mic volume"},"last_changed":"2025-05-06T03:14:57.742832+00:00","last_reported":"2025-05-06T03:14:57.743850+00:00","last_updated":"2025-05-06T03:14:57.742832+00:00","context":{"id":"01JTHSDSJE4PHR95BA9NDG9JVX","parent_id":null,"user_id":null}},
-      "extra_data": {
-        "native_max_value": 10.0,
-        "native_min_value": 0.1,
-        "native_step": 0.1,
-        "native_unit_of_measurement": null,
-        "native_value": 10.0
-      },
-      "last_seen": "2025-05-06T03:22:11.005549+00:00"
-    },
-    {
-      "state": {"entity_id":"automation.set_alarm_time_from_day_3","state":"on","attributes":{"id":"1746672070697","last_triggered":null,"mode":"single","current":0,"friendly_name":"Set Alarm Time from Day"},"last_changed":"2025-05-08T02:49:53.005491+00:00","last_reported":"2025-05-08T02:49:53.005491+00:00","last_updated":"2025-05-08T02:49:53.005491+00:00","context":{"id":"01JTPWSA3DA35WZJJVWCH991ZF","parent_id":null,"user_id":null}},
+      "state": {"entity_id":"automation.show_ollama_response_as_notification","state":"on","attributes":{"id":"1746789471510","last_triggered":"2025-05-09T11:20:30.198994+00:00","mode":"single","current":0,"friendly_name":"Show Ollama Response as Notification"},"last_changed":"2025-05-09T11:17:50.692209+00:00","last_reported":"2025-05-09T11:20:30.202239+00:00","last_updated":"2025-05-09T11:20:30.202239+00:00","context":{"id":"01JTTCD07PNJFAHY5FWE29556J","parent_id":null,"user_id":null}},
       "extra_data": null,
-      "last_seen": "2025-05-08T02:59:32.181394+00:00"
-    },
-    {
-      "state": {"entity_id":"automation.set_alarm_time_from_day_2","state":"on","attributes":{"id":"1746672068734","last_triggered":null,"mode":"single","current":0,"friendly_name":"Set Alarm Time from Day"},"last_changed":"2025-05-08T02:49:53.004354+00:00","last_reported":"2025-05-08T02:49:53.004354+00:00","last_updated":"2025-05-08T02:49:53.004354+00:00","context":{"id":"01JTPWSA3CH5KE2NXRDAPHC3HH","parent_id":null,"user_id":null}},
-      "extra_data": null,
-      "last_seen": "2025-05-08T03:01:21.719166+00:00"
+      "last_seen": "2025-05-09T11:28:46.888903+00:00"
     }
   ]
 }

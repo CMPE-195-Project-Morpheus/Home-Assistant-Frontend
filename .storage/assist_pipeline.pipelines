@@ -35,16 +35,16 @@
         "prefer_local_intents": false
       },
       {
-        "conversation_engine": "conversation.home_assistant",
-        "conversation_language": "en",
+        "conversation_engine": "conversation.gemma3_1b",
+        "conversation_language": "*",
         "id": "01jt2hdh8rqnqpfyzeahxzt46t",
         "language": "en",
         "name": "Local voice assistant",
         "stt_engine": "stt.faster_whisper",
         "stt_language": "en",
-        "tts_engine": null,
-        "tts_language": "en-US",
-        "tts_voice": null,
+        "tts_engine": "tts.piper",
+        "tts_language": "en_US",
+        "tts_voice": "en_US-lessac-medium",
         "wake_word_entity": null,
         "wake_word_id": null,
         "prefer_local_intents": true

@@ -1,9 +1,60 @@
-2025-05-08 02:48:31.267 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2025-05-08 02:48:31.273 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration alexa_media which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2025-05-08 02:48:31.276 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration scheduler which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2025-05-08 02:48:31.280 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration sox which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2025-05-08 02:48:31.284 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration browser_mod which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2025-05-08 02:48:38.289 WARNING (Recorder) [homeassistant.components.recorder.util] The system could not validate that the sqlite3 database at //config/home-assistant_v2.db was shutdown cleanly
-2025-05-08 02:48:38.469 WARNING (Recorder) [homeassistant.components.recorder.util] Ended unfinished session (id=70 from 2025-05-08 02:18:07.275795)
-2025-05-08 02:48:51.096 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
-2025-05-08 02:48:56.100 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-05-14 21:44:03.036 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2025-05-14 21:44:03.041 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration alexa_media which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2025-05-14 21:44:03.050 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration scheduler which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2025-05-14 21:44:03.054 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration sox which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2025-05-14 21:44:03.057 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration browser_mod which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2025-05-14 21:44:08.632 WARNING (Recorder) [homeassistant.components.recorder.util] The system could not validate that the sqlite3 database at //config/home-assistant_v2.db was shutdown cleanly
+2025-05-14 21:44:08.854 WARNING (Recorder) [homeassistant.components.recorder.util] Ended unfinished session (id=86 from 2025-05-14 06:55:52.328355)
+2025-05-14 21:44:19.533 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-05-14 21:44:24.536 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-05-14 21:44:27.390 ERROR (MainThread) [homeassistant.config] Platform error: media_player - No module named 'homeassistant.components.command_line.media_player'
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/config.py", line 1055, in _async_load_and_validate_platform_integration
+    platform = await p_integration.integration.async_get_platform(domain)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/loader.py", line 1108, in async_get_platform
+    platforms = await self.async_get_platforms((platform_name,))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/loader.py", line 1185, in async_get_platforms
+    import_future.result()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/src/homeassistant/homeassistant/loader.py", line 1155, in async_get_platforms
+    await self.hass.async_add_import_executor_job(
+        self._load_platforms, platform_names
+    )
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/src/homeassistant/homeassistant/loader.py", line 1098, in _load_platforms
+    platform_name: self._load_platform(platform_name)
+                   ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/loader.py", line 1272, in _load_platform
+    cache[full_name] = self._import_platform(platform_name)
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/loader.py", line 1304, in _import_platform
+    return importlib.import_module(f"{self.pkg_path}.{platform_name}")
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/util/loop.py", line 201, in protected_loop_func
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'homeassistant.components.command_line.media_player'
+2025-05-14 21:44:39.572 WARNING (MainThread) [homeassistant.components.matter] Detected a device that has been reported to have firmware issues with light transitions. Transitions will be disabled for this light
+2025-05-14 21:44:47.338 ERROR (MainThread) [homeassistant.helpers.config_validation] The browser_mod integration does not support any configuration parameters, got {'prefix': 'browser'}. Please remove the configuration parameters from your configuration.
+2025-05-14 21:44:47.390 WARNING (MainThread) [homeassistant.helpers.frame] Detected that custom integration 'browser_mod' accessed lovelace_data['resources'] instead of lovelace_data.resources at custom_components/browser_mod/mod_view.py, line 59: resources = hass.data["lovelace"]["resources"]. This will stop working in Home Assistant 2026.2, please report it to the author of the 'browser_mod' custom integration
+2025-05-14 21:44:53.134 WARNING (MainThread) [homeassistant.components.input_select] Current option: Select a config... no longer valid (possible options: Config1, Config2, Config3)
+2025-05-14 21:44:53.851 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-05-14 21:44:58.855 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-05-14 21:44:59.385 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-05-14 21:45:04.388 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-05-14 21:45:04.940 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-05-14 21:45:09.944 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-05-14 21:45:15.188 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-05-14 21:45:20.191 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-05-14 21:45:30.985 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-05-14 21:45:35.989 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds
+2025-05-14 21:46:00.986 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B]: [Errno 132] No error information
+2025-05-14 21:46:05.990 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not reset the power state of the Bluetooth adapter hci0 [B8:27:EB:E3:55:5B] due to timeout after 5 seconds

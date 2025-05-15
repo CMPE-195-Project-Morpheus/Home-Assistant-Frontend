@@ -174,6 +174,162 @@
           ]
         },
         {
+          "type": "sections",
+          "max_columns": 4,
+          "title": "Scheduler",
+          "path": "scheduler",
+          "sections": [
+            {
+              "type": "grid",
+              "cards": [
+                {
+                  "type": "custom:scheduler-card",
+                  "include": [],
+                  "exclude": [],
+                  "customize": {
+                    "script.apply_config1": {
+                      "name": "Light Config 1",
+                      "icon": "mdi:cog",
+                      "tags": [
+                        "Light Configurations"
+                      ],
+                      "actions": [
+                        {
+                          "service": "script.turn_on",
+                          "data": {
+                            "entity_id": "script.apply_config1"
+                          },
+                          "name": "Apply",
+                          "icon": "mdi:lightbulb-on"
+                        }
+                      ]
+                    },
+                    "script.apply_config_2": {
+                      "name": "Light Config 2",
+                      "icon": "mdi:cog",
+                      "tags": [
+                        "Light Configurations"
+                      ],
+                      "actions": [
+                        {
+                          "service": "script.apply_config_2",
+                          "name": "Apply",
+                          "icon": "mdi:lightbulb-on"
+                        }
+                      ]
+                    },
+                    "script.apply_config_3": {
+                      "name": "Light Config 3",
+                      "icon": "mdi:cog",
+                      "tags": [
+                        "Light Configurations"
+                      ],
+                      "actions": [
+                        {
+                          "service": "script.apply_config_3",
+                          "name": "Apply",
+                          "icon": "mdi:lightbulb-on"
+                        }
+                      ]
+                    }
+                  },
+                  "discover_existing": true,
+                  "title": true
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "cards": [
+                {
+                  "type": "entities",
+                  "title": "Light Configuration",
+                  "entities": [
+                    {
+                      "entity": "input_select.light_config_selector"
+                    },
+                    {
+                      "entity": "input_number.light_brightness"
+                    },
+                    {
+                      "entity": "input_number.light_color_temp"
+                    }
+                  ]
+                },
+                {
+                  "show_name": true,
+                  "show_icon": true,
+                  "type": "button",
+                  "name": "Save Current Light Settings to Scheduler",
+                  "show_state": true,
+                  "tap_action": {
+                    "action": "perform-action",
+                    "perform_action": "script.save_light_settings_to_selected_config"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "cards": [
+                {
+                  "type": "light",
+                  "entity": "light.smart_multicolor_bulb",
+                  "double_tap_action": {
+                    "action": "more-info"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "sections",
+          "max_columns": 4,
+          "title": "Alarm Settings",
+          "path": "alarm-settings",
+          "sections": [
+            {
+              "type": "grid",
+              "cards": [
+                {
+                  "type": "entities",
+                  "entities": [
+                    "input_boolean.alarm_status"
+                  ]
+                },
+                {
+                  "type": "entities",
+                  "entities": [
+                    {
+                      "entity": "input_datetime.alarm_time"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "grid",
+              "cards": [
+                {
+                  "type": "entities",
+                  "entities": [
+                    "input_datetime.sunday",
+                    "input_datetime.monday",
+                    "input_datetime.tuesday",
+                    "input_datetime.wednesday",
+                    "input_datetime.thursday",
+                    "input_datetime.friday",
+                    "input_datetime.saturday"
+                  ],
+                  "show_header_toggle": false,
+                  "title": "Alarm Times"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "type": "panel",
           "path": "alarm-clock",
           "title": "Alarm clock",
@@ -240,6 +396,26 @@
                 }
               ],
               "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAP8AAADGCAMAAAAqo6adAAAABlBMVEUAAAAORKmU5gWIAAAA3klEQVR4nO3PAQEAAAjDoNu/tEEYDdjN1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W39bf1t/W34b/H769AMf5McvaAAAAAElFTkSuQmCC"
+            }
+          ]
+        },
+        {
+          "type": "sections",
+          "max_columns": 4,
+          "title": "Weather + Thermostat",
+          "path": "weather-thermostat",
+          "sections": [
+            {
+              "type": "grid",
+              "cards": [
+                {
+                  "show_current": true,
+                  "show_forecast": true,
+                  "type": "weather-forecast",
+                  "entity": "weather.forecast_home",
+                  "forecast_type": "daily"
+                }
+              ]
             }
           ]
         }

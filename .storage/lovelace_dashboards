@@ -12,14 +12,6 @@
         "require_admin": false,
         "mode": "storage",
         "url_path": "dashboard-main"
-      },
-      {
-        "id": "dashboard_alarm",
-        "show_in_sidebar": true,
-        "title": "Alarm",
-        "require_admin": false,
-        "mode": "storage",
-        "url_path": "dashboard-alarm"
       }
     ]
   }

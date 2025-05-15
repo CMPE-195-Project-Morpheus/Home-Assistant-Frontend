@@ -1,0 +1,10 @@
+{
+  "domain": "sox",
+  "name": "SoX",
+  "codeowners": ["@definitio"],
+  "config_flow": true,
+  "documentation": "https://github.com/definitio/ha-sox/blob/master/README.md",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/definitio/ha-sox/issues",
+  "version": "1.3.0"
+}

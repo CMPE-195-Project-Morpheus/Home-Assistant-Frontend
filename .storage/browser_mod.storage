@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "browser_mod.storage",
+  "data": {
+    "browsers": {
+      "Popups": {
+        "last_seen": "2025-05-14T02:02:13.838623+00:00",
+        "registered": true,
+        "locked": true,
+        "camera": false,
+        "settings": {
+          "hideSidebar": null,
+          "hideHeader": null,
+          "defaultPanel": null,
+          "sidebarPanelOrder": null,
+          "sidebarHiddenPanels": null,
+          "sidebarTitle": null,
+          "faviconTemplate": null,
+          "titleTemplate": "Alarm",
+          "hideInteractIcon": null,
+          "autoRegister": null,
+          "lockRegister": null
+        },
+        "meta": "default"
+      },
+      "25fb6da7-ffb42068": {
+        "last_seen": "2025-05-14T03:20:34.757253+00:00",
+        "registered": true,
+        "locked": true,
+        "camera": false,
+        "settings": {
+          "hideSidebar": null,
+          "hideHeader": null,
+          "defaultPanel": null,
+          "sidebarPanelOrder": null,
+          "sidebarHiddenPanels": null,
+          "sidebarTitle": null,
+          "faviconTemplate": null,
+          "titleTemplate": null,
+          "hideInteractIcon": null,
+          "autoRegister": null,
+          "lockRegister": null
+        },
+        "meta": "default"
+      },
+      "CAST": {
+        "last_seen": 0,
+        "registered": true,
+        "locked": false,
+        "camera": false,
+        "settings": {
+          "hideSidebar": null,
+          "hideHeader": null,
+          "defaultPanel": null,
+          "sidebarPanelOrder": null,
+          "sidebarHiddenPanels": null,
+          "sidebarTitle": null,
+          "faviconTemplate": null,
+          "titleTemplate": null,
+          "hideInteractIcon": null,
+          "autoRegister": null,
+          "lockRegister": null
+        },
+        "meta": "default"
+      }
+    },
+    "version": "2.0",
+    "settings": {
+      "hideSidebar": null,
+      "hideHeader": null,
+      "defaultPanel": null,
+      "sidebarPanelOrder": null,
+      "sidebarHiddenPanels": null,
+      "sidebarTitle": null,
+      "faviconTemplate": null,
+      "titleTemplate": null,
+      "hideInteractIcon": null,
+      "autoRegister": true,
+      "lockRegister": true
+    },
+    "user_settings": {}
+  }
+}
