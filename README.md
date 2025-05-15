@@ -130,7 +130,7 @@ We customized the scheduler card to show the different apply config scripts crea
 
 This shows scheduling one of the light config scripts to run at a certain time.
 
-### Voice Assistant Implementation:
+### Voice Assistant Implementation
 The implementation of voice assistant functionality in HA requires various components in order to create the Assist pipeline. These components are all connected to Home Assistant via the Wyoming protocol integration which allows each of these components to communicate with the other components as well as HA. Also, the Ollama integration is required.
 Here is a list of the required components:
 - Wyoming integration enabled in HA
@@ -141,12 +141,19 @@ Here is a list of the required components:
 - Wyoming piper (text to speech conversion)
 - Ollama (conversation agent). Note Ollama does not use the Wyoming protocol but rather has its own integration in HA.
 
-#### WSL Setup:
+#### WSL Setup
 Since the RPi we are using is not powerful enough to run all of these services, we had to run them on a separate computer. We chose to run them on a separate computer in the Windows Subsytem for Linux (WSL).
 
-The WSL install can be done using the following tutorial: 
+The WSL install can be done using the following tutorial. You must also install Docker engine using the tutorial described earlier.: 
 https://learn.microsoft.com/en-us/windows/wsl/install
 
-  
-test
+Since WSL uses a virtualized network interface, we need to bridge the WSL network interface with the host computer's network interface so it will be easier to access the voice assistant services from the RPi.
+This can be done using the following tutorial. You must enabled mirrored mode networking and then create firewall rules to forward the ports used for each voice assistant service.:
+https://learn.microsoft.com/en-us/windows/wsl/networking
+
+#### Wyoming Protocol Integration
+![image47](https://github.com/user-attachments/assets/902aa9c2-6858-41f8-8a9d-557bee64d0b5)  
+You must add the Wyoming protocol integration to HA which can be done via HA settings.
+
+#### Ollama Integration:
 
