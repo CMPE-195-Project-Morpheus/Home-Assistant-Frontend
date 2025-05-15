@@ -72,37 +72,37 @@ In order to allow the user to be able to schedule different configurations for a
 ##### Input Helper Creation
 ![image50](https://github.com/user-attachments/assets/afe6aefe-ff1e-42ed-9246-823eb1cb922a)
 
-This shows the Scheduler card titled Scheduler along with the cards we made for the light configuration.
+This shows the Scheduler card titled Scheduler along with the cards we made for the light configuration.  
 
 
 ![image26](https://github.com/user-attachments/assets/a4671082-bf1e-49b0-9258-788fc0a1639b)
 
-First I created different input helpers to store values for each configuration. These are variables that take user input and store them. These input helpers can be created in the Home Assistant settings under "Devices & Services".
+First I created different input helpers to store values for each configuration. These are variables that take user input and store them. These input helpers can be created in the Home Assistant settings under "Devices & Services".  
 
 
 ![image16](https://github.com/user-attachments/assets/1f365a05-3758-4012-9f2a-7c611dc35ba2)
 
-For the card on the dashboard to allow the user to select the input I created the following input helpers which display the levels that are able to be selected for the input as a slider and also has a dropdown menu to select which config to save the values to.
+For the card on the dashboard to allow the user to select the input I created the following input helpers which display the levels that are able to be selected for the input as a slider and also has a dropdown menu to select which config to save the values to.  
 
 
 ![image17](https://github.com/user-attachments/assets/01d71cc4-9024-40f3-aac8-18c4a370733e)
 
-These are the settings of the light brightness input helper. This will be used as user input for the user to set the light brightness and eventually save it to a config.
+These are the settings of the light brightness input helper. This will be used as user input for the user to set the light brightness and eventually save it to a config.  
 
 
 ![image4](https://github.com/user-attachments/assets/c50e47af-43a0-40e7-aa1d-0b6d7d068515)
 
-These are the settings of the light color temp input helper. This will be used as user input for the uer to set the light color temperature and eventually save it to a config.
+These are the settings of the light color temp input helper. This will be used as user input for the uer to set the light color temperature and eventually save it to a config.  
 
 
 ![image57](https://github.com/user-attachments/assets/270dc098-8ae3-4b02-9917-4cb3bb25ea37)
 
-This is an input number to save the selected color temp to config 1.
+This is an input number to save the selected color temp to config 1.  
 
 
 ![image58](https://github.com/user-attachments/assets/cb24c244-a8c3-4979-a484-46b08bf1a6c2)
 
-This is an input number to save the selected brightness to config 1.
+This is an input number to save the selected brightness to config 1.  
 
 
 We also had to create a button that runs a script to save the selected light settings to the specified config. The button configuration can be found in the .storage folder or can be made via the HA UI.
@@ -110,24 +110,21 @@ We also had to create a button that runs a script to save the selected light set
 ##### Script Creation
 The scripts used can be found in the scripts.yaml file in the repo.
 
-In order to save the selected values to the specified config, we had to create a button that runs a script that saves the values when pressed. This is the Save Current Light Settings to Scheduler shown in the original dashboard image. The light config selector drop down menu specifies which config variables to save the user input too.
+In order to save the selected values to the specified config, we had to create a button that runs a script that saves the values when pressed. This is the Save Current Light Settings to Scheduler shown in the original dashboard image. The light config selector drop down menu specifies which config variables to save the user input too.  
 
 
 ![image6](https://github.com/user-attachments/assets/ef3b93df-2f61-41ef-a5a6-5b19680c762c)
 
 These are the names of the scripts used to apply various configs. These scripts take the values from the input helpers created earlier for the specific config and then performs a turn on action for the light, sending the brightness and color temp values as data. Make sure the entity id matches the light connected via the Matter integration. This script can be changed for each config by changing which input helper the values are taken from.
 
-
 ##### Adding the scheduler card to the dashboard
 ![image10](https://github.com/user-attachments/assets/5c7c9c01-83ef-4e73-ba26-31cb2b66fb85)
 
-The scheduler card can be added to the dashboard via the HA UI. As you can see it appears under the custom card section.
-
+The scheduler card can be added to the dashboard via the HA UI. As you can see it appears under the custom card section.  
 
 ![image35](https://github.com/user-attachments/assets/749a369d-fd7a-4368-9c92-0b335722a40b)
 
-We customized the scheduler card to show the different apply config scripts created. You can select which config to run and select the apply action, which will run the script to apply the config. In order to customize the displayed entities and actions we have to adjust the YAML for the card. The YAML for the customized section of the card can be found in the main dashboard configuration. 
-
+We customized the scheduler card to show the different apply config scripts created. You can select which config to run and select the apply action, which will run the script to apply the config. In order to customize the displayed entities and actions we have to adjust the YAML for the card. The YAML for the customized section of the card can be found in the main dashboard configuration.  
 
 ![image](https://github.com/user-attachments/assets/44fc75a6-3138-41b8-a953-8428004b8a5d)
 
