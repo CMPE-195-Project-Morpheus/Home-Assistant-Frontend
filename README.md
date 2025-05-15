@@ -12,6 +12,7 @@ In this project we used the following hardware:
 
 # Raspberry Pi OS Install
 ![Raspberry_Pi_OS_Install](https://github.com/user-attachments/assets/62f728f9-0f50-4e1d-bcfd-d3fb5d24c8d4)
+
 In order to install Raspberry Pi OS you need to install the Raspberry Pi Imager (https://www.raspberrypi.com/software/) and use a microSD card to install the OS on. In our config we selected the RPi 3, RPi OS 64-bit, and chose the microSD card as our storage. The OS version we are using is RPi OS 64-bit Debian 12.
 
 # Docker Engine Installation
@@ -38,6 +39,7 @@ Once Docker Engine is installed we can proceed to the installation of Home Assis
   d-bus command is for bluetooth capabilities, if the device is not bluetooth capable, this command can be ignored.
 
   ![image](https://github.com/user-attachments/assets/751f5bfe-e882-49fb-99e3-f1b26f38cf5b)
+  
   This is the Home Assistant version we are using at the time of our project.
 
 2) Home Assistant dashboard can now be accessed through http://<host>:8123 , where <host> = the hostname or ip of the device running home assistant
