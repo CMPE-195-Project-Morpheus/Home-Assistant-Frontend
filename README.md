@@ -59,6 +59,18 @@ Once Docker Engine is installed we can proceed to the installation of Home Assis
 
 ## Added Home Assistant Features + Dashboard Configuration
 ### Alarm Clock Implementation
+Helpers:
+	Helpers are essentially variables which capture the state of certain sensors/data inputs. These can be accessed by going to settings-> device/services
+All helpers are created in the helper menu using the create helper button and configuring type and field. The helpers used here are python datetime and boolean objects which will keep track of the user input alarm times and activation status. All helpers can be found in the storage folder.
+
+Scripts:
+	Scripts are chunks of code which perform actions when they are called, these can be accessed in Settings -> automation and scripts. The scripts used here are mainly to change the alarm time and also pull double duty for snooze button implementation. All scripts can be found in scripts.yaml.
+
+Automations:
+	Similar to scripts, except automations perform actions when certain conditions are met. The alarm triggered automation essentially utilizes the various datetime helpers to determine when to trigger the alarm. The conditions are as follows: The current time matches the time set in the alarms. The alarm status is set to on, meaning that the user has pressed the button that enables the alarm. The audio is then played and a popup is displayed prompting the user to either snooze the alarm or stop it. The automation updates the alarm trigger time based upon the day of week, this ensures that the proper alarm triggers on the proper day. All automations related to the alarm clock can be found in automations.yaml
+
+Configurations:
+	Configurations are chunks of code which design and add functionality to the user interface. It is essentially the front end of the service. The resulting UI of the code found in configurations.yaml.
 The alarm clock uses the BrowserMod integration form the Home Assistant Community Store to play audio. Any version will suffice as long as integration successfully downloads. The alarm clock functions using several time sensors and automations which utilize BrowserMod to play audio from the device when the desired alarm time is met. All automation code is found in automations.yaml and all helpers are found in the storage folder. There is also an alarm clock ui (aka a normal real time clock) panel which can be found in the configuration.yaml file. After following the setup steps above (step 7 in particular), the alarm clock should be fully functional. 
 
 NOTE: For step 7, it is advised to make sure that in personal settings, that the browser settings are set to NOT disconnect after 5 minutes of inactivity.
