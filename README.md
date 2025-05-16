@@ -155,6 +155,8 @@ Since WSL uses a virtualized network interface, we need to bridge the WSL networ
 This can be done using the following tutorial. You must enabled mirrored mode networking and then create firewall rules to forward the ports used for each voice assistant service.:
 https://learn.microsoft.com/en-us/windows/wsl/networking
 
+The required ports are 10200, 10300, 10400, 11434.
+
 #### Wyoming Protocol Integration
 ![image47](https://github.com/user-attachments/assets/902aa9c2-6858-41f8-8a9d-557bee64d0b5)  
 You must add the Wyoming protocol integration to HA which can be done via HA settings.
