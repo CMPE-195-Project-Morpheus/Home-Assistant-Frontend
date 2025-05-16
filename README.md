@@ -50,19 +50,18 @@ Once Docker Engine is installed we can proceed to the installation of Home Assis
 2) Home Assistant dashboard can now be accessed through http://<host>:8123 , where <host> = the hostname or ip of the device running home assistant
 3) Copy the contents of this repository into the config folder
 4) restart homeassistant
-5) Confirm that the required integrations are functioningq
-6) Commission matter devices according to the following procedure:
-    ...TODO
+5) Confirm that the required integrations are functioning
+6) Commission any matter devices
 7) Reconfigure certain device parameters in homeassistant
    - For the BrowserMod integration, go to the settings and register the device you want to play audio from (this device must either be capable of opening an internet browser or connected to a device capable of doing so)
       - click register, copy the device id that appears
       - Change any instances of a device name in the Alarm Trigger Automation to the device id you just copied
-  ...TODO if any others
 
 ## Added Home Assistant Features + Dashboard Configuration
 ### Alarm Clock Implementation
+The alarm clock uses the BrowserMod integration form the Home Assistant Community Store to play audio. Any version will suffice as long as integration successfully downloads. The alarm clock functions using several time sensors and automations which utilize BrowserMod to play audio from the device when the desired alarm time is met. All automation code is found in automations.yaml and all helpers are found in the storage folder. There is also an alarm clock ui (aka a normal real time clock) panel which can be found in the configuration.yaml file. After following the setup steps above (step 7 in particular), the alarm clock should be fully functional. 
 
-
+NOTE: For step 7, it is advised to make sure that in personal settings, that the browser settings are set to NOT disconnect after 5 minutes of inactivity.
 
 ### Scheduler Component Implementation
 In order to install the scheduler component we used the following components and installed it based on their documentation. The version of the scheduler card we are using at the time of this project is 3.12.3. We installed the scheduler component via the Home Assistant Community Store (HACS). At the time of this project we are using version 3.3.8 of the scheduler component.:
