@@ -71,6 +71,8 @@ Automations:
 
 Configurations:
 	Configurations are chunks of code which design and add functionality to the user interface. It is essentially the front end of the service. The resulting UI of the code found in configurations.yaml.
+
+
 The alarm clock uses the BrowserMod integration form the Home Assistant Community Store to play audio. Any version will suffice as long as integration successfully downloads. The alarm clock functions using several time sensors and automations which utilize BrowserMod to play audio from the device when the desired alarm time is met. All automation code is found in automations.yaml and all helpers are found in the storage folder. There is also an alarm clock ui (aka a normal real time clock) panel which can be found in the configuration.yaml file. After following the setup steps above (step 7 in particular), the alarm clock should be fully functional. 
 
 NOTE: For step 7, it is advised to make sure that in personal settings, that the browser settings are set to NOT disconnect after 5 minutes of inactivity.
