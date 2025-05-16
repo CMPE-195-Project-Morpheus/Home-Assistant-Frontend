@@ -60,7 +60,11 @@ Once Docker Engine is installed we can proceed to the installation of Home Assis
   ...TODO if any others
 
 ## Added Home Assistant Features + Dashboard Configuration
-### Scheduler Component Install
+### Alarm Clock Implementation
+
+
+
+### Scheduler Component Implementation
 In order to install the scheduler component we used the following components and installed it based on their documentation. The version of the scheduler card we are using at the time of this project is 3.12.3. We installed the scheduler component via the Home Assistant Community Store (HACS). At the time of this project we are using version 3.3.8 of the scheduler component.:
 
 https://github.com/nielsfaber/scheduler-component
