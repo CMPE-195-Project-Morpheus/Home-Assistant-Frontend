@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/74368729-ef62-470d-aadc-026a975ebe47)# Overview
+# Overview
 This is our CMPE 195B senior project. The goal of this project was to create a smart alarm clock/hub that utilized the Matter protocol to automate various Matter enabled devices. We also wanted to have basic voice assistant functionality.
 
 # Hardware Used
