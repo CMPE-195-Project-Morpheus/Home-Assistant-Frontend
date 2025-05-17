@@ -1,4 +1,4 @@
-# Overview
+![image](https://github.com/user-attachments/assets/74368729-ef62-470d-aadc-026a975ebe47)# Overview
 This is our CMPE 195B senior project. The goal of this project was to create a smart alarm clock/hub that utilized the Matter protocol to automate various Matter enabled devices. We also wanted to have basic voice assistant functionality.
 
 # Hardware Used
@@ -170,9 +170,76 @@ https://learn.microsoft.com/en-us/windows/wsl/networking
 
 The required ports are 10200, 10300, 10400, 11434.
 
-#### Wyoming Protocol Integration
+#### Wyoming Protocol Integration + Running Voice Services in WSL
 ![image47](https://github.com/user-attachments/assets/902aa9c2-6858-41f8-8a9d-557bee64d0b5)  
 You must add the Wyoming protocol integration to HA which can be done via HA settings.
 
-#### Ollama Integration:
+Follow the install instructions for wyoming satellite found here https://github.com/rhasspy/wyoming-satellite. This will be installed locally on the RPi.
+The script we used to run the wyoming satellite was the following. Make sure to change the wake-uri to the hostname IP of the WSL by running the command 
+```
+hostname -I
+```
+in the terminal. So the wake-uri would be ```tcp://<hostname IP>:10400```.
 
+```
+script/run \
+  --name "wyoming satellite" \
+  --uri "tcp://0.0.0.0:10700" \
+  --mic-command "arecord -D plughw:1,0 -f S16_LE -c 1 -r 16000" \
+  --snd-command "aplay -D plughw:2,0 -f S16_LE -c 1 -r 22050 -t raw" \
+  --wake-uri "tcp://172.20.10.8:10400" \
+  --wake-word-name "okay_nabu"
+```
+
+The following services will be running in WSL. These are the docker commands used to run each service.
+```
+sudo docker run -it -p 10400:10400 \
+  rhasspy/wyoming-microwakeword \
+  --debug
+```
+
+```
+sudo docker run -it -p 10300:10300 -v /path/to/local/data:/data rhasspy/wyoming-whisper \
+    --model base --language en
+```
+
+```
+sudo docker run -it -p 10200:10200 -v /path/to/local/data:/data rhasspy/wyoming-piper \
+    --voice en_US-lessac-medium \
+    --debug
+```
+
+![image](https://github.com/user-attachments/assets/cca1f2eb-a875-4406-8f75-1d42e531619f)
+
+Once running we must add the services to the Wyoming integration in HA. Once on the Wyoming integration page in HA, click add service. For the Wyoming satellite running on the RPi, the Host as seen in the image would be 0.0.0.0 or localhost and the port would be 10700. For the other services running in WSL you must add a service for each and then the host would be the hostname IP found using the command earlier and the port number for each service.
+
+![image](https://github.com/user-attachments/assets/f6b91df6-efe2-4ebc-a459-54b9ea10b502)
+
+Once all the services are connected it should look like this.
+
+
+The other voice services will be running in WSL. These are the following docker commands we used:
+
+
+#### Ollama Install + Integration:
+In order to install ollama in WSL use the following command
+```curl -fsSL https://ollama.com/install.sh | sh```
+
+![image](https://github.com/user-attachments/assets/d7ca9319-1abd-4793-92a9-a396fb7771d7)
+Then load the Ollama integration in HA. 
+
+Find the hostname of the WSL machine by typing ```hostname -I``` in the terminal. To connect it to HA click add service and type in ```http://<hostname IP>:11434```.
+
+It will ask you to select a model. Select the gemma3:1b model.
+
+#### Voice Assist Pipeline setup
+![image](https://github.com/user-attachments/assets/de169872-5155-48a3-9271-1aca454a371b)
+
+In order to create the Assist pipeline click add a new assitant.
+
+![image](https://github.com/user-attachments/assets/30636dc0-5c24-4d0e-9dda-a91e3cd80974)
+![image](https://github.com/user-attachments/assets/2ced8c7e-12c6-463f-9c25-9b2c68e5b6fa)
+
+Once created it will ask you to specify each of the voice services. Follow the settings we used. You must expose which entities (devices) you want to be able to control with the voice assistant.
+
+Once configured you will now be able to control devices using the following guide https://www.home-assistant.io/voice_control/builtin_sentences/. If HA does not recognize it as a command, it will send it to the Ollama integration and return the response. If piper is properly setup you should hear the response on the speaker.
